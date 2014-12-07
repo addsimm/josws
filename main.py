@@ -1,4 +1,6 @@
 import os,sys
+
+#!!! AS: changed to my app name instead of "untitled"
 os.environ['DJANGO_SETTINGS_MODULE'] = 'joinourstorywebsite.settings'
 
 # Google App Engine imports.
@@ -27,13 +29,15 @@ import django.dispatch.dispatcher
 #     django.db._rollback_on_exception,
 #     django.core.signals.got_request_exception)
 
+
+#!!! AS: commented out
 #def main():
   # Create a Django application for WSGI.
-  # AS: changed to "app" with GAE?
+
   # app = django.core.handlers.wsgi.WSGIHandler()
 
   # Run the WSGI CGI handler with that application.
   # util.run_wsgi_app(app)
 
-
+#!!! AS: changed to "app" with GAE
 app = django.core.handlers.wsgi.WSGIHandler()
