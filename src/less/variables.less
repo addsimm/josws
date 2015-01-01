@@ -1,0 +1,25 @@
+
+* {
+  background-color: #ffffff;
+}
+
+// Three primary colors that all mixins use.
+
+@primaryGreen:rgb(102, 204, 51);
+@primaryBlue: rgb(51, 204, 204);
+@primaryRed:  rgb(255, 51, 51);
+
+
+// Primary Variants -
+
+@primaryLightGreen: hsl(hue(@primaryGreen), 100%, 70%);
+@primaryDarkGreen: hsl(hue(@primaryGreen), 60%, 40%);
+@primaryFadedGreen: hsl(hue(@primaryGreen), 60%, 65%);
+
+@primaryLightBlue: hsl(hue(@primaryBlue), 100%, 70%);
+@primaryDarkBlue: hsl(hue(@primaryBlue), 60%, 40%);
+@primaryFadedBlue: hsl(hue(@primaryBlue), 60%, 65%);
+
+@primaryLightRed: hsl(hue(@primaryRed), 100%, 70%);
+@primaryDarkRed: hsl(hue(@primaryRed), 60%, 40%);
+@primaryFadedRed: hsl(hue(@primaryRed), 60%, 65%);

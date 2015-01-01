@@ -14,8 +14,8 @@
         <option name="rootFolder" value="$MODULE_DIR$" />
         <option name="sdkFolder" value="$USER_HOME$/google-cloud-sdk/platform/google_appengine" />
         <option name="templatesFolder" value="" />
-        <option name="email" value="add.simm.8405" />
-        <option name="gp" value="dfcedfc5dfcddfdddfcbdfc6dfc1dfd0df9bdf98" />
+        <option name="email" value="adam@joinourstory.com" />
+        <option name="gp" value="dfeedfc5dfcddfdddfcbdfc6dfc1dfd0df9bdf98df94" />
         <option name="oauth2" value="false" />
       </configuration>
     </facet>
@@ -30,7 +30,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Google App Engine SDK" level="project" />
-    <orderEntry type="library" name="Node.js v0.10.34 Core Modules" level="application" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />

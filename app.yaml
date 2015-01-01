@@ -1,4 +1,5 @@
-application: joswebbasedevelop
+application: joswebbase
+# add develop to app and switch google accounts
 version: 1
 runtime: python27
 api_version: 1
