@@ -1,16 +1,15 @@
 
-* {
-  background-color: #ffffff;
-}
 
-// Three primary colors that all mixins use.
+
+// Three primary colors with variants that all mixins use.
+
+// Colors
+
+@body-bg: #ffffff;
 
 @primaryGreen:rgb(102, 204, 51);
 @primaryBlue: rgb(51, 204, 204);
 @primaryRed:  rgb(255, 51, 51);
-
-
-// Primary Variants -
 
 @primaryLightGreen: hsl(hue(@primaryGreen), 100%, 70%);
 @primaryDarkGreen: hsl(hue(@primaryGreen), 60%, 40%);
@@ -23,3 +22,15 @@
 @primaryLightRed: hsl(hue(@primaryRed), 100%, 70%);
 @primaryDarkRed: hsl(hue(@primaryRed), 60%, 40%);
 @primaryFadedRed: hsl(hue(@primaryRed), 60%, 65%);
+
+// Typography
+
+@font-family-sans-serif: "Lato";
+@font-family-serif: "EB Garamond";
+@font-size-base: 2.5em;
+
+
+
+
+
+
