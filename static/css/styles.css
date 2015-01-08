@@ -1,16 +1,13 @@
 /*
-
-// Components
+@import "mixins/panels.less";
 @import "mixins/alerts.less";
 @import "mixins/buttons.less";
-@import "mixins/panels.less";
 @import "mixins/pagination.less";
 @import "mixins/list-group.less";
 @import "mixins/nav-divider.less";
 @import "mixins/forms.less";
 @import "mixins/progress-bar.less";
 @import "mixins/table-row.less";
-
 */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
@@ -1358,6 +1355,7 @@ pre code {
   }
 }
 /* Turned Off
+@import "panels.less";
 @import "component-animations.less";
 @import "dropdowns.less";
 @import "button-groups.less";
@@ -1375,7 +1373,6 @@ pre code {
 @import "progress-bars.less";
 @import "media.less";
 @import "list-group.less";
-@import "panels.less";
 @import "responsive-embed.less";
 @import "wells.less";
 @import "close.less";

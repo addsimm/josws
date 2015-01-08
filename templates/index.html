@@ -3,43 +3,58 @@
 <!DOCTYPE html>
 <html>
 <header>
-    <div class="container">
-        <title>JoinOurStory.com: Home</title>
-        <meta name = "viewport" content = "width=device-width, initial-scale=1" >
-        <link href = 'http://fonts.googleapis.com/css?family=Lato:400|EB+Garamond|Cookie' rel = 'stylesheet'>
+    <title>JoinOurStory.com: Home</title>
+    <meta name = "viewport" content = "width=device-width, initial-scale=1" >
+    <link href = 'http://fonts.googleapis.com/css?family=Lato:400|EB+Garamond|Cookie' rel = 'stylesheet'>
 
-        <link href = "static/css/styles.css" rel = "stylesheet">
-        <style>
-
-        .mission_statement {
-              margin-left: auto;
-              margin-right: auto;
-              width: 70%;
+    <link href = "static/css/styles.css" rel = "stylesheet">
+    <style>
+        .panel {
+          margin-bottom: 1em;
+          background-color: white;
+          border: 1px solid #ff0000;
+          .box-shadow(0 1px 1px rgba(0,0,0,.05));
         }
-        </style>
-    </div>
+    </style>
 </header>
+
+
+    <div class = "panel">
+             xxx
+        <div class = "panel-body">Look, I'm in a panel!</div>
+
+    </div>
+
+
 <body>
 <img src = "static/JOSLogo010115.png" alt = "JOS Logo" style = "width: 40%; padding: 1%">
 <br><br>
 <div id="body" class="container">
+    <div class = "panel">
+    <div class = "panel-body">Basic panel example</div>
+    </div>
+</div>
     <div class = "row" id = "row1">
         <div class="col-md-10 col-md-offset-1">
-            <p>
-                <a href = "http://joinourstory.com" >JoinOurStory.com</a > enriches seniors’ lives with entertainment, creative expression and a place to come together and share.
-            </p>
-            <p>
-                We offer:
-            </p>
-            <ul>
-                  <span style = "color: rgb(102,204,51);"><li>Exhilarating live events featuring enjoyable writing workshops and performances by professional actors.</li></span>
-                  <span style = "color: rgb(51,204,204);"><li>A welcoming online community where members create and share stories.</li></span>
-                  <span style = "color: rgb(255,51,51);"><li>Web TV programming that brings the community’s stories to life.</li></span>
-            </ul>
-            <p>
-                  Together, these elements deliver a taste of show business magic, new friends and a sense of accomplishment — a perfect combination for happier souls and healthier minds.
-            </p>
-        </div>
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <p>
+                        <a href = "http://joinourstory.com" >JoinOurStory.com</a > enriches seniors’ lives with entertainment, creative expression and a place to come together and share.
+                    </p>
+                    <p>
+                        We offer:
+                    </p>
+                    <ul>
+                          <span style = "color: rgb(102,204,51);"><li>Exhilarating live events featuring enjoyable writing workshops and performances by professional actors.</li></span>
+                          <span style = "color: rgb(51,204,204);"><li>A welcoming online community where members create and share stories.</li></span>
+                          <span style = "color: rgb(255,51,51);"><li>Web TV programming that brings the community’s stories to life.</li></span>
+                    </ul>
+                    <p>
+                          Together, these elements deliver a taste of show business magic, new friends and a sense of accomplishment — a perfect combination for happier souls and healthier minds.
+                    </p>
+                </div>
+            </div>
+       </div>
     </div>
     <div class = "row" id = "row2">
         <div class="col-md-12">
@@ -60,7 +75,7 @@
     </p>
 </div>
 </footer>
-    <!-- loading crap -->
+    <!-- loading jquery js -->
     <script src = "//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" ></script >
     <script src = "//ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js" ></script >
     <script src = "static/js/bootstrap.min.js" ></script >
