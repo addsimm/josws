@@ -1,0 +1,8 @@
+* {
+  font-family: "EB Garamond";
+}
+.josbox {
+  background-color: lightgrey;
+  padding: 5%;
+  border: 1em solid navy;
+}
