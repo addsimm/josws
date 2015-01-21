@@ -1,5 +1,7 @@
 // hello
-
+// TODO: Switch to slick carousel and format
+// TODO: Carousel content
+// TODO: Setup Navbar
 
 @import "bootstrap/bootstrap.less";
 
@@ -17,7 +19,35 @@
 
 // EXPERIMENTS
 
+@josGreen:  rgb(102, 204, 51);
+@josBlue:   rgb(51, 204, 204);
+@josRed:    rgb(255, 51, 51);
+
+// Typography
+
+@font-family-sans-serif: "Lato";
+@font-family-serif: "EB Garamond";
+@font-size-base: 24px;
+
+body {
+  background-color: #ebebeb;
+  font-family: @font-family-serif;
+}
+
+p {
+  margin: 0 0 .5em;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  line-height: 1.25em;
+  margin: 1em 0;
+  padding-left: 1.5em;
+}
+
 .josheading {
+  background-color: #ffffff;
   font-family: @font-family-sans-serif;
   font-size: 1.5em;
   font-weight: bold;
@@ -26,8 +56,9 @@
 }
 
 .josbody {
+  background-color: #ffffff;
   font-family: @font-family-serif;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .border-radius (@radius: 10px) {
@@ -42,17 +73,12 @@
   box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
 }
 
-.gray(@percent) {
-  color: lighten(@black, percentage(@percent / 100));
-}
-
-
 .josbox(@color) {
-  background-color: fade(@color, 7.5%);
-  padding: 7.5%;
-  border: .75em solid fade(@color, 80%);
-  .border-radius(.5em);
-  .box-shadow(.2em, .2em, .4em, 0.5);
+  background-color: #ffffff;
+  padding: 2em 2em 1.25em;
+  border: .25em solid fade(@color, 80%);
+  .border-radius(1.5em);
+  .box-shadow(.1em, .1em, .2em, 0.5);
 }
 
 .josboxred {
@@ -62,6 +88,13 @@
 .josboxblue {
   .josbox(@josBlue)
 }
+
+.josboxborder {
+  background-color: #ffffff;
+  padding: 1.5em;
+  border: .15em solid fade(black, 90%);
+}
+
 
 /*
 
