@@ -1,7 +1,5 @@
-// hello
-// TODO: Switch to slick carousel and format
-// TODO: Carousel content
-// TODO: Setup Navbar
+
+// TODO: Check Device Response; Setup Navbar; Change Graphics to SVG
 
 @import "bootstrap/bootstrap.less";
 
@@ -27,12 +25,33 @@
 
 @font-family-sans-serif: "Lato";
 @font-family-serif: "EB Garamond";
-@font-size-base: 24px;
+
+// Body and Basic Elements
 
 body {
   background-color: #ebebeb;
   font-family: @font-family-serif;
+  font-size: 20pt;
+
+
+  @media (max-width: @screen-sm) {
+    font-size: 16pt;
+  }
+
+  @media (max-width: @screen-xs) {
+    font-size: 12pt;
+  }
 }
+
+.josheading {
+  font-family: @font-family-sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+  overflow: hidden;
+}
+
+// Elements
 
 p {
   margin: 0 0 .5em;
@@ -41,25 +60,12 @@ p {
 ul {
   display: block;
   list-style-type: disc;
-  line-height: 1.25em;
+  line-height: 1.1em;
   margin: 1em 0;
   padding-left: 1.5em;
 }
 
-.josheading {
-  background-color: #ffffff;
-  font-family: @font-family-sans-serif;
-  font-size: 1.5em;
-  font-weight: bold;
-  text-align: center;
-  overflow: hidden;
-}
-
-.josbody {
-  background-color: #ffffff;
-  font-family: @font-family-serif;
-  overflow: hidden;
-}
+// JOS Box
 
 .border-radius (@radius: 10px) {
   -webkit-border-radius: @radius;
@@ -88,13 +94,6 @@ ul {
 .josboxblue {
   .josbox(@josBlue)
 }
-
-.josboxborder {
-  background-color: #ffffff;
-  padding: 1.5em;
-  border: .15em solid fade(black, 90%);
-}
-
 
 /*
 

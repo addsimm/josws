@@ -823,7 +823,7 @@ html {
 }
 body {
   font-family: "Lato";
-  font-size: 24px;
+  font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
   background-color: #ffffff;
@@ -883,8 +883,8 @@ img {
   border-radius: 50%;
 }
 hr {
-  margin-top: 34px;
-  margin-bottom: 34px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eeeeee;
 }
@@ -2080,6 +2080,24 @@ hr {
 body {
   background-color: #ebebeb;
   font-family: "EB Garamond";
+  font-size: 20pt;
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 16pt;
+  }
+}
+@media (max-width: 480px) {
+  body {
+    font-size: 12pt;
+  }
+}
+.josheading {
+  font-family: "Lato";
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+  overflow: hidden;
 }
 p {
   margin: 0 0 .5em;
@@ -2087,22 +2105,9 @@ p {
 ul {
   display: block;
   list-style-type: disc;
-  line-height: 1.25em;
+  line-height: 1.1em;
   margin: 1em 0;
   padding-left: 1.5em;
-}
-.josheading {
-  background-color: #ffffff;
-  font-family: "Lato";
-  font-size: 1.5em;
-  font-weight: bold;
-  text-align: center;
-  overflow: hidden;
-}
-.josbody {
-  background-color: #ffffff;
-  font-family: "EB Garamond";
-  overflow: hidden;
 }
 .josboxred {
   background-color: #ffffff;
@@ -2125,11 +2130,6 @@ ul {
   -webkit-box-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
   box-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
-}
-.josboxborder {
-  background-color: #ffffff;
-  padding: 1.5em;
-  border: 0.15em solid rgba(0, 0, 0, 0.9);
 }
 /*
 

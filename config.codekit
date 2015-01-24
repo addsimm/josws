@@ -1491,17 +1491,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/static\/JOS-Diagram2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 13199,
-		"inputAbbreviatedPath": "\/static\/JOS-Diagram2.png",
-		"outputAbbreviatedPath": "\/static\/JOS-Diagram2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/static\/JOS-PnP-Circle.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1509,6 +1498,17 @@
 		"initialSize": 9495,
 		"inputAbbreviatedPath": "\/static\/JOS-PnP-Circle.png",
 		"outputAbbreviatedPath": "\/static\/JOS-PnP-Circle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/JOS-PnPCircle-012415.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40442,
+		"inputAbbreviatedPath": "\/static\/JOS-PnPCircle-012415.png",
+		"outputAbbreviatedPath": "\/static\/JOS-PnPCircle-012415.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
