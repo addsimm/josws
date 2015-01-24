@@ -128,7 +128,7 @@
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/less\/bootstrap\/carousel.less",
 		"outputAbbreviatedPath": "\/src\/less\/css\/carousel.css",
@@ -1491,35 +1491,35 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/static\/JOS-PnP-Circle.png": {
+	"\/static\/img\/JOS-Diagram-012415.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 9495,
-		"inputAbbreviatedPath": "\/static\/JOS-PnP-Circle.png",
-		"outputAbbreviatedPath": "\/static\/JOS-PnP-Circle.png",
+		"initialSize": 36254,
+		"inputAbbreviatedPath": "\/static\/img\/JOS-Diagram-012415.png",
+		"outputAbbreviatedPath": "\/static\/img\/JOS-Diagram-012415.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/static\/JOS-PnPCircle-012415.png": {
+	"\/static\/img\/JOS-PnPCircle-012415.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 40442,
-		"inputAbbreviatedPath": "\/static\/JOS-PnPCircle-012415.png",
-		"outputAbbreviatedPath": "\/static\/JOS-PnPCircle-012415.png",
+		"inputAbbreviatedPath": "\/static\/img\/JOS-PnPCircle-012415.png",
+		"outputAbbreviatedPath": "\/static\/img\/JOS-PnPCircle-012415.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/static\/JOSLogo010115.png": {
+	"\/static\/img\/JOSLogo010115.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 77111,
-		"inputAbbreviatedPath": "\/static\/JOSLogo010115.png",
-		"outputAbbreviatedPath": "\/static\/JOSLogo010115.png",
+		"inputAbbreviatedPath": "\/static\/img\/JOSLogo010115.png",
+		"outputAbbreviatedPath": "\/static\/img\/JOSLogo010115.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
