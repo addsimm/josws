@@ -31,15 +31,21 @@
 body {
   background-color: #ebebeb;
   font-family: @font-family-serif;
-  font-size: 20pt;
+  font-size: 12pt;
 
-
-  @media (max-width: @screen-sm) {
-    font-size: 16pt;
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: @screen-sm-min) {
+    font-size: 18pt;
   }
 
-  @media (max-width: @screen-xs) {
-    font-size: 12pt;
+  /* Medium devices (desktops, 992px and up) */
+  @media (min-width: @screen-md-min) {
+    font-size: 22pt;
+  }
+
+  /* Large devices (large desktops, 1200px and up) */
+  @media (min-width: @screen-lg-min) {
+    font-size: 22pt;
   }
 }
 
@@ -87,6 +93,24 @@ ul {
   background-color: #ffffff;
   padding: 1.25em 1.25em 1em;
   border: .1875em solid fade(@color, 80%);
+  overflow-y: auto;
+  max-height: 425px;
+
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: @screen-sm-min) {
+    max-height: 550px;
+  }
+
+  /* Medium devices (desktops, 992px and up) */
+  @media (min-width: @screen-md-min) {
+    max-height: 725px;
+  }
+
+  /* Large devices (large desktops, 1200px and up) */
+  @media (min-width: @screen-lg-min) {
+    max-height: 725px;
+  }
+
   .border-radius(1.5em);
   .box-shadow(.1em, .1em, .2em, 0.5);
 }

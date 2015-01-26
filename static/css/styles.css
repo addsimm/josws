@@ -1866,16 +1866,24 @@ hr {
 body {
   background-color: #ebebeb;
   font-family: "EB Garamond";
-  font-size: 20pt;
+  font-size: 12pt;
+  /* Small devices (tablets, 768px and up) */
+  /* Medium devices (desktops, 992px and up) */
+  /* Large devices (large desktops, 1200px and up) */
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   body {
-    font-size: 16pt;
+    font-size: 18pt;
   }
 }
-@media (max-width: 480px) {
+@media (min-width: 992px) {
   body {
-    font-size: 12pt;
+    font-size: 22pt;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    font-size: 22pt;
   }
 }
 .josheading {
@@ -1902,6 +1910,11 @@ ul {
   background-color: #ffffff;
   padding: 1.25em 1.25em 1em;
   border: 0.1875em solid rgba(255, 51, 51, 0.8);
+  overflow-y: auto;
+  max-height: 425px;
+  /* Small devices (tablets, 768px and up) */
+  /* Medium devices (desktops, 992px and up) */
+  /* Large devices (large desktops, 1200px and up) */
   -webkit-border-radius: 1.5em;
   -moz-border-radius: 1.5em;
   border-radius: 1.5em;
@@ -1909,16 +1922,51 @@ ul {
   -moz-box-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
   box-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
 }
+@media (min-width: 768px) {
+  .josboxred {
+    max-height: 550px;
+  }
+}
+@media (min-width: 992px) {
+  .josboxred {
+    max-height: 725px;
+  }
+}
+@media (min-width: 1200px) {
+  .josboxred {
+    max-height: 725px;
+  }
+}
 .josboxblue {
   background-color: #ffffff;
   padding: 1.25em 1.25em 1em;
   border: 0.1875em solid rgba(51, 204, 204, 0.8);
+  overflow-y: auto;
+  max-height: 425px;
+  /* Small devices (tablets, 768px and up) */
+  /* Medium devices (desktops, 992px and up) */
+  /* Large devices (large desktops, 1200px and up) */
   -webkit-border-radius: 1.5em;
   -moz-border-radius: 1.5em;
   border-radius: 1.5em;
   -webkit-box-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
   box-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
+}
+@media (min-width: 768px) {
+  .josboxblue {
+    max-height: 550px;
+  }
+}
+@media (min-width: 992px) {
+  .josboxblue {
+    max-height: 725px;
+  }
+}
+@media (min-width: 1200px) {
+  .josboxblue {
+    max-height: 725px;
+  }
 }
 /*
 
