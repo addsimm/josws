@@ -94,22 +94,22 @@ ul {
   padding: 1.25em 1.25em 1em;
   border: .1875em solid fade(@color, 80%);
   overflow-y: auto;
-  max-height: 425px;
+  max-height: 50em;
 
-  /* Small devices (tablets, 768px and up) */
-  @media (min-width: @screen-sm-min) {
-    max-height: 550px;
-  }
+  /* rules for mobile vertical (< 480) */
 
-  /* Medium devices (desktops, 992px and up) */
-  @media (min-width: @screen-md-min) {
-    max-height: 725px;
-  }
-
-  /* Large devices (large desktops, 1200px and up) */
-  @media (min-width: @screen-lg-min) {
-    max-height: 725px;
-  }
+  //@media (min-width: @screen-hs-min) {
+    /* rules for mobile horizontal (480 > 768)  */
+  //}
+  //@media (min-width: @screen-sm-min) {
+    /* rules for tablet (768 > 992) */
+  //}
+  //@media (min-width: @screen-md-min) {
+    /* rules for desktop (992 > 1200) */
+  //}
+  //@media (min-width: @screen-lg-min) {
+    /* rules for large (> 1200) */
+  //}
 
   .border-radius(1.5em);
   .box-shadow(.1em, .1em, .2em, 0.5);
@@ -124,8 +124,6 @@ ul {
 }
 
 /*
-
-
 
 */
 

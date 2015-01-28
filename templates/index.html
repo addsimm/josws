@@ -11,21 +11,56 @@
     <title>JoinOurStory.com: Enter</title>
 
     <link href = 'http://fonts.googleapis.com/css?family=Lato:400|EB+Garamond|Cookie' rel = 'stylesheet'>
+    <link href = "http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel = "stylesheet">
 
     <link href = "static/css/styles.css" rel = "stylesheet">
     <link href = "static/slick/slick.css" rel = "stylesheet">
 
     <style>
-              .imgslide {
-                  padding-top: 17.5%;
-                  margin-left: auto;
-                  margin-right: auto;
-              }
+
+        /* attempt to maintain aspect ration */
+        .contain {display: inline-block; position: relative; width: 100%;}
+        .dummy {margin-top: 150%; /* aspect ratio */}
+        .content {position: absolute; top: 0;bottom: 0; left: 0; right: 0;}
+
+        /* font awesome */
+        .fa-ul li {
+            list-style: none;
+            text-indent: -1.55em;
+            margin-left: 0;
+        }
+
+        .fa-ul li:before {
+            font-family: 'FontAwesome';
+            font-size: .95em;
+            padding-right: .55em;
+            content: "\f005";
+        }
+
+        .slick-dots {
+            position: absolute;
+            bottom: -5px;
+            list-style: square;
+            disc: block;
+            text-align: center;
+            padding: 0;
+            width: 100%;
+        }
+
+        .carousel-enter img {
+            width: 100% !important;
+            max-width: 85%;
+            margin-left: auto;
+            margin-right: auto;
+            height: auto;
+            padding-top: 15%;
+            display: block;
+        }
     </style>
 
 </head>
 <body>
-<div class = "container">
+<div class = "container-fluid">
     <div class = "row" style="padding-top: 2%">
         <!-- Main -->
         <div class = "col-md-10">
@@ -43,36 +78,27 @@
                     <!-- Carousel -->
                     <div class = "josboxred">
                         <div class = "carousel-enter">
-                            <div id="slide-pnp">
-                                <img class = "img-responsive imgslide"
-                                     src = "static/img/JOS-PnPCircle-012415.png" alt = "JOS Peeky / Pokey">
+                            <div>
+                                <img class = "img-responsive" src = "static/img/JOS-PnPCircle-012415.png" style="padding-top: 25%; max-width: 50%;" alt = "JOS Peeky / Pokey">
                             </div>
-                            <div id = "slide-vp">
+                            <div id = "slide-valprop">
                                 <p class = "josheading">What is JoinOurStory?</p>
-                                <p class = "josbody">
-                                    JoinOurStory offers new friends, a sense of accomplishment and a taste of show biz magic!
-                                </p>
-                                <p class = "josbody">
-                                    Featuring:<p>
-                                <ul>
-                                    <span style = "color: rgb(102, 204, 51);"><li>Exhilarating live events: writer's workshops and professional performances.<br><br></li></span>
-
+                                <p class = "josbody">JoinOurStory offers new friends, a sense of accomplishment and a taste of show biz magic!</p>
+                                <p class = "josbody">Featuring:<p>
+                                <ul class = "fa-ul">
+                                    <span style = "color: rgb(102, 204, 51);"><li>Exhilarating live events, writer's workshops and professional performances.<br><br></li></span>
                                     <span style = "color: rgb(51, 204, 204);"><li>An online community to create characters and share stories.<br><br></li></span>
-
                                     <span style = "color: rgb(255, 51, 51);"><li>A broadcast quality TV series that brings these creations to life.</li></span>
                                 </ul>
-                                <p class = "josbody">
-                                    <span style = "font-style: oblique;">JoinOurStory means happier souls and healthier minds.</span>
-                                </p>
-                            </div>
-                            <div id = "slide-diagram">
+                                <p class = "josbody"><span style = "font-style: oblique;">JoinOurStory means happier souls and healthier minds.</span></p>
+                             </div>
+                             <div id = "slide-diagram">
                                 <p class = "josheading">JoinOurStory Content:</p>
-                                <img class = "img-responsive imgslide" src = "static/img/JOS-Diagram-012415.png"
-                                     alt = "JOS Diagram">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                                <img class="img-responsive" src = "static/img/JOS-Diagram-012415.png" alt = "JOS Diagram">
+                             </div>
+                         </div>
+                     </div>
+                 </div>
                 <!-- Announcements -->
                 <div class = "col-md-5">
                     <div class = "josboxblue" style = "margin-top: 1em;">
@@ -114,7 +140,7 @@
 <script type = "text/javascript">
     $(document).ready(function () {
         $('.carousel-enter').slick({
-            autoplay: true,
+            autoplay: false,       // Todo: Change
             dots: true,
             arrows: false
         });
