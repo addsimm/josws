@@ -4,8 +4,8 @@
     <meta charset = "utf-8">
     <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
     <meta name = "viewport" content = "width=device-width, initial-scale=1">
-    <meta name = "description" content = "xxx">
-    <meta name = "author" content = "xxx">
+    <meta name = "description" content = "Join Our Story Website">
+    <meta name = "author" content = "A Sim">
     <!-- <link rel = "icon" href = "../../favicon.ico"> -->
 
     <title>JoinOurStory.com: Enter</title>
@@ -18,10 +18,25 @@
 
     <style>
 
-        /* attempt to maintain aspect ration */
-        .contain {display: inline-block; position: relative; width: 100%;}
-        .dummy {margin-top: 150%; /* aspect ratio */}
-        .content {position: absolute; top: 0;bottom: 0; left: 0; right: 0;}
+/* failed attempt to maintain aspect ration */
+        .contain {
+            display: inline-block;
+            position: relative;
+            width: 100%;
+        }
+
+        .dummy {
+            margin-top: 150%; /* aspect ratio */
+        }
+
+        .content {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+/* end failed attempt to maintain aspect ration */
 
         /* font awesome */
         .fa-ul li {
@@ -35,16 +50,6 @@
             font-size: .95em;
             padding-right: .55em;
             content: "\f005";
-        }
-
-        .slick-dots {
-            position: absolute;
-            bottom: -5px;
-            list-style: square;
-            disc: block;
-            text-align: center;
-            padding: 0;
-            width: 100%;
         }
 
         .carousel-enter img {
@@ -61,25 +66,26 @@
 </head>
 <body>
 <div class = "container-fluid">
-    <div class = "row" style="padding-top: 2%">
+    <div class = "row" style = "padding-top: 2%;">
         <!-- Main -->
-        <div class = "col-md-10">
+        <div class = "col-sm-10">
             <div class = "row">
               <!-- Logo -->
-                <div class = "col-md-12" >
+                <div class = "col-sm-12">
                     <div>
-                        <img src = "static/img/JOSLogo010115.png" alt = "JOS Logo" style = "opacity: 0.95; width: 70%;">
+                        <img src = "static/img/JOSLogo010115.png" alt = "JOS Logo" style = "opacity: 0.95; width: 65%;">
                     </div>
                 </div>
             </div>
-            <div class = "row" style = "padding-top: 3%">
+            <div class = "row" style = "padding-top: 3%;">
                 <!-- Carousel Column -->
-                <div class = "col-md-7">
+                <div class = "col-sm-7">
                     <!-- Carousel -->
                     <div class = "josboxred">
                         <div class = "carousel-enter">
                             <div>
-                                <img class = "img-responsive" src = "static/img/JOS-PnPCircle-012415.png" style="padding-top: 25%; max-width: 50%;" alt = "JOS Peeky / Pokey">
+                                <img class = "img-responsive" src = "static/img/JOS-PnPCircle-012415.png"
+                                     style = "padding-top: 25%; max-width: 50%;" alt = "JOS Peeky / Pokey">
                             </div>
                             <div id = "slide-valprop">
                                 <p class = "josheading">What is JoinOurStory?</p>
@@ -94,13 +100,14 @@
                              </div>
                              <div id = "slide-diagram">
                                 <p class = "josheading">JoinOurStory Content:</p>
-                                <img class="img-responsive" src = "static/img/JOS-Diagram-012415.png" alt = "JOS Diagram">
+                                <img class = "img-responsive" src = "static/img/JOS-Diagram-012415.png"
+                                     alt = "JOS Diagram">
                              </div>
                          </div>
                      </div>
                  </div>
                 <!-- Announcements -->
-                <div class = "col-md-5">
+                <div class = "col-sm-5">
                     <div class = "josboxblue" style = "margin-top: 1em;">
                         <div>
                             <p class = "josheading">News:</p>
@@ -111,7 +118,7 @@
             </div>
         </div>
         <!-- Nav -->
-        <div class = "col-md-2">
+        <div class = "col-sm-2">
                 <!-- <div>
                 <ul class = "nav nav-pills nav-stacked">
                   <li><a href = "#">One</a></li>
@@ -123,7 +130,7 @@
         </div>
     </div>
     <div class = "row">
-        <div class = ".col-md-8 .col-md-offset-2" style = "text-align: center; padding-top: 2em;">
+        <div class = ".col-sm-8 .col-sm-offset-2" style = "font-size: .8em; text-align: center; padding-top: 2em;">
             <p>
                 Email <a href = "mailto:info@joinourstory.com">info@joinourstory.com</a> for more information.
             </p>
@@ -140,7 +147,7 @@
 <script type = "text/javascript">
     $(document).ready(function () {
         $('.carousel-enter').slick({
-            autoplay: false,       // Todo: Change
+            autoplay: true,       // Todo: Change
             dots: true,
             arrows: false
         });
