@@ -1248,6 +1248,7 @@ hr {
 }
 body {
   background-color: white;
+  padding-top: 1%;
   font-family: "Lato";
   font-size: 18pt;
 }
