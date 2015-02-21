@@ -44,40 +44,44 @@
 [dir="rtl"] .slick-next:before { content: "←"; }
 
 /* Dots */
-.slick-slider { margin-bottom: 30px; }
+/** Extensive Changes **/
+.slick-slider { }
 
 .slick-dots {
-    position: absolute;
-    bottom: -45px;
+    position: relative;
     list-style: none;
     display: block;
     text-align: center;
     padding: 0;
     width: 100%;
+    counter-reset: ECSlideIndex;
 }
 
 .slick-dots li {
     position: relative;
     display: inline-block;
-    height: 20px;
-    width: 20px;
-    margin: 0 5px;
+    height: .5em;
+    width: 15%;
+    margin: 0 3%;
     padding: 0;
     cursor: pointer;
+    counter-increment: ECSlideIndex;
 }
 
 .slick-dots li button {
-    border: 0;
-    background: transparent;
+    border: solid rgb(102, 204, 51) .15em;
+    background: rgb(102,204,51);
     display: block;
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    width: 65px;
     outline: none;
     line-height: 0;
     font-size: 0;
     color: transparent;
-    padding: 5px;
     cursor: pointer;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
 }
 
 .slick-dots li button:hover, .slick-dots li button:focus {
@@ -86,28 +90,30 @@
 
 .slick-dots li button:hover:before, .slick-dots li button:focus:before {
     opacity: 1;
+    border: dotted grey .15em;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
 }
 
 .slick-dots li button:before {
     position: absolute;
     top: 0;
     left: 0;
-    content: "•";
-    width: 20px;
-    height: 20px;
-    font-family: "slick";
-    font-size: 6px;
-    line-height: 20px;
+    height: 40px;
+    width: 65px;
+    font-family: "lato";
+    font-size: 16pt;
+    line-height:175%;
     text-align: center;
-    color: cornflowerblue;
-    opacity: 0.25;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    color: white;
+    content: counter(ECSlideIndex);
 }
 
 .slick-dots li.slick-active button:before {
-    color: red;
-    opacity: 0.75;
+    opacity: 1;
+    border: solid #000000 .15em;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
 }
-
-/*# sourceMappingURL=slick.css.map */

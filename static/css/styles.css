@@ -1247,40 +1247,19 @@ hr {
   }
 }
 body {
-  background-color: #ebebeb;
-  font-family: "EB Garamond";
-  font-size: 14pt;
-  /* Small devices (tablets, 768px and up) */
-  /* Medium devices (desktops, 992px and up) */
-  /* Large devices (large desktops, 1200px and up) */
-}
-@media (min-width: 768px) {
-  body {
-    font-size: 18pt;
-  }
-}
-@media (min-width: 992px) {
-  body {
-    font-size: 22pt;
-  }
-}
-@media (min-width: 1200px) {
-  body {
-    font-size: 22pt;
-  }
-}
-.josheading {
+  background-color: white;
+  padding-top: 1%;
   font-family: "Lato";
-  font-size: 1.3em;
-  font-weight: bold;
-  text-align: center;
-  overflow: hidden;
-}
-.josbody {
-  line-height: 1.15em;
+  font-size: 18pt;
 }
 p {
   margin: 0 0 .4em;
+}
+hr {
+  background-color: #c0c0c0;
+  color: #c0c0c0;
+  height: 3px;
+  margin: 30px 0px 20px 0px;
 }
 ul {
   display: block;
@@ -1289,17 +1268,44 @@ ul {
   margin: 1em 0;
   padding-left: 1.5em;
 }
+.josheading {
+  font-family: "Lato";
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+  overflow: hidden;
+}
+.jossubheading {
+  font-family: "Lato";
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+  overflow: hidden;
+  text-align: left;
+  font-size: .75em;
+}
+.josbody {
+  font-family: "EB Garamond";
+  line-height: 1.15em;
+}
+/* font awesome */
+.fa-ul li {
+  list-style: none;
+  text-indent: -1.55em;
+  margin-left: 0;
+}
+.fa-ul li:before {
+  font-family: 'FontAwesome';
+  font-size: .85em;
+  padding-right: .55em;
+  content: "\f005";
+}
 .josboxred {
   background-color: #ffffff;
   padding: 1.25em 1.25em 1em;
   border: 0.1875em solid rgba(255, 51, 51, 0.8);
   overflow-y: auto;
   max-height: 50em;
-  /* rules for mobile vertical (< 480) */
-  /* rules for mobile horizontal (480 > 768)  */
-  /* rules for tablet (768 > 992) */
-  /* rules for desktop (992 > 1200) */
-  /* rules for large (> 1200) */
   -webkit-border-radius: 1.5em;
   -moz-border-radius: 1.5em;
   border-radius: 1.5em;
@@ -1313,15 +1319,59 @@ ul {
   border: 0.1875em solid rgba(51, 204, 204, 0.8);
   overflow-y: auto;
   max-height: 50em;
-  /* rules for mobile vertical (< 480) */
-  /* rules for mobile horizontal (480 > 768)  */
-  /* rules for tablet (768 > 992) */
-  /* rules for desktop (992 > 1200) */
-  /* rules for large (> 1200) */
   -webkit-border-radius: 1.5em;
   -moz-border-radius: 1.5em;
   border-radius: 1.5em;
   -webkit-box-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
   box-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
+}
+.josbutton {
+  border: solid #66cc33 0.15em;
+  background: #66cc33;
+  cursor: pointer;
+  display: block;
+  height: 80px;
+  width: 136px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  font-family: "lato";
+  font-size: .85em;
+  line-height: 105%;
+  color: white;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  -webkit-box-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.5);
+  box-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.5);
+}
+.josbuttonsmall {
+  border: solid #66cc33 0.15em;
+  background: #66cc33;
+  cursor: pointer;
+  display: block;
+  height: 80px;
+  width: 136px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  font-family: "lato";
+  font-size: .85em;
+  line-height: 105%;
+  color: white;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  -webkit-box-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.5);
+  box-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.5);
+  height: 64px;
+  width: 108px;
+  font-size: .7em;
+}
+.josbutton:hover .josbutton:focus .josbuttonsmall:hover .josbutton:focus {
+  opacity: 1;
+  border: dotted grey .15em;
 }
