@@ -1,12 +1,9 @@
 
 // TODO: 1 navbar: enter/login; 2 move to base template; 3 contact form; 4 recruit submit form; 5 admin; 6 svg; responsiveness
 
-@import "bootstrap/bootstrap.less";
-
-@import "myvariables.less";
+@import "bootstrap.less";
 
 // @import "font-awesome/font-awesome.less";
-
 // @import "mixins.less";
 // @import "nav.less";
 // @import "header.less";
@@ -15,17 +12,30 @@
 // @import "nav.less";
 
 
-// EXPERIMENTS
+// colors
 
 @josGreen:  rgb(102, 204, 51);
 @josBlue:   rgb(51, 204, 204);
 @josRed:    rgb(255, 51, 51);
 
+// mixins
 
+.border-radius (@radius: 10px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.box-shadow (@x: 0px, @y: 3px, @blur: 5px, @alpha: 0.5) {
+  -webkit-box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
+  -moz-box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
+  box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
+}
 
 // Body and Basic Elements
 
-body {                            // disabled font responsiveness
+body {
+  // disabled font responsiveness
   background-color: white;
   padding-top: 1%;
   font-family: @font-family-sans-serif;
@@ -37,9 +47,9 @@ p {
 }
 
 hr {
-  background-color: black;
-  color: black;
-  height: 2px;
+  background-color: #c0c0c0;
+  color: #c0c0c0;
+  height: 3px;
   margin: 30px 0px 20px 0px;
 }
 
@@ -75,19 +85,22 @@ ul {
   line-height: 1.15em;
 }
 
+/* font awesome */
+
+.fa-ul li {
+  list-style: none;
+  text-indent: -1.55em;
+  margin-left: 0;
+}
+
+.fa-ul li:before {
+  font-family: 'FontAwesome';
+  font-size: .85em;
+  padding-right: .55em;
+  content: "\f005";
+}
+
 // JOS Box
-
-.border-radius (@radius: 10px) {
-  -webkit-border-radius: @radius;
-  -moz-border-radius: @radius;
-  border-radius: @radius;
-}
-
-.box-shadow (@x: 0px, @y: 3px, @blur: 5px, @alpha: 0.5) {
-  -webkit-box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
-  -moz-box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
-  box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
-}
 
 .josbox(@color) {
   background-color: #ffffff;
@@ -95,22 +108,6 @@ ul {
   border: .1875em solid fade(@color, 80%);
   overflow-y: auto;
   max-height: 50em;
-
-  /* rules for mobile vertical (< 480) */
-
-  //@media (min-width: @screen-hs-min) {
-    /* rules for mobile horizontal (480 > 768)  */
-  //}
-  //@media (min-width: @screen-sm-min) {
-    /* rules for tablet (768 > 992) */
-  //}
-  //@media (min-width: @screen-md-min) {
-    /* rules for desktop (992 > 1200) */
-  //}
-  //@media (min-width: @screen-lg-min) {
-    /* rules for large (> 1200) */
-  //}
-
   .border-radius(1.5em);
   .box-shadow(.1em, .1em, .2em, 0.5);
 }
@@ -138,7 +135,7 @@ ul {
   line-height: 105%;
   color: white;
   .border-radius(50px);
-  .box-shadow(.1em, .1em, .2em, 0.5);
+  .box-shadow(.05em, .05em, .1em, 0.5);
 }
 
 .josbuttonsmall {
@@ -148,51 +145,7 @@ ul {
   font-size: .7em;
 }
 
-.josbutton:hover, .josbutton:focus {
+.josbutton:hover .josbutton:focus .josbuttonsmall:hover .josbutton:focus {
   opacity: 1;
   border: dotted grey .15em;
 }
-
-
-
-
-  .slick-dots li button:hover, .slick-dots li button:focus {
-    outline: none;
-  }
-
-  .slick-dots li button:hover:before, .slick-dots li button:focus:before {
-    opacity: 1;
-    border: dotted grey .15em;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    border-radius: 25px;
-    -webkit-box-shadow: 0.05em 0.05em 0.075em rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0.05em 0.05em 0.075em rgba(0, 0, 0, 0.5);
-    box-shadow: 0.05em 0.05em 0.075em rgba(0, 0, 0, 0.5);
-  }
-
-  .slick-dots li button:before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 50px;
-    width: 70px;
-    font-family: "lato";
-    font-size: 24px;
-    line-height: 45px;
-    text-align: center;
-    color: white;
-    content: counter(ECSlideIndex);
-  }
-
-  .slick-dots li.slick-active button:before {
-    opacity: 1;
-    border: solid #000000 .15em;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    border-radius: 25px;
-    -webkit-box-shadow: 0.05em 0.05em 0.075em rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0.05em 0.05em 0.075em rgba(0, 0, 0, 0.5);
-    box-shadow: 0.05em 0.05em 0.075em rgba(0, 0, 0, 0.5);
-  }
-

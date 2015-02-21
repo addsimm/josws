@@ -44,6 +44,7 @@
 [dir="rtl"] .slick-next:before { content: "←"; }
 
 /* Dots */
+/** Extensive Changes **/
 .slick-slider { }
 
 .slick-dots {
@@ -81,9 +82,6 @@
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
-    -webkit-box-shadow: 0.05em 0.05em 0.075em rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0.05em 0.05em 0.075em rgba(0, 0, 0, 0.5);
-    box-shadow: 0.05em 0.05em 0.075em rgba(0, 0, 0, 0.5);
 }
 
 .slick-dots li button:hover, .slick-dots li button:focus {
@@ -96,9 +94,6 @@
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
-    -webkit-box-shadow: 0.05em 0.05em 0.075em rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0.05em 0.05em 0.075em rgba(0, 0, 0, 0.5);
-    box-shadow: 0.05em 0.05em 0.075em rgba(0, 0, 0, 0.5);
 }
 
 .slick-dots li button:before {
@@ -121,7 +116,4 @@
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
-    -webkit-box-shadow: 0.05em 0.05em 0.075em rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0.05em 0.05em 0.075em rgba(0, 0, 0, 0.5);
-    box-shadow: 0.05em 0.05em 0.075em rgba(0, 0, 0, 0.5);
 }
