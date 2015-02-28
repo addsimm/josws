@@ -62,7 +62,7 @@
     display: inline-block;
     height: .5em;
     width: 15%;
-    margin: 0 3%;
+    margin: 3% 3% 3% 3%;
     padding: 0;
     cursor: pointer;
     counter-increment: ECSlideIndex;
