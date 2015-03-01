@@ -1430,9 +1430,13 @@ ul {
   margin-bottom: 0px;
   font-size: 14px;
 }
-.josbutton:hover,
+.josbutton:hover {
+  border: dotted grey 5px;
+}
 .josbuttonmedium:hover,
 .josbuttonmediumred:hover {
-  opacity: 1;
-  border: dotted grey 5px;
+  border: dotted grey 4px;
+}
+.josbuttonsmall:hover {
+  border: dotted grey 3px;
 }
