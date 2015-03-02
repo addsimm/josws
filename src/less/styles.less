@@ -39,7 +39,7 @@ body {
   background-color: white;
   padding-top: 1%;
   font-family: @font-family-sans-serif;
-  font-size: 18pt;                // base font size
+  font-size: 20pt;                // *** base font size
 }
 
 p {
@@ -52,14 +52,6 @@ hr {
   height: 3px;
   margin: 20px 0px 10px 0px;
 }
-
-ul {    //carousel???
-  display: block;
-  list-style-type: disc;
-  line-height: 1.1em;
-  margin: 1em 0;
-  padding-left: 1.5em;
-  }
 
 // Typography
 
@@ -83,21 +75,6 @@ ul {    //carousel???
 .josbody {
   font-family: @font-family-serif;
   line-height: 1.15em;
-}
-
-/* font awesome */
-
-.fa-ul li {
-  list-style: none;
-  text-indent: -1.55em;
-  margin-left: 0;
-}
-
-.fa-ul li:before {
-  font-family: 'FontAwesome';
-  font-size: .85em;
-  padding-right: .55em;
-  content: "\f005";
 }
 
 // JOS Box
@@ -156,11 +133,18 @@ ul {    //carousel???
 
 .josbuttonsmall {
   .josbutton;
-  height: 30px;
-  width: 55px;
+  border: solid @josGreen 3px;
+  height: 40px;
+  width: 75px;
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 14px;
+}
+
+.josbuttonsmallred {
+  .josbuttonsmall;
+  border: solid @josGreen 3px;
+  background: @josRed;
 }
 
 .josbutton:hover {
@@ -170,6 +154,6 @@ ul {    //carousel???
 .josbuttonmedium:hover, .josbuttonmediumred:hover {
   border: dotted grey 4px;
 }
-.josbuttonsmall:hover {
+.josbuttonsmall:hover, .josbuttonsmallred:hover {
   border: dotted grey 3px;
 }

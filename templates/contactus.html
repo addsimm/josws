@@ -57,6 +57,11 @@
                         padding: 8px;
                         width: 300px;
                     }
+
+                    form .hid {
+                        visibility: hidden;
+                    }
+
                 </style>
                 <div class = "contactform">
                     <form action="/contactus.html" method = "POST" class="jossubheading">
@@ -68,14 +73,14 @@
                                 <!-- first name -->
                                 <p><label for = "first-name">First Name:</label><br>
                                 <input id="first-name"  type = "text" name = "sender_first_name" placeholder="*** Type Here ***" autofocus = "autofocus" size = "15"/>
-                                <button class = "josbuttonsmall" style="display: inline" type = "button" >Enter</button></p>
+                                <button class = "josbuttonsmall" style="display: inline" type = "button" >Enter</button><span></span></p>
 
                                 <!-- last name -->
                                 <p><label for = "last-name">Last Name:</label><br>
                                 <input id = "last-name" type = "text" name = "sender_last_name"
                                         placeholder = "*** Type Here ***" size = "15">
                                 <button class = "josbuttonsmall" style = "display: inline"
-                                        type = "button">Enter</button></p>
+                                        type = "button">Enter</button><span></span></p>
 
                                 <!-- finsih form -->
                                 <!-- jcm_email_address -->
@@ -105,8 +110,28 @@
 </div>
 
 <!-- Footer -->
-<div class = row"><!-- footer -->
+<div class = row">
     {% include "base/footer.html" %}
+</div><!-- footer -->
 </div>
-</div>
+<script src = "http://code.jquery.com//jquery-1.11.2.min.js"></script>
+<script src = "http://code.jquery.com//jquery-migrate-1.2.1.min.js"></script>
+<script type = "text/javascript">
+$(document).ready(function () {
+    // Put JQuery here.
+    $(".josbuttonsmall").click(function () {
+        if ($(this).html() == 'Enter') {
+            $(this).html('Change').addClass('josbuttonsmallred').removeClass('josbuttonsmall');
+            $(this).next('span').html($(this).prev("input").val())
+            $(this).prev("input").addClass("hid");
+        } else {
+            $(this).html('Enter').addClass('josbuttonsmall').removeClass('josbuttonsmallred');
+            $(this).next('span').html(" ")
+            $(this).prev("input").removeClass("hid");
+        }
+    });
+});
+</script>
+
+
 {% endblock %}

@@ -1250,7 +1250,7 @@ body {
   background-color: white;
   padding-top: 1%;
   font-family: "Lato";
-  font-size: 18pt;
+  font-size: 20pt;
 }
 p {
   margin: 0 0 .4em;
@@ -1260,13 +1260,6 @@ hr {
   color: #c0c0c0;
   height: 3px;
   margin: 20px 0px 10px 0px;
-}
-ul {
-  display: block;
-  list-style-type: disc;
-  line-height: 1.1em;
-  margin: 1em 0;
-  padding-left: 1.5em;
 }
 .josheading {
   font-family: "Lato";
@@ -1287,18 +1280,6 @@ ul {
 .josbody {
   font-family: "EB Garamond";
   line-height: 1.15em;
-}
-/* font awesome */
-.fa-ul li {
-  list-style: none;
-  text-indent: -1.55em;
-  margin-left: 0;
-}
-.fa-ul li:before {
-  font-family: 'FontAwesome';
-  font-size: .85em;
-  padding-right: .55em;
-  content: "\f005";
 }
 .josboxred {
   background-color: #ffffff;
@@ -1424,11 +1405,41 @@ ul {
   -webkit-box-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.5);
   box-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.5);
-  height: 30px;
-  width: 55px;
+  border: solid #66cc33 3px;
+  height: 40px;
+  width: 75px;
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 14px;
+}
+.josbuttonsmallred {
+  border: solid #66cc33 5px;
+  background: #66cc33;
+  cursor: pointer;
+  display: block;
+  height: 70px;
+  width: 125px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-family: "Lato";
+  font-size: 20px;
+  line-height: 110%;
+  color: white;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  -webkit-box-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.5);
+  box-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.5);
+  height: 40px;
+  width: 75px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  border: solid #66cc33 3px;
+  background: #ff3333;
 }
 .josbutton:hover {
   border: dotted grey 5px;
@@ -1437,6 +1448,7 @@ ul {
 .josbuttonmediumred:hover {
   border: dotted grey 4px;
 }
-.josbuttonsmall:hover {
+.josbuttonsmall:hover,
+.josbuttonsmallred:hover {
   border: dotted grey 3px;
 }
