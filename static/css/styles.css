@@ -1267,6 +1267,10 @@ hr {
   font-weight: bold;
   text-align: center;
   overflow: hidden;
+  color: black;
+  text-shadow: 1px 1px 0 #CCC,
+  1.5px 1.5px 0 #444;
+  /* end of 2 level deep grey shadow */
 }
 .jossubheading {
   font-family: "Lato";
@@ -1274,8 +1278,13 @@ hr {
   font-weight: bold;
   text-align: center;
   overflow: hidden;
+  color: black;
+  text-shadow: 1px 1px 0 #CCC,
+  1.5px 1.5px 0 #444;
+  /* end of 2 level deep grey shadow */
   text-align: left;
   font-size: .75em;
+  text-shadow: none;
 }
 .josbody {
   font-family: "EB Garamond";
@@ -1326,6 +1335,7 @@ hr {
   font-size: 20px;
   line-height: 110%;
   color: white;
+  text-shadow: .5px .5px 0 #000;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   border-radius: 50px;
@@ -1348,6 +1358,7 @@ hr {
   font-size: 20px;
   line-height: 110%;
   color: white;
+  text-shadow: .5px .5px 0 #000;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   border-radius: 50px;
@@ -1372,6 +1383,7 @@ hr {
   font-size: 20px;
   line-height: 110%;
   color: white;
+  text-shadow: .5px .5px 0 #000;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   border-radius: 50px;
@@ -1399,6 +1411,7 @@ hr {
   font-size: 20px;
   line-height: 110%;
   color: white;
+  text-shadow: .5px .5px 0 #000;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   border-radius: 50px;
@@ -1427,6 +1440,7 @@ hr {
   font-size: 20px;
   line-height: 110%;
   color: white;
+  text-shadow: .5px .5px 0 #000;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   border-radius: 50px;
