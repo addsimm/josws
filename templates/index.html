@@ -1,41 +1,23 @@
 <!-- index.html -->
-{%  extends "base/base.html"  %}
-{% block body %}
-<div class = "container-fluid" style = "float: left;" id = "entercontainer">
 
+{%  extends "base/base.html"  %}
+
+{% block body %}
+
+<link href = "static/slick/myslick.css" rel = "stylesheet">
 
 <!-- Page -->
-<div class = "row" style = "padding-top: 1%;">
-     <div class = "col-xs-10"><!-- Center -- A level xs-10 -->
 
-        <!-- Header -->
-        <div class = "row"><!-- Logo - Welcome -->
-            {%  include "components/biglogo.html" %}
-        </div>
-
-        <!-- Main Screen -->
-        <div class = "row" style = "padding-top: 3%;"><!-- !!! Page Content !!! -->
-            <!-- Carousel -- xs-7 -->
-            {% include "components/entercarousel.html" %}
-            <!-- Announcements -- xs-5 -->
-            {% include "components/announcements.html" %}
-        </div>
-    </div>
-
-    <!-- Right Navigation -->
-    <!-- Nav -- A level xs-2 -->
-    {% include "components/sidenavigation.html" %}
-
-<!-- Footer -->
-<div class=row"><!-- footer -->
-    {% include "base/footer.html" %}
-</div>
+<!-- Main Screen -- A level xs-10 -->
+<div class = "row" style = "padding-top: 3%;">
+    <!-- Carousel -- xs-7 -->
+    {% include "components/entercarousel.html" %}
+    <!-- Announcements -- xs-5 -->
+    {% include "components/announcements.html" %}
 </div>
 
-<!-- JavaScript - at the end of the document so the pages load faster -->
-<div id = "Scripts">
-<script src = "http://code.jquery.com//jquery-1.11.2.min.js"></script>
-<script src = "http://code.jquery.com//jquery-migrate-1.2.1.min.js"></script>
+<!-- Page JavaScript -->
+<div id = "Local Scripts">
 <script src = "static/slick/slick.min.js"></script>
 <script type = "text/javascript">
     $(document).ready(function () {
