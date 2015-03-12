@@ -5,18 +5,73 @@
 {% block body %}
 
 <link href = "static/slick/myslick.css" rel = "stylesheet">
+<style>
 
+    ul .fa-ul {
+        display: block;
+        list-style-type: disc;
+    }
+
+    /* font awesome */
+
+    .fa-ul li {
+        list-style: none;
+        text-indent: -1.55em;
+        margin-left: 15%;
+    }
+
+    .fa-ul li:before {
+        font-family: 'FontAwesome';
+        font-size: .65em;
+        padding-right: .55em;
+        content: "\f005";
+    }
+
+</style>
 <!-- Page -->
 
 <!-- Main Screen -- A level xs-10 -->
-<div class = "row" style = "padding-top: 3%;">
-    <!-- Carousel -- xs-7 -->
-    {% include "components/entercarousel.html" %}
-    <!-- Announcements -- xs-5 -->
-    {% include "components/announcements.html" %}
+<div class = "row" style = "padding: 0 3%;">
+    <div class="col-xs-9">
+        <p class = "josheading">What is JoinOurStory?</p>
+        <div class = "josbody" style = " ">
+            <p style = " ">JoinOurStory (JOS) is an engaging soap opera that members can enjoy:</p>
+                <ul class = "fa-ul">
+                    <span style = "color: rgb(102, 204, 51);"><li>Regular video episodes.</li></span>
+                    <span style = "color: rgb(51, 204, 204);"><li>Live and in person.</li></span>
+                    <span style = "color: rgb(255, 51, 51);"><li>Anytime - 24/7 - online.</li></span>
+                </ul>
+            <p style = " ">Even better, JOS members can join the story and improve their lives through active partipation.</p>
+        </div>
+    </div>
+    <div class = "col-xs-3" style="margin-top: 18%; padding-top: 3%; border: solid 1px lightgrey; box-shadow: 1px 1px 2px lightgrey;">
+        <img src = "static/img/JOS-PnPCircle-012415.png" style = "display: block; margin-left: auto;margin-right: auto; width: 60%;" alt = "JOS Peeky / Pokey">
+        <p class = "josbody" style="text-align: center; margin-top: 10%; font-size:.75em; font-style: italic;">JoinOurStory for happier souls and healthier minds.</p>
+    </div>
+</div>
+<div class = "row" style = "padding: 0 3%;">
+    <div class = "col-xs-12">
+        <p class = "josheading">How does JOS work?</p>
+        <div class = "josbody" style = " ">
+            <p style = " ">The JOS experience begins with our <span
+                    style = "color: rgb(102, 204, 51);">exciting show,</span> from Emmy winning writers and starring veteran actors.</p>
+            <p style = " ">Enthusiastic members continue on our <span
+                    style = "color: rgb(51, 204,204);">easy-to-use website: </span> making friends, discussing the show and contributing new characters and stories.</p>
+            <p style = " ">Finally, members learn and participate at <span
+                    style = "color: rgb(255, 51, 51);">exhilarating live events,</span> featuring performances by our JOS cast.<p>
+        </div>
+        <p class = "josheading">What if I don't know computers?</p>
+        <div class = "josbody" style = " ">
+            <p style = " ">JoinOurStory members are continuously motivated and supported by our trained staff with: <span style = "color: rgb(102, 204, 51);">in person sessions</span>, <span style = "color: rgb(51, 204,204);">online coaching</span> and <span style = "color: rgb(255, 51, 51);">live help</span> -- as they advance toward the ultimate reward: seeing their creations come to life.</p>
+        </div>
+    </div>
 </div>
 
-<!-- Page JavaScript -->
+
+    <!-- Old Carousel -- xs-7 {# include "components/entercarousel.html"#}  -->
+    <!-- Announcements -- xs-5 {# include "components/announcements.html" #}  -->
+
+<!-- Page Carousel JavaScript -->
 <div id = "Local Scripts">
 <script src = "static/slick/slick.min.js"></script>
 <script type = "text/javascript">
