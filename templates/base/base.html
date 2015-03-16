@@ -34,9 +34,29 @@
         .container-fluid {
             width: 1024px;
             background-color: white;
-            border: solid #c0c0c0 .15em;
+            border: solid #ebebeb .15em;
             padding: 1%;
             margin: 1%;
+        }
+
+        .img1 {
+            position: relative;
+            width: 100%; /* for IE 6 */
+        }
+
+        .text-overlay {
+            position: absolute;
+            top: 20px;
+            left: 15px;
+            width: 200px;
+            height: 40px;
+            background: black;
+            color: #FFFFFF;
+            font-family: "EB Garamond";
+            font-size: .75em;
+            text-align: center;
+            padding-top: 4px;
+
         }
 
     </style>
@@ -46,18 +66,41 @@
 <body>
 <div class = "container-fluid" style = "float: left; padding: 1%" id = "entercontainer">
     <div class = "row"><!-- Logo - ** Welcome -->
-         <div class = "col-xs-12">
-            <img src = "static/img/JOSLogo010115.png" alt = "JOS Logo" style = "opacity: 0.95; width: 35%;">
+         <div class = "col-xs-5">
+            <img src = "static/img/JOSLogo010115.png" alt = "JOS Logo" style = "opacity: 0.95; width: 100%;">
          </div>
+         <div class = "col-xs-7" style="padding-top: 10px;">
+             <a class="btn btn-success btn-lg pull-right" href="#">Download the app!</a>
+             <a class = "btn btn-default btn-lg pull-right" href = "#">Buy my book!</a>
+         </div>
+
+
+
     </div>
     <div class = "row"><!-- images -->
-         <div class = "col-xs-12" style="padding-top: 3%">
-            <img src = "static/img/oldpeep1.png" alt = "People 1" style="width: 25%; margin-left: 1%">
+         <div class = "col-xs-12" style="padding-top: 1%">
+            <img class="img1" src = "static/img/oldpeep1.png" alt = "People 1" style="width: 25%; margin-left: 1%">
+            <p class="text-overlay">Actual JOS members!</p>
             <img src = "static/img/oldpeep2.png" alt = "People 2">
             <img src = "static/img/oldpeep3.png" alt = "People 3">
             <img src = "static/img/oldpeep4.png" alt = "People 4">
          </div>
     </div>
+    <div class="row"><!-- Top Navigation --><!-- TUTORIAL -->
+        <div class="col-xs-12">
+            <ul class="nav nav-pills pull-right">
+                <li><a class="btn btn-success" href = "#">Home</a></li>
+                <li><a href = "#">About Toko</a></li>
+                <li><a href = "#">Boner</a></li>
+            </ul>
+        </div>
+        <div class = "col-xs-12">
+            <h3 class="clearfix">Toko</h3>
+            <h1>Self-destructing message app</h1>
+            <p>&copy; 2013 Toko-By TwoLights Studio</p>
+        </div>
+    </div>
+
     <div class = "row"><!-- Main -->
         <div class = "col-xs-12">
             <!-- Main Screen -- A level xs- 10 -->
