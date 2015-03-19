@@ -1,36 +1,51 @@
 <!-- Enter Carousel Column -->
 <style>
-    .carousel-enter img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
+
+    .text-overlay {
+        position: absolute;
+        top: 25px;
+        left: 10px;
+        width: 260px;
+        height: 40px;
+        border: solid #000000 1px;
+        background: white;
+        color: black;
+        font-family: "Lato";
+        font-size: .6em;
+        text-align: center;
+        padding-top: 8px;
     }
+
+    .carousel-enter img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
+
 </style>
 
-<div class = "col-xs-7">
-    <div class = "josboxred">
-        <div class = "carousel-enter">
-            <div id = "slide-pnp">
-                <img class = "img-responsive" src = "static/img/JOS-PnPCircle-012415.png"
-                     style = "margin-top: 15%; width: 60%;" alt = "JOS Peeky / Pokey">
-                <p class = "josbody" style = "text-align: center; font-size: 1.25em; margin-top: 10%;">JoinOurStory for happier souls and healthier minds.</p>
-            </div>
-            <div id = "slide-valprop">
+<div class="josboxred" style="margin-top: 30px;">
+    <p class = "text-overlay">Click to hear this JOS member's story:</p>
+    <div class = "carousel-enter" style = "margin: 60px 0 30px;">
+        <div id = "slide-pnp">
+            <img src = "static/img/oldpeep1.png" alt = "People 1">
+        </div>
+        <div id = "slide-valprop">
+            <img src = "static/img/oldpeep2.png" alt = "People 2">
+        </div>
+        <div id = "slide-valprop2">
+            <img src = "static/img/oldpeep3.png" alt = "People 3">
+        </div>
+        <div id = "slide-valprop3">
+            <img src = "static/img/oldpeep4.png" alt = "People 4">
+        </div>
+    </div>
+</div>
 
-            </div>
-            <div id = "slide-valprop2">
-
-            </div>
-            <div id = "slide-valprop3">
-
-             </div>
-             <div id = "slide-diagram">
-                <p class = "josheading">JoinOurStory Content:</p>
-                <img class = "img-responsive" src = "static/img/JOS-Diagram-012415.png"
-                     style = "padding-top: 10%; width: 90%;" alt = "JOS Diagram">
-             </div>
-         </div>
-     </div>
- </div>
-
+<div class = "josboxblue" style = "margin-top: 30px; padding: 30px;">
+    <div class = "jossubheading" style="text-align: center;">
+        Whats New?<br><br>
+        Coming this fall!
+    </div>
+</div>

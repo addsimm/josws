@@ -7,36 +7,39 @@
 <link href = "static/slick/myslick.css" rel = "stylesheet">
 <style>
 
-    ul .fa-ul {
+    .fa-ul {
         display: block;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 45px;
     }
 
     /* font awesome */
 
     .fa-ul li {
         list-style: none;
-        text-indent: -1.55em;
-        margin-left: 20%;
     }
 
     .fa-ul li:before {
         font-family: 'FontAwesome';
-        font-size: .65em;
-        padding-right: .55em;
+        font-size: .7em;
+        padding-right: .75em;
         content: "\f005";
     }
 
     .josbody {
-        margin: 0 5%;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 3%;
     }
 
 </style>
-<!-- Page -->
 
-<!-- Main Screen -- A level xs-10 -->
-<div class = "row" style = "padding: 0 2%;">
-    <div class="col-xs-12">
-        <p class="joswelcome" style="">Welcome!</p>
+<!-- Page -->
+<div class="row" style = "margin-top: 175px">
+    <div class="col-xs-7">
+        <p class="joswelcome" style="text-align: center">Welcome!</p>
         <p class = "josheading">What is JoinOurStory?</p>
         <div class = "josbody" style = " ">
             <p style = " ">JoinOurStory (JOS) is an engaging soap opera that members can enjoy in many ways:</p>
@@ -47,7 +50,7 @@
                 </ul>
             <p style = " ">Even better, JOS members can join the story and improve their lives through active partipation.</p>
         </div>
-         <p class = "josheading">How does JOS work?</p>
+        <p class = "josheading">How does JOS work?</p>
         <div class = "josbody" style = " ">
             <p style = " ">The JOS experience begins with our <span
                     style = "color: rgb(102, 204, 51);">exciting show,</span> from Emmy winning writers and starring veteran actors.</p>
@@ -61,12 +64,15 @@
             <p style = " ">JoinOurStory members are continuously motivated and supported by our trained staff with: <span style = "color: rgb(102, 204, 51);">in person sessions</span>, <span style = "color: rgb(51, 204,204);">online coaching</span> and <span style = "color: rgb(255, 51, 51);">live help</span> -- as they advance toward the ultimate reward: seeing their creations come to life.</p>
         </div>
     </div>
+    <div class="col-xs-5">
+        {% include "components/entercarousel.html" %}
+    </div>
 </div>
 <div class="row">
     <div class = "col-xs-6 col-xs-offset-3" style = "margin-top: 5%; padding-top: 3%; border: solid 1px lightgrey; box-shadow: 1px 1px 2px lightgrey;">
         <img src = "static/img/JOS-PnPCircle-012415.png"
-             style = "display: block; margin-left: auto;margin-right: auto; width: 35%;" alt = "JOS Peeky / Pokey">
-        <p class = "josbody" style = "text-align: center; margin-top: 5%; font-size:.75em; font-style: italic;">JoinOurStory for happier souls and healthier minds.</p>
+             style = "display: block; margin-left: auto; margin-right: auto; width: 35%;" alt = "JOS Peeky / Pokey">
+        <p class = "josbody" style = "text-align: center; margin: 5% 0; font-size:.75em; font-style: italic;">JoinOurStory for happier souls and healthier minds.</p>
     </div>
 </div>
 
@@ -82,10 +88,9 @@
     $(document).ready(function () {
         $('.carousel-enter').slick({
             autoplay: true,
-            dots: true,
+            dots: false,
             cssEase: 'ease',
             pauseOnHover: true,
-            pauseOnDotsHover: true,
             swipe: true,
             arrows: false,
             autoplaySpeed: 4500
