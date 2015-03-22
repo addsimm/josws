@@ -37,8 +37,12 @@
 </style>
 
 <!-- Page -->
-<div class="row" style = "margin-top: 130px;">
-    <div class="col-xs-7">
+<div class="row" style = "margin-top: 110px;">
+
+    <div class="col-xs-12">
+        {% include "components/entercarousel.html" %}
+    </div>
+    <div class="col-xs-9">
         <p class="joswelcome" style="text-align: center;">Welcome!</p>
         <p class = "josheading">What is JoinOurStory?</p>
         <div class = "josbody" style = " ">
@@ -64,17 +68,20 @@
             <p style = " ">JoinOurStory members are continuously motivated and supported by our trained staff with: <span style = "color: rgb(102, 204, 51);">in person sessions</span>, <span style = "color: rgb(51, 204,204);">online coaching</span> and <span style = "color: rgb(255, 51, 51);">live help</span> -- as they advance toward the ultimate reward: seeing their creations come to life.</p>
         </div>
     </div>
-    <div class="col-xs-5">
-        {% include "components/entercarousel.html" %}
+    <div class="col-xs-3">
+        <div class = "josboxblue" style = "margin-top: 30px; padding: 30px;">
+            <div class = "jossubheading" style="text-align: center;">
+                Whats New?<br><br>
+                Coming this fall!
+            </div>
+        </div>
+        <div style = "margin-top: 30px; padding-top: 3%; border: solid 1px lightgrey; box-shadow: 1px 1px 2px lightgrey;">
+            <img src = "static/img/JOS-PnPCircle-012415.png" style = "display: block; margin-left: auto; margin-right: auto; width: 35%;" alt = "JOS Peeky / Pokey">
+            <p class = "josbody" style = "text-align: center; margin: 5% 0; font-size:.75em; font-style: italic;">JoinOurStory for happier souls and healthier minds.</p>
+        </div>
     </div>
 </div>
-<div class="row">
-    <div class = "col-xs-6 col-xs-offset-3" style = "margin-top: 5%; padding-top: 3%; border: solid 1px lightgrey; box-shadow: 1px 1px 2px lightgrey;">
-        <img src = "static/img/JOS-PnPCircle-012415.png"
-             style = "display: block; margin-left: auto; margin-right: auto; width: 35%;" alt = "JOS Peeky / Pokey">
-        <p class = "josbody" style = "text-align: center; margin: 5% 0; font-size:.75em; font-style: italic;">JoinOurStory for happier souls and healthier minds.</p>
-    </div>
-</div>
+
 
 
 
@@ -90,10 +97,11 @@
             autoplay: true,
             dots: false,
             cssEase: 'ease',
+            slidesToShow: 3,
             pauseOnHover: true,
             swipe: true,
             arrows: false,
-            autoplaySpeed: 4500
+            autoplaySpeed: 7500
         });
     });
 </script>
