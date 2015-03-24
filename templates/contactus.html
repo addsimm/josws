@@ -1,153 +1,42 @@
-<!-- index.html -->
+<!-- contactus.html -->
+
 {% extends "base/base.html" %}
+
 {% block body %}
-    <!-- page style -->
-    <style>
 
-    form * {
-        font-family: Lato;
-        font-size: 16px;
-    }
-
-    .contactform button {
-        margin-left: 10px;
-    }
-
-    form .instructions {
-        color: rgb(51, 204, 204);
-        padding-bottom: 1%;
-    }
-
-    form label {
-        line-height: 30px;
-        font-size: 18px;
-    }
-
-    form input {
-        font-family: "EB Garamond";
-        font-size: 20px;
-        color: green;
-        padding: 7.5px;
-        border: 1px solid black;
-        box-shadow: .05em .05em .1em rgba(0, 0, 0, .5);
-        margin-bottom: 5%;
-    }
-
-    form input:hover, form textarea:hover {
-        border: 2px dashed grey;
-    }
-
-    form input:focus, form textarea:focus {
-        border: 3px solid black;
-    }
-
-    form .hid {
-        visibility: hidden;
-    }
-
-    form tr {
-        border-bottom: 2px groove #c0c0c0;
-    }
-
-    form .td-left {
-        background-color: white;
-        width: 40%;
-    }
-
-    form .td-middle {
-        background-color: white;
-        width: 10%;
-    }
-
-    form .td-right {
-        background-color: white;
-        width: 40%;
-        vertical-align: top;
-        padding: 2%;
-    }
-
-    form p {
-        font-family: "EB Garamond";
-        font-size: 22px;
-        line-height: 24px;
-        overflow: hidden;
-    }
-
-    form textarea {
-        padding: 8px;
-        width: 300px;
-    }
+<style>
 
 </style>
 
-    <!-- main screen -- xs-10 -->
-    <div class = "col-xs-11">
-    <div class = "josboxblue" style = "margin-top:1em;">
-        <p class = "text-center josheading">Contact Us</p>
+<!-- Page -->
+<div class = "row" style = "margin-top: 100px;">
 
-    <div class = "contactform">
-    <form action = "/contactus.html" method = "POST" class = "jossubheading">
-        {% csrf_token %}
-        <div class = "row"><!-- input column -->
-            <div class="col-xs-12">
-            <p class = "instructions" id = "typeinstruct">Type into each box, then press enter ...</p>
-            <table style = "width: 100%">
-                <tr> <!-- first name -->
-                <td class = "td-left">
-                <label for = "first-name">First Name:</label><br>
-                <input id = "first-name" type = "text" name = "sender_first_name" placeholder = "*** Type Here ***"
-                       autofocus = "autofocus" size = 15
-                       onkeydown = "if(event.keyCode == 13) document.getElementsByClassName('josbuttonsmall').click()"/>
-                </td>
-                <td class = "td-middle">
-                <button class = "josbuttonsmall" style = "display: inline" type = "button">Enter</button>
-                </td>
-                <td class = "td-right">
-                <p></p>
-                </td>
-                </tr>
-                <tr>  <!-- last name -->
-                <td class = "td-left">
-                <label for = "last-name">Last Name:</label><br>
-                <input id = "last-name" type = "text" name = "sender_last_name" placeholder = "*** Type Here ***" size = "20">
-                </td>
-                <td class = "td-middle">
-                <button class = "josbuttonsmall" style = "display: inline" type = "button">Enter</button>
-                </td>
-                <td class = "td-right">
-                <p></p>
-                </td>
-                </tr>
-                <tr>  <!-- email name -->
-                <td class = "td-left">
-                <label for = "email">Email:</label><br>
-                <input id = "email" type = "text" name = "email"
-                       placeholder = "* you@somewhere.com *" size = "20">
-                </td>
-                <td class = "td-middle">
-                <button class = "josbuttonsmall" style = "display: inline" type = "button">Enter</button>
-                </td>
-                <td class = "td-right">
-                <p></p>
-                </td>
-                </tr>
-            </table>
-
-            <!--    finish form:
-            click button on return
-            validate jcm_email_address
-            jcm_message
-            handle post event -->
-         </div>
-         </div>
-         <div class = "row"> <!-- Submit Button -->
-            <div class = "col-xs-3 col-xs-offset-9 centered">
-                <button class = "josbuttonmedium" style = "margin-left: 40px; margin-bottom: 20px;" type = "button">Send</button>
+    <div class = "col-xs-10 col-xs-offset-1">
+        <p class = "joswelcome" style = "text-align: center;">Contact Us</p>
+        <form>
+            <div class = "controls controls-row">
+                <label for = "firstnameField">First Name</label>
+                <input type = "email" class = "form-control" id = "firstnameField" placeholder = "Enter First Name">
+                <label for = "lastnameField">Last Name</label>
+                <input type = "email" class = "form-control" id = "lastnameField" placeholder = "Enter Last Name">
             </div>
-         </div>
-    </form>
+            <div class = "form-group">
+                <label for = "emailField">Email address</label>
+                <input type = "email" class = "form-control" id = "emailField" placeholder = "Enter email">
+            </div>
+            <div class = "form-group">
+                <label for = "passwordField">Password</label>
+                <input type = "password" class = "form-control" id = "passwordField" placeholder = "Enter password">
+            </div>
+            <div class = "checkbox">
+                <label>
+                    <input type = "checkbox"> Checkbox label here
+                </label>
+            </div>
+            <button type="submit" class="btn btn-success btn-lg pull-right">Send</button>
+        </form>
     </div>
-    </div>
+
 </div>
 
 

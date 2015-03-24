@@ -3209,7 +3209,7 @@ p {
 }
 .josboxred {
   background-color: #ffffff;
-  border: 0.1875em solid rgba(255, 51, 51, 0.8);
+  border: 0.1875em solid rgba(217, 83, 79, 0.8);
   -webkit-border-radius: 1.5em;
   -moz-border-radius: 1.5em;
   border-radius: 1.5em;
@@ -3219,7 +3219,7 @@ p {
 }
 .josboxblue {
   background-color: #ffffff;
-  border: 0.1875em solid rgba(51, 204, 204, 0.8);
+  border: 0.1875em solid rgba(91, 192, 222, 0.8);
   -webkit-border-radius: 1.5em;
   -moz-border-radius: 1.5em;
   border-radius: 1.5em;
@@ -3228,8 +3228,8 @@ p {
   box-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
 }
 .josbutton {
-  border: solid #66cc33 5px;
-  background: #66cc33;
+  border: solid #5cb85c 5px;
+  background: #5cb85c;
   cursor: pointer;
   display: block;
   height: 70px;
@@ -3251,8 +3251,8 @@ p {
   box-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.5);
 }
 .josbuttonmedium {
-  border: solid #66cc33 5px;
-  background: #66cc33;
+  border: solid #5cb85c 5px;
+  background: #5cb85c;
   cursor: pointer;
   display: block;
   height: 70px;
@@ -3277,7 +3277,7 @@ p {
   font-size: 16px;
 }
 .josbuttonmediumred {
-  background: #66cc33;
+  background: #5cb85c;
   cursor: pointer;
   display: block;
   height: 70px;
@@ -3300,12 +3300,12 @@ p {
   height: 50px;
   width: 90px;
   font-size: 16px;
-  border: solid #66cc33 5px;
-  background: #ff3333;
+  border: solid #5cb85c 5px;
+  background: #d9534f;
 }
 .josbuttonsmall {
-  border: solid #66cc33 5px;
-  background: #66cc33;
+  border: solid #5cb85c 5px;
+  background: #5cb85c;
   cursor: pointer;
   display: block;
   height: 70px;
@@ -3325,7 +3325,7 @@ p {
   -webkit-box-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.5);
   box-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.5);
-  border: solid #66cc33 3px;
+  border: solid #5cb85c 3px;
   height: 40px;
   width: 75px;
   margin-top: 0px;
@@ -3333,8 +3333,8 @@ p {
   font-size: 14px;
 }
 .josbuttonsmallred {
-  border: solid #66cc33 5px;
-  background: #66cc33;
+  border: solid #5cb85c 5px;
+  background: #5cb85c;
   cursor: pointer;
   display: block;
   height: 70px;
@@ -3359,8 +3359,8 @@ p {
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 14px;
-  border: solid #66cc33 3px;
-  background: #ff3333;
+  border: solid #5cb85c 3px;
+  background: #d9534f;
 }
 .josbutton:hover {
   border: dotted grey 5px;
