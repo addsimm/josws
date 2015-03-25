@@ -4,81 +4,59 @@
 
 {% block body %}
 
-<style>
-
-</style>
-
-<!-- Page -->
+    <!-- Page -->
 <div class = "row" style = "margin-top: 100px;">
 
-    <div class = "col-xs-10 col-xs-offset-1">
-        <p class = "joswelcome" style = "text-align: center;">Contact Us</p>
+<div class = "col-xs-10 col-xs-offset-1">
+    <p class = "joswelcome" style = "margin-bottom: 30px; text-align: center;">Contact Us</p>
+    <p class = "josbody">Please enter your information below, then press send. The computer may provide messages that ask you to make changes in <span
+            style = "color: red;"> red</span>.</p>
 
 <form>
-    <div class="row" style="margin-top: 30px;">
-        <div class="col-xs-4">
+    <div class = "row" style = "margin-top: 30px;">
+        <div class = "col-xs-4 col-xs-offset-0">
             <div class = "form-group">
-                <label for = "firstnameField">First Name</label>
-                <input type = "email" class = "form-control" id = "firstnameField" placeholder = "Enter First Name">
+                <label for = "firstnameField">First Name:</label>
+                <input type = "text" class = "form-control input-lg" id = "firstnameField"
+                       placeholder = "Your first name">
             </div>
         </div>
-        <div class="col-xs-4">
-            <div class="form-group">
-                <label for = "lastnameField">Last Name</label>
-                <input type = "email" class = "form-control" id = "lastnameField" placeholder = "Enter Last Name">
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-8">
+        <div class = "col-xs-5">
             <div class = "form-group">
-                <label for = "emailField">Email address</label>
-                <input type = "email" class = "form-control" id = "emailField" placeholder = "Enter email">
-            </div>
-            <div class = "form-group">
-                <label for = "passwordField">Password</label>
-                <input type = "password" class = "form-control" id = "passwordField" placeholder = "Enter password">
-            </div>
-            <div class = "checkbox">
-                <label>
-                    <input type = "checkbox"> Checkbox label here
-                </label>
+                <label for = "lastnameField">Last Name:</label>
+                <input type = "text" class = "form-control input-lg" id = "lastnameField"
+                       placeholder = "Your last name">
             </div>
         </div>
     </div>
-    <div class="row">
-            <button type="submit" class="btn btn-success btn-lg pull-right">Send</button>
+    <div class = "row">
+        <div class = "col-xs-9 col-xs-offset-0">
+            <div class = "form-group">
+                <label for = "emailField">Email address:</label>
+                <input type = "email" class = "form-control input-lg" id = "emailField"
+                       placeholder = "Your email, usually yourname@gmail.com">
+            </div>
+            <div class = "form-group">
+                <label for = "contactMessage">Message:</label>
+                <textarea class = "form-control input-lg" style = "resize:none;" rows = "10" id = "contactMessage"
+                          placeholder = "Your message"></textarea>
+            </div>
+        </div>
+    </div>
+    <div class = "row" style = "margin-top: 30px;">
+        <div class = "col-xs-9 col-xs-offset-0">
+            <button type = "submit" class = "btn btn-success btn-lg pull-right">Send</button>
+        </div>
     </div>
 
 </form>
 </div>
-
 </div>
 
 
 
-    <script type = "text/javascript">
-$(document).ready(function () {
-    // Put JQuery here.
-    $(".contactform .josbuttonsmall").click(function () {
-        var inputtedtext, labeltext, obj;
-        if ($(this).text() == 'Enter') {
-            $(this).text('Change').addClass('josbuttonsmallred').removeClass('josbuttonsmall');
-            labeltext = $(this).closest('td').prev('td').children('label').text()
-            inputtedtext = $(this).closest('td').prev('td').children('input').val();
-            $(this).closest('td').next('td').children('p').text(labeltext + ' ' + inputtedtext);
-            $(this).closest('td').prev('td').addClass("hid");
-            $('#typeinstruct').css('margin-left', '400px').text('Press change to edit ...')
-        } else {
-            $(this).html('Enter').addClass('josbuttonsmall').removeClass('josbuttonsmallred');
-            inputtedtext = $(this).closest('td').next('td').children('p').text();
-            $(this).closest('td').next('td').children('p').text(' ')
-            obj = $(this).closest('td').prev('td').children('input')
-            $(this).closest('td').prev('td').removeClass("hid");
-            $('#typeinstruct').css('margin-left', '0').text('Type into each box, then press enter ...')
-        }
-    });
-});
+<script type = "text/javascript">
+
 </script>
 
 {% endblock %}
