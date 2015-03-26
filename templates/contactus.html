@@ -1,10 +1,14 @@
-<!-- contactus.html -->
+
 
 {% extends "base/base.html" %}
 
 {% block body %}
 
-    <!-- Page -->
+<!-- contactus.html -->
+
+<link rel = "stylesheet" href = "static/formvalidation/formvalidation.css">
+
+<!-- Page -->
 <div class = "row" style = "margin-top: 100px;">
 
 <div class = "col-xs-10 col-xs-offset-1">
@@ -12,19 +16,19 @@
     <p class = "josbody">Please enter your information below, then press send. The computer may provide messages that ask you to make changes in <span
             style = "color: red;"> red</span>.</p>
 
-<form>
+<form id="contactForm">
     <div class = "row" style = "margin-top: 30px;">
         <div class = "col-xs-4 col-xs-offset-0">
             <div class = "form-group">
-                <label for = "firstnameField">First Name:</label>
-                <input type = "text" class = "form-control input-lg" id = "firstnameField"
+                <label for = "firstnamefield">First Name:</label>
+                <input type = "text" class = "form-control input-lg" name = "firstnamefield"
                        placeholder = "Your first name">
             </div>
         </div>
         <div class = "col-xs-5">
             <div class = "form-group">
-                <label for = "lastnameField">Last Name:</label>
-                <input type = "text" class = "form-control input-lg" id = "lastnameField"
+                <label for = "lastnamefield">Last Name:</label>
+                <input type = "text" class = "form-control input-lg" name = "lastnamefield"
                        placeholder = "Your last name">
             </div>
         </div>
@@ -32,14 +36,13 @@
     <div class = "row">
         <div class = "col-xs-9 col-xs-offset-0">
             <div class = "form-group">
-                <label for = "emailField">Email address:</label>
-                <input type = "email" class = "form-control input-lg" id = "emailField"
-                       placeholder = "Your email, usually yourname@gmail.com">
+                <label for = "emailfield">Email Address:</label>
+                <input type = "email" class = "form-control input-lg" name = "emailfield"
+                       placeholder = "Your email; something like: yourname@gmail.com">
             </div>
             <div class = "form-group">
-                <label for = "contactMessage">Message:</label>
-                <textarea class = "form-control input-lg" style = "resize:none;" rows = "10" id = "contactMessage"
-                          placeholder = "Your message"></textarea>
+                <label for = "messagefield">Message:</label>
+                <textarea class = "form-control input-lg" style = "resize:none;" rows = "10" name = "messagefield" placeholder = "Your message"></textarea>
             </div>
         </div>
     </div>
@@ -53,9 +56,70 @@
 </div>
 </div>
 
+<style>
 
+.vam {
+    margin-top: 12px;
+}
 
+</style>
+
+<!-- Form Validation Scripts -->
+<script src = "static/formvalidation/formvalidation.min.js"></script>
+<script src = "static/formvalidation/bootstrap.min.js"></script>
 <script type = "text/javascript">
+
+
+<!-- email is valid without dot -->
+
+
+$(document).ready(function () {
+    $('#contactForm').formValidation({  // validating Bootstrap form
+        framework: 'bootstrap',
+
+        // Feedback icons
+        icon: {
+            valid: 'fa fa-check vam',
+            invalid: 'fa fa-remove vam',
+            validating: 'fa fa-gear vam'
+        },
+
+        // List of fields and their validation rules
+        fields: {
+            firstnamefield: {
+                validators: {
+                    notEmpty: {
+                        message: 'First Name cannot be empty'
+                    }
+                }
+            },
+            lastnamefield: {
+                validators: {
+                    notEmpty: {
+                        message: 'Last Name cannot be empty'
+                    }
+                }
+            },
+            emailfield: {
+                validators: {
+                    notEmpty: {
+                        message: 'Email Address cannot be empty'
+                    },
+                    emailAddress: {
+                        message: 'Address is not valid; its something like: yourname@gmail.com'
+                    }
+                }
+            },
+            messagefield: {
+                validators: {
+                    notEmpty: {
+                        message: 'Message cannot be empty'
+                    }
+                }
+            }
+        }
+    });
+});
 
 </script>
 
