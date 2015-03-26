@@ -46,30 +46,38 @@
 </head>
 <body>
 <div class = "container-fluid" style = "" id = "entercontainer">
-    <div class = "row"><!-- Navigation Bar -->
+<div class = "row"><!-- Navigation Bar -->
         <div class = "col-xs-12">
-             <ul class = "nav nav-pills navbar-fixed-top" style = "font-size: 18px; margin-top: 0; padding: 5px 0; margin-left:18px; background-color: white; border-bottom: dotted black 2px; height: 105px; width:1018px;" role = "navigation">
-                 <li style="border-bottom: dotted black 2px; background: white; width: 300px;">
-                     <img src = "static/img/JOSLogo010115.png" alt = "JOS Logo" style = "margin: 9px 5px; height: 80px; opacity: 0.95;">
+             <ul class = "nav nav-pills navbar-fixed-top"
+                 style = "font-size: 18px; margin-top: 0; padding: 5px 0; margin-left:18px; background-color: white; border-bottom: dotted black 2px; height: 105px; width:1018px; z-index: 1500;"
+                 role = "navigation">
+                 <li style = "background: white; width: 285px;">
+                     <a href = "/index" style = "margin: 0; padding: 0">
+                        <img src = "static/img/JOS-Logo-Mar25.png" alt = "JOS Logo"
+                             style = "margin: 0 15px; height: 90px; opacity: 0.95;">
+                     </a>
                  </li>
-                 <li style="margin-left: 110px; text-align: center; width: 230px;">
-                     <a style="color: white; background-color: #5CB85C;" href = "#">Member Log In</a><!-- change to name and log out -->
-                     <a style = "color: white; background-color: #428bca;" href = "#">Watch Latest Episode</a>
+                 <li style = "margin-left: 110px; text-align: center; width: 230px;">
+                     <a style = "color: white; background-color: #5CB85C;" href = "#">Member Log In</a><!-- change to name and log out -->
+                     <a style = "color: white; background-color: #d9534f;" href = "#">Watch Latest Episode</a>
                  </li>
                  <li style = "text-align: center; width: 115px;">
                      <a style = "color: white; background-color: #5bc0de;" href = "/contactus">Contact</a>
                      <a style = "color: white; background-color: #F0AD4E;" href = "#">Join</a>
                  </li>
-                 <li style="height: 115px;">
-                    <table style = "margin-top: 7.5px; margin-left: 20px;">
+                 <li style = "height: 115px;">
+                    <table style = "margin-top: 7.5px; margin-left: 35px;">
                     <tr>
-                        <td style="color: black; text-align: left; width: 110px;" rowspan = "2"><span class = "fa fa-search fa-fw"></span>Text Size:</td>
-                        <td style="text-align: center;"><button type = "button" class = "btn btn-default btn-lg" href = "#"><span
-                        class = "fa fa-plus-circle fa-fw"></span> Bigger</button></td>
+                        <td style = "color: black; text-align: left; width: 110px;" rowspan = "2"><span
+                                class = "fa fa-search fa-fw"></span>Text Size:</td>
+                        <td style = "text-align: center;"><button type = "button" class = "btn btn-default btn-lg"
+                                                                  href = "#"><span
+                                class = "fa fa-plus-circle fa-fw"></span> Bigger</button></td>
                     </tr>
                     <tr>
-                        <td style="text-align: center;">
-                            <button type = "button" class = "btn btn-default" href = "#"><span class = "fa fa-minus-circle fa-fw"></span> Smaller</button>
+                        <td style = "text-align: center;">
+                            <button type = "button" class = "btn btn-default" href = "#"><span
+                                    class = "fa fa-minus-circle fa-fw"></span> Smaller</button>
                         </td>
                     </tr>
                     </table>
