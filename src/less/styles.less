@@ -14,9 +14,9 @@
 
 // colors
 
-@josGreen:  rgb(102, 204, 51);
-@josBlue:   rgb(51, 204, 204);
-@josRed:    rgb(255, 51, 51);
+@josGreen: #5cb85c;
+@josBlue:  #5bc0de;
+@josRed:   #d9534f;
 
 // mixins
 
@@ -37,77 +37,45 @@
 body {
   // disabled font responsiveness
   background-color: white;
-  padding-top: 1%;
   font-family: @font-family-sans-serif;
-  font-size: 18pt;                // base font size
+  font-size: 18pt; // *** base font size
 }
 
 p {
-  margin: 0 0 .4em;
+  margin: 18px 0;
+  line-height: 1.25;
 }
-
-hr {
-  background-color: #c0c0c0;
-  color: #c0c0c0;
-  height: 3px;
-  margin: 30px 0px 20px 0px;
-}
-
-ul {
-  display: block;
-  list-style-type: disc;
-  line-height: 1.1em;
-  margin: 1em 0;
-  padding-left: 1.5em;
-  }
 
 // Typography
 
 @font-family-sans-serif: "Lato";
 @font-family-serif: "EB Garamond";
 
-.josheading {
-  font-family: @font-family-sans-serif;
-  font-size: 1.3em;
-  font-weight: bold;
-  text-align: center;
-  overflow: hidden;
+.joswelcome {
+  font-family: "Great Vibes";
+  font-size: 3em;
+  line-height: 60px;
+  margin: 50px 0 10px;
 }
 
-.jossubheading {
-  .josheading;
-  text-align: left;
-  font-size: .75em;
+.josheading {
+  font-family: @font-family-sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  overflow: hidden;
+  color: black;
+  margin: 30px 0 0;
 }
 
 .josbody {
   font-family: @font-family-serif;
-  line-height: 1.15em;
-}
-
-/* font awesome */
-
-.fa-ul li {
-  list-style: none;
-  text-indent: -1.55em;
-  margin-left: 0;
-}
-
-.fa-ul li:before {
-  font-family: 'FontAwesome';
-  font-size: .85em;
-  padding-right: .55em;
-  content: "\f005";
 }
 
 // JOS Box
 
 .josbox(@color) {
   background-color: #ffffff;
-  padding: 1.25em 1.25em 1em;
   border: .1875em solid fade(@color, 80%);
-  overflow-y: auto;
-  max-height: 50em;
   .border-radius(1.5em);
   .box-shadow(.1em, .1em, .2em, 0.5);
 }
@@ -121,31 +89,61 @@ ul {
 }
 
 .josbutton {
-  border: solid rgb(102, 204, 51) .15em;
-  background: rgb(102, 204, 51);
+  border: solid @josGreen 5px;
+  background: @josGreen;
   cursor: pointer;
   display: block;
-  height: 80px;
-  width: 136px;
+  height: 70px;
+  width: 125px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10%;
-  font-family: "lato";
-  font-size: .85em;
-  line-height: 105%;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-family: @font-family-sans-serif;
+  font-size: 20px;
+  line-height: 110%;
   color: white;
+  text-shadow: .5px .5px 0 #000;
   .border-radius(50px);
   .box-shadow(.05em, .05em, .1em, 0.5);
 }
 
-.josbuttonsmall {
+.josbuttonmedium {
   .josbutton;
-  height: 64px;
-  width: 108px;
-  font-size: .7em;
+  height: 50px;
+  width: 90px;
+  font-size: 16px;
 }
 
-.josbutton:hover .josbutton:focus .josbuttonsmall:hover .josbutton:focus {
-  opacity: 1;
-  border: dotted grey .15em;
+.josbuttonmediumred {
+  .josbuttonmedium;
+  border: solid @josGreen 5px;
+  background: @josRed;
+}
+
+.josbuttonsmall {
+  .josbutton;
+  border: solid @josGreen 3px;
+  height: 40px;
+  width: 75px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+
+.josbuttonsmallred {
+  .josbuttonsmall;
+  border: solid @josGreen 3px;
+  background: @josRed;
+}
+
+.josbutton:hover {
+  border: dotted grey 5px;
+}
+
+.josbuttonmedium:hover, .josbuttonmediumred:hover {
+  border: dotted grey 4px;
+}
+.josbuttonsmall:hover, .josbuttonsmallred:hover {
+  border: dotted grey 3px;
 }

@@ -1,152 +1,95 @@
-<!DOCTYPE html>
-<html lang = "en" xmlns = "http://www.w3.org/1999/html" xmlns = "http://www.w3.org/1999/html">
-<head>
-    <meta charset = "utf-8">
-    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
-    <!-- disabled responsiveness: meta name = "viewport" content = "width=device-width, initial-scale=1"> -->
-    <meta name = "description" content = "Join Our Story Website">
-    <meta name = "author" content = "A Sim">
-    <!-- <link rel = "icon" href = "../../favicon.ico"> -->
+<!-- index.html -->
 
-    <title>JoinOurStory.com: Enter</title>
+{%  extends "base/base.html"  %}
 
-    <link href = 'http://fonts.googleapis.com/css?family=Lato:400|EB+Garamond|Cookie' rel = 'stylesheet'>
-    <link href = "http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel = "stylesheet">
+{% block body %}
 
-    <link href = "static/css/styles.css" rel = "stylesheet">
-    <link href = "static/slick/myslick.css" rel = "stylesheet">
-    <style>
-        .container-fluid {
-            width: 960px;
-            background-color: #ececec;
-            border: solid #c0c0c0 .15em;
-        }
+<link href = "static/slick/myslick.css" rel = "stylesheet">
+<style>
 
-        /* carousel image */
-        .carousel-enter img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            height: auto;
-        }
-    </style>
-</head>
-<body>
-<div class = "container-fluid" id = "enterancepagecontainer">
-<div class = "row" style = "padding-top: 1%;">
-    <!-- Main -->
-    <div class = "col-xs-10">
-        <div class = "row">
-          <!-- Logo -->
-            <div class = "col-xs-12">
-                <div>
-                    <img src = "static/img/JOSLogo010115.png" alt = "JOS Logo" style = "opacity: 0.95; width: 85%;">
-                </div>
-            </div>
+    /* font awesome */
+
+    .fa-ul {
+        display: block;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 45px;
+    }
+
+    .fa-ul li:before {
+        font-family: 'FontAwesome';
+        font-size: .75em;
+        padding-right: .75em;
+        content: "\f005";
+    }
+
+    .josbody {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 60px;
+    }
+
+</style>
+
+<!-- Landing Page -->
+<div class = "row" style = "background-color: #428BCA; padding: 15px;margin-top: 110px">
+
+    <div class="col-xs-12">
+        {% include "components/entercarousel.html" %}
+    </div>
+
+</div>
+    <div class="col-xs-8">
+        <p class="joswelcome" style="text-align: center;">Welcome!</p>
+        <p class = "josheading">What is JoinOurStory?</p>
+        <div class = "josbody" style = " ">
+            <p style = " ">JoinOurStory (JOS) is an engaging soap opera that members can enjoy in many ways:</p>
+                <ul class = "fa-ul">
+                    <span style = "color: #5cb85c;"><li>Regular video episodes.</li></span>
+                    <span style = "color: #5bc0de;"><li>Live and in person.</li></span>
+                    <span style = "color: #d9534f;"><li>Anytime - 24/7 - online.</li></span>
+                </ul>
+            <p style = " ">Even better, JOS members can join the story and improve their lives through active partipation.</p>
         </div>
-        <div class = "row" style = "padding-top: 3%;">
-            <!-- Carousel Column -->
-            <div class = "col-xs-7">
-                <!-- Carousel -->
-                <div class = "josboxred">
-                    <div class = "carousel-enter">
-                        <div>
-                            <img class = "img-responsive" src = "static/img/JOS-PnPCircle-012415.png"
-                                 style = "margin-top: 15%; width: 60%;" alt = "JOS Peeky / Pokey">
-                            <p class = "josbody" style = "text-align: center; font-size: 1.25em; margin-top: 15%">JoinOurStory means happier souls and healthier minds.</p>
-
-                        </div>
-                        <div id = "slide-valprop">
-                            <p class = "josheading">What is JoinOurStory?</p>
-                            <p class = "josbody">JoinOurStory offers you new friends, opportunities to achieve and a taste of show biz magic!</p>
-                            <p class = "josbody">You get:<p>
-                            <ul class = "fa-ul">
-                                <div class = "josbody">
-                                <span style = "color: rgb(102, 204, 51);"><li>Exhilarating live events, complete with learning and professional performances.<br><br></li></span>
-                                <span style = "color: rgb(51, 204, 204);"><li>An online community to create characters and share their stories.<br><br></li></span>
-                                <span style = "color: rgb(255, 51, 51);"><li>Quality TV soap dramas that bring this world to life.</li></span>
-                                </div>
-                            </ul>
-                         </div>
-                         <div id = "slide-diagram">
-                            <p class = "josheading">JoinOurStory Content:</p>
-                            <img class = "img-responsive" src = "static/img/JOS-Diagram-012415.png"
-                                 style = "padding-top: 20%; width: 90%;" alt = "JOS Diagram">
-                         </div>
-                     </div>
-                 </div>
-             </div>
-            <!-- Announcements -->
-            <div class = "col-xs-5">
-                <div class = "josboxblue" style = "margin-top: 2em;">
-                    <div>
-                        <p class = "josheading">News:</p>
-                        <p class = "josheading" style = "font-size: 2em;">Coming this fall!</p>
-                    </div>
-                </div>
-            </div>
+        <p class = "josheading">How does JOS work?</p>
+        <div class = "josbody" style = " ">
+            <p style = " ">The JOS experience begins with our <span
+                    style = "color: #5cb85c;">exciting show,</span> from Emmy winning writers and starring veteran actors.</p>
+            <p style = " ">Enthusiastic members continue on our <span
+                    style = "color: #5bc0de;">easy-to-use website: </span> making friends, discussing the show and contributing new characters and stories.</p>
+            <p style = " ">Finally, members learn and participate at <span
+                    style = "color: #d9534f;">exhilarating live events,</span> featuring performances by our JOS cast.<p>
+        </div>
+        <p class = "josheading">What if I don't know computers?</p>
+        <div class = "josbody" style = " ">
+            <p style = " ">JoinOurStory members are continuously motivated and supported by our trained staff with: <span style = "color: #5cb85c;">in person sessions</span>, <span style = "color: #5bc0de;">online coaching</span> and <span style = "color: #d9534f;">live help</span> -- as they advance toward the ultimate reward: seeing their creations come to life.</p>
         </div>
     </div>
 
 
-
-    <!-- Nav -->
-    <div class = "col-xs-2 float-left float-top" style = "padding-top: 5%;">
-
-        <p class = "jossubheading">Members:</p>
-
-        <p><button class = "josbutton" type = "button">Go to<br>My Screen</button></p>
-
-        <hr>
-
-        <p class = "jossubheading">Visitors:</p>
-
-
-        <p><button class = "josbutton" type = "button">Take a Tour</button></p>
-        <p><button class = "josbutton" type = "button">Ask Questions</button></p>
-        <p><button class = "josbutton" style = "font-size: 1.5em;" type = "button">Join</button></p>
-
-        <hr>
-
-        <p class = "jossubheading">Recruiting:</p>
-
-        <p><button class = "josbuttonsmall" type = "button">Log In</button></p>
-
-        <hr>
-
-        <p><button class = "josbuttonsmall" type = "button">Contact Us</button></p>
-
-    </div>
-
-
-
-</div>
-<div class = "row">
-    <div class = ".col-xs-8 .col-xs-offset-2" style = "font-size: .8em; text-align: center; padding-top: 3em;">
-        <p>
-            &copy 2014
-        </p>
+    <!-- announcements: col-xs-3 col-xs-offset-1 -->
+    <div class = "col-xs-3 col-xs-offset-1" style = "">
+        <div style = "border-left: dashed #ebebeb 5px; padding: 15px; width: 320px; position: fixed; top: 425px; left: 720px;">
+            {% include "components/announcements.html" %}
+        </div>
     </div>
 </div>
-</div>
-<div id = "Scripts">
-<!-- JavaScript - at the end of the document so the pages load faster -->
-<script src = "http://code.jquery.com//jquery-1.11.2.min.js"></script>
-<script src = "http://code.jquery.com//jquery-migrate-1.2.1.min.js"></script>
+
+<!-- Page Carousel JavaScript -->
 <script src = "static/slick/slick.min.js"></script>
 <script type = "text/javascript">
     $(document).ready(function () {
         $('.carousel-enter').slick({
             autoplay: true,
-            dots: true,
+            dots: false,
             cssEase: 'ease',
+            slidesToShow: 3,
             pauseOnHover: true,
-            pauseOnDotsHover: true,
             swipe: true,
             arrows: false,
-            autoplaySpeed: 6000
+            autoplaySpeed: 7500
         });
     });
 </script>
-</div>
-</body>
+{% endblock %}

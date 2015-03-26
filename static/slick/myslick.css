@@ -62,7 +62,7 @@
     display: inline-block;
     height: .5em;
     width: 15%;
-    margin: 0 3%;
+    margin: 3% 0;
     padding: 0;
     cursor: pointer;
     counter-increment: ECSlideIndex;
@@ -72,8 +72,8 @@
     border: solid rgb(102, 204, 51) .15em;
     background: rgb(102,204,51);
     display: block;
-    height: 40px;
-    width: 65px;
+    height: 35px;
+    width: 45px;
     outline: none;
     line-height: 0;
     font-size: 0;
@@ -100,11 +100,11 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 40px;
-    width: 65px;
+    height: 35px;
+    width: 45px;
     font-family: "lato";
-    font-size: 16pt;
-    line-height:175%;
+    font-size: 14pt;
+    line-height:190%;
     text-align: center;
     color: white;
     content: counter(ECSlideIndex);

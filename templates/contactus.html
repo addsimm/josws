@@ -1,0 +1,62 @@
+<!-- contactus.html -->
+
+{% extends "base/base.html" %}
+
+{% block body %}
+
+    <!-- Page -->
+<div class = "row" style = "margin-top: 100px;">
+
+<div class = "col-xs-10 col-xs-offset-1">
+    <p class = "joswelcome" style = "margin-bottom: 30px; text-align: center;">Contact Us</p>
+    <p class = "josbody">Please enter your information below, then press send. The computer may provide messages that ask you to make changes in <span
+            style = "color: red;"> red</span>.</p>
+
+<form>
+    <div class = "row" style = "margin-top: 30px;">
+        <div class = "col-xs-4 col-xs-offset-0">
+            <div class = "form-group">
+                <label for = "firstnameField">First Name:</label>
+                <input type = "text" class = "form-control input-lg" id = "firstnameField"
+                       placeholder = "Your first name">
+            </div>
+        </div>
+        <div class = "col-xs-5">
+            <div class = "form-group">
+                <label for = "lastnameField">Last Name:</label>
+                <input type = "text" class = "form-control input-lg" id = "lastnameField"
+                       placeholder = "Your last name">
+            </div>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col-xs-9 col-xs-offset-0">
+            <div class = "form-group">
+                <label for = "emailField">Email address:</label>
+                <input type = "email" class = "form-control input-lg" id = "emailField"
+                       placeholder = "Your email, usually yourname@gmail.com">
+            </div>
+            <div class = "form-group">
+                <label for = "contactMessage">Message:</label>
+                <textarea class = "form-control input-lg" style = "resize:none;" rows = "10" id = "contactMessage"
+                          placeholder = "Your message"></textarea>
+            </div>
+        </div>
+    </div>
+    <div class = "row" style = "margin-top: 30px;">
+        <div class = "col-xs-9 col-xs-offset-0">
+            <button type = "submit" class = "btn btn-success btn-lg pull-right">Send</button>
+        </div>
+    </div>
+
+</form>
+</div>
+</div>
+
+
+
+<script type = "text/javascript">
+
+</script>
+
+{% endblock %}

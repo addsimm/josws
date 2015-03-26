@@ -12,5 +12,7 @@ urlpatterns = patterns('',
                        # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
                        # Uncomment the next line to enable the admin:
                        # url(r'^admin/', include(admin.site.urls)),
-                       url(r'^$', 'joinourstorywebsitebase.views.index', name='index'),
+                       url(r'contactus$', 'joinourstorywebsitebase.views.contactus', name='contactus'),
+                       url(r'index', 'joinourstorywebsitebase.views.index', name = 'index'),
+                       url(r'^$', 'joinourstorywebsitebase.views.contactus', name='index'), ### change!
                        )
