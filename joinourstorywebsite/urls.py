@@ -14,5 +14,5 @@ urlpatterns = patterns('',
                        # url(r'^admin/', include(admin.site.urls)),
                        url(r'contactus$', 'joinourstorywebsitebase.views.contactus', name='contactus'),
                        url(r'index', 'joinourstorywebsitebase.views.index', name = 'index'),
-                       url(r'^$', 'joinourstorywebsitebase.views.contactus', name='index'), ### change!
+                       url(r'^$', 'joinourstorywebsitebase.views.index', name='index'), ### change!
                        )
