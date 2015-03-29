@@ -11,34 +11,39 @@
 <!-- Page -->
 <div class = "row" style = "margin-top: 100px;">
 
+<!--Instructions -->
 <div class = "col-xs-10 col-xs-offset-1">
     <p class = "joswelcome" style = "margin-bottom: 30px; text-align: center;">Contact Us</p>
-    <p class = "josbody">Please enter your information below, then press send. The computer may provide messages that ask you to make changes in <span
-            style = "color: #a94442;"> red</span>.</p>
+    <p class="jossubheading">Instructions:</p>
+    <p class = "josbody">Please type into each box, then press "review and send."<br>
+                         As you type, the computer provides feedback:<br>
+                         &nbsp&nbsp&nbsp&nbsp&nbsp<span class = "fa fa-remove fa-fw" style = "color: #a94442;"></span>&nbsp&nbspmeans: read the <span style = "color: #a94442;">red message</span> and makes changes.<br>
+                         &nbsp&nbsp&nbsp&nbsp&nbsp<span class="fa fa-check fa-fw" style="color: #3c763d"></span>&nbsp&nbspmeans: the computer thinks the box is filled correctly.</p>
 
+<!-- Contact Form -->
 <form id="contactForm">
-    <div class = "row" style = "margin-top: 30px;">
-        <div class = "col-xs-4 col-xs-offset-0">
+    <div class = "row" style = "margin-top: 45px;">
+        <div class = "col-xs-4 col-xs-offset-1">
             <div class = "form-group">
                 <label for = "firstnamefield">First Name:</label>
                 <input type = "text" class = "form-control input-lg" name = "firstnamefield"
-                       placeholder = "Your first name">
+                       placeholder = "Your first name" autofocus>
             </div>
         </div>
         <div class = "col-xs-5">
             <div class = "form-group">
                 <label for = "lastnamefield">Last Name:</label>
                 <input type = "text" class = "form-control input-lg" name = "lastnamefield"
-                       placeholder = "Your last name">
+                       placeholder = "Your last name" >
             </div>
         </div>
     </div>
     <div class = "row">
-        <div class = "col-xs-9 col-xs-offset-0">
+        <div class = "col-xs-9 col-xs-offset-1">
             <div class = "form-group">
                 <label for = "emailfield">Email Address:</label>
                 <input type = "email" class = "form-control input-lg" name = "emailfield"
-                       placeholder = "Your email; something like: yourname@gmail.com">
+                       placeholder = "Your email - something like:  yourname@gmail.com">
             </div>
             <div class = "form-group">
                 <label for = "messagefield">Message:</label>
@@ -47,14 +52,15 @@
         </div>
     </div>
     <div class = "row" style = "margin-top: 30px;">
-        <div class = "col-xs-9 col-xs-offset-0">
-            <button type = "submit" class = "btn btn-success btn-lg pull-right">Review and Send</button>
+        <div class = "col-xs-9 col-xs-offset-1">
+            <button type = "submit" class = "btn btn-success btn-lg pull-right" id="reviewandsendbutton">Review and Send</button>
         </div>
     </div>
 
 </form>
 </div>
 </div>
+
 
 <style>
 
@@ -67,59 +73,76 @@
 <!-- Form Validation Scripts -->
 <script src = "static/formvalidation/formvalidation.min.js"></script>
 <script src = "static/formvalidation/bootstrap.min.js"></script>
+
+
+<!-- Scripts-->
+<!-- mailgun: email is valid without dot -->
+
 <script type = "text/javascript">
 
-
-<!-- email is valid without dot -->
-
-
 $(document).ready(function () {
-    $('#contactForm').formValidation({  // validating Bootstrap form
-        framework: 'bootstrap',
+$('#contactForm')
+        .formValidation({  // validating Bootstrap form
+            framework: 'bootstrap',
 
-        // Feedback icons
-        icon: {
-            valid: 'fa fa-check vam',
-            invalid: 'fa fa-remove vam',
-            validating: 'fa fa-gear vam'
-        },
+            // Feedback icons
+            icon: {
+                valid: 'fa fa-check vam',
+                invalid: 'fa fa-remove vam',
+                validating: 'fa fa-gear vam'
+            },
 
-        // List of fields and their validation rules
-        fields: {
-            firstnamefield: {
-                validators: {
-                    notEmpty: {
-                        message: 'First Name cannot be empty'
+            // List of fields and their validation rules
+            fields: {
+                firstnamefield: {
+                    validators: {
+                        notEmpty: {
+                            message: 'First Name cannot be empty'
+                        }
                     }
-                }
-            },
-            lastnamefield: {
-                validators: {
-                    notEmpty: {
-                        message: 'Last Name cannot be empty'
+                },
+                lastnamefield: {
+                    validators: {
+                        notEmpty: {
+                            message: 'Last Name cannot be empty'
+                        }
                     }
-                }
-            },
-            emailfield: {
-                validators: {
-                    notEmpty: {
-                        message: 'Email Address cannot be empty'
-                    },
-                    emailAddress: {
-                        message: 'Address is not valid yet. Try something like: yourname@gmail.com'
+                },
+                emailfield: {
+                    validators: {
+                        notEmpty: {
+                            message: 'Email Address cannot be empty'
+                        },
+                        emailAddress: {
+                            message: 'Address is not valid yet. Keep typying - toward something like: yourname@gmail.com'
+                        }
                     }
-                }
-            },
-            messagefield: {
-                validators: {
-                    notEmpty: {
-                        message: 'Message cannot be empty'
+                },
+                messagefield: {
+                    validators: {
+                        notEmpty: {
+                            message: 'Message cannot be empty'
+                        }
                     }
                 }
             }
-        }
-    });
+        })
+
+        .on('success.form.fv', function (e) {
+            // Prevent form submission
+            e.preventDefault();
+
+            // Some instances you can use are
+            var $form = $(e.target),        // The form instance
+                fv = $(e.target).data('formValidation'); // FormValidation instance
+
+            // Do what you want here ...
+            alert($form.find('[name="emailfield"]').val());
+
+            fv.defaultSubmit();
+        });
 });
+
 
 </script>
 

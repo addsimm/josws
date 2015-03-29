@@ -1,5 +1,5 @@
 <!-- Enter Carousel Column -->
-
+<link href = "static/slick/myslick.css" rel = "stylesheet">
 <style>
 
     .text-overlay2 {
@@ -59,3 +59,20 @@
         </div>
     </div>
 </div>
+
+<!-- Page Carousel JavaScript -->
+<script src = "static/slick/slick.min.js"></script>
+<script type = "text/javascript">
+    $(document).ready(function () {
+        $('.carousel-enter').slick({
+            autoplay: true,
+            dots: false,
+            cssEase: 'ease',
+            slidesToShow: 1,
+            pauseOnHover: true,
+            swipe: true,
+            arrows: false,
+            autoplaySpeed: 6000
+        });
+    });
+</script>
