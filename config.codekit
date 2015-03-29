@@ -388,7 +388,7 @@
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/less\/bootstrap\/mixins\/alerts.less",
 		"outputAbbreviatedPath": "\/src\/less\/bootstrap\/css\/alerts.css",
@@ -968,7 +968,7 @@
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/less\/bootstrap\/modals.less",
 		"outputAbbreviatedPath": "\/src\/less\/css\/modals.css",
@@ -1440,6 +1440,37 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/static\/formvalidation\/bootstrap.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/formvalidation\/bootstrap.min.js",
+		"outputAbbreviatedPath": "\/static\/formvalidation\/min\/bootstrap.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/static\/formvalidation\/formvalidation.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/formvalidation\/formvalidation.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/static\/formvalidation\/formvalidation.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/formvalidation\/formvalidation.min.js",
+		"outputAbbreviatedPath": "\/static\/formvalidation\/min\/formvalidation.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/static\/img\/JOS-Diagram-012415.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1451,6 +1482,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/static\/img\/JOS-Logo-Mar25.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9439,
+		"inputAbbreviatedPath": "\/static\/img\/JOS-Logo-Mar25.png",
+		"outputAbbreviatedPath": "\/static\/img\/JOS-Logo-Mar25.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/static\/img\/JOS-PnPCircle-012415.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1458,17 +1500,6 @@
 		"initialSize": 40442,
 		"inputAbbreviatedPath": "\/static\/img\/JOS-PnPCircle-012415.png",
 		"outputAbbreviatedPath": "\/static\/img\/JOS-PnPCircle-012415.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/static\/img\/JOSLogo010115.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 77111,
-		"inputAbbreviatedPath": "\/static\/img\/JOSLogo010115.png",
-		"outputAbbreviatedPath": "\/static\/img\/JOSLogo010115.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1516,6 +1547,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/static\/js\/bootbox.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/js\/bootbox.min.js",
+		"outputAbbreviatedPath": "\/static\/js\/min\/bootbox.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/static\/js\/bootstrap.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/js\/bootstrap.min.js",
+		"outputAbbreviatedPath": "\/static\/js\/min\/bootstrap.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/static\/slick\/myslick.css": {
 		"fileType": 16,
@@ -1573,20 +1626,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/templates\/components\/biglogo.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/components\/biglogo.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/templates\/components\/entercarousel.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/templates\/components\/entercarousel.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/templates\/contactus.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/templates\/contactus.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
