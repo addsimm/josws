@@ -188,7 +188,7 @@
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/less\/bootstrap\/component-animations.less",
 		"outputAbbreviatedPath": "\/src\/less\/css\/component-animations.css",

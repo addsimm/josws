@@ -61,6 +61,51 @@
 </div>
 </div>
 
+<a data-toggle = "modal" href = "#myModal1" class = "btn btn-primary btn-lg">Launch demo modal</a>
+
+<!-- Modal -->
+<div class = "modal fade" id = "myModal1" role = "dialog" aria-labelledby = "myModalLabel" aria-hidden = "true" style="background-color: transparent;">
+    <div class = "modal-dialog" style = "height: 100%; width: 1024px; background-color: white;">
+        <div class = "modal-content" style = "background-color: white;">
+
+            <div class = "modal-header">
+                <div class="row">
+                    <div class = "col-xs-10 col-xs-offset-1">
+                        <p class = "joswelcome" style = "margin-bottom: 30px; text-align: center;">Contact Us</p>
+                        <p class = "jossubheading">Review Message</p>
+                        <p class = "josbody">Please check your message:.<br>
+                             &nbsp&nbsp&nbsp&nbsp&nbspIf it looks right, press "Send"<br>
+                             &nbsp&nbsp&nbsp&nbsp&nbspTo make changes, press "Go Back"
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class = "modal-body">
+                 <div class = "row">
+                    <div class = "col-xs-9 col-xs-offset-1">
+                        Boner
+                    </div>
+                 </div>
+            </div>
+
+            <div class = "modal-footer">
+              <button type = "button" class = "btn btn-default" data-dismiss = "modal">Close</button>
+              <button type = "button" class = "btn btn-primary">Save changes</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<button type="button" class="btn btn-primary btn-lg" data-toggle nclick="
+    bootbox.alert('Hello world!', function() {
+    console.log('Alert Callback');
+    });
+    ">Test</button>
+
+
 
 <style>
 
@@ -81,7 +126,8 @@
 <script type = "text/javascript">
 
 $(document).ready(function () {
-$('#contactForm')
+
+    $('#contactForm')
         .formValidation({  // validating Bootstrap form
             framework: 'bootstrap',
 

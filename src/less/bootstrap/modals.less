@@ -12,15 +12,15 @@
   overflow: hidden;
 }
 
-// Container that the modal scrolls within
+// Container that the modal scrolls within  ADAM CHANGED
 .modal {
   display: none;
   overflow: hidden;
   position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  top: 90px;
+  width: 1018px;
+  bottom: 95px;
+  left: 18px;
   z-index: @zindex-modal;
   -webkit-overflow-scrolling: touch;
 
@@ -29,15 +29,15 @@
   outline: 0;
 
   // When fading in the modal, animate it to slide down
+  // .translate(0, -25%);
   &.fade .modal-dialog {
-    .translate(0, -25%);
     .transition-transform(~"0.3s ease-out");
   }
   &.in .modal-dialog { .translate(0, 0) }
 }
 .modal-open .modal {
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: hidden;
 }
 
 // Shell div to position the modal with bottom padding
@@ -45,16 +45,17 @@
   position: relative;
   width: auto;
   margin: 10px;
+  overflow-y: scroll;
 }
 
 // Actual modal
 .modal-content {
   position: relative;
   background-color: @modal-content-bg;
-  border: 1px solid @modal-content-fallback-border-color; //old browsers fallback (ie8 etc)
-  border: 1px solid @modal-content-border-color;
+  // border: 1px solid @modal-content-fallback-border-color; //old browsers fallback (ie8 etc)
+  // border: 1px solid @modal-content-border-color;
   border-radius: @border-radius-large;
-  .box-shadow(0 3px 9px rgba(0,0,0,.5));
+  // .box-shadow(0 3px 9px rgba(0,0,0,.5));
   background-clip: padding-box;
   // Remove focus outline from opened modal
   outline: 0;
@@ -75,8 +76,8 @@
 // Modal header
 // Top section of the modal w/ title and dismiss
 .modal-header {
-  padding: @modal-title-padding;
-  border-bottom: 1px solid @modal-header-border-color;
+  // padding: @modal-title-padding;
+  // border-bottom: 1px solid @modal-header-border-color;
   min-height: (@modal-title-padding + @modal-title-line-height);
 }
 // Close icon
@@ -101,7 +102,7 @@
 .modal-footer {
   padding: @modal-inner-padding;
   text-align: right; // right align buttons
-  border-top: 1px solid @modal-footer-border-color;
+  // border-top: 1px solid @modal-footer-border-color;
   &:extend(.clearfix all); // clear it in case folks use .pull-* classes on buttons
 
   // Properly space out buttons
@@ -136,7 +137,7 @@
     margin: 30px auto;
   }
   .modal-content {
-    .box-shadow(0 5px 15px rgba(0,0,0,.5));
+  //  .box-shadow(0 5px 15px rgba(0,0,0,.5));
   }
 
   // Modal sizes
