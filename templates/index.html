@@ -23,11 +23,18 @@
         content: "\f005";
     }
 
-    .josbody {
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-right: 0;
-        margin-left: 60px;
+    .vptext {
+        color: white;
+        font-family: "Lato";
+        font-size: 18pt;
+        text-align: left;
+        margin-top: 5px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .vptextplus {
+        font-size: 30pt;
     }
 
 </style>
@@ -42,39 +49,15 @@
 
 </div>
 
-    <div class="col-xs-8">
-        <p class="joswelcome" style="text-align: center;">Welcome!</p>
-        <p class = "josheading">What is JoinOurStory?</p>
-        <div class = "josbody" style = " ">
-            <p style = " ">JoinOurStory (JOS) is an engaging soap opera that members can enjoy in many ways:</p>
-                <ul class = "fa-ul">
-                    <span style = "color: #5cb85c;"><li>Regular video episodes.</li></span>
-                    <span style = "color: #5bc0de;"><li>Live and in person.</li></span>
-                    <span style = "color: #d9534f;"><li>Anytime - 24/7 - online.</li></span>
-                </ul>
-            <p style = " ">Even better, JOS members can join the story and improve their lives through active partipation.</p>
-        </div>
-        <p class = "josheading">How does JOS work?</p>
-        <div class = "josbody" style = " ">
-            <p style = " ">The JOS experience begins with our <span
-                    style = "color: #5cb85c;">exciting show,</span> from Emmy winning writers and starring veteran actors.</p>
-            <p style = " ">Enthusiastic members continue on our <span
-                    style = "color: #5bc0de;">easy-to-use website: </span> making friends, discussing the show and contributing new characters and stories.</p>
-            <p style = " ">Finally, members learn and participate at <span
-                    style = "color: #d9534f;">exhilarating live events,</span> featuring performances by our JOS cast.<p>
-        </div>
-        <p class = "josheading">What if I don't know computers?</p>
-        <div class = "josbody" style = " ">
-            <p style = " ">JoinOurStory members are continuously motivated and supported by our trained staff with: <span style = "color: #5cb85c;">in person sessions</span>, <span style = "color: #5bc0de;">online coaching</span> and <span style = "color: #d9534f;">live help</span> -- as they advance toward the ultimate reward: seeing their creations come to life.</p>
-        </div>
-    </div>
 
 
-    <!-- announcements: col-xs-3 col-xs-offset-1 -->
-    <div class = "col-xs-3 col-xs-offset-1" style = "">
-        <div style = "border-left: dotted black 2px; padding: 15px; width: 320px; position: fixed; top: 425px; left: 720px;">
-            {% include "components/announcements.html" %}
-        </div>
+
+<!-- announcements: col-xs-3 col-xs-offset-1 -->
+<div class = "col-xs-3 col-xs-offset-1" style = "">
+    <div style = "background-color: #ffffff; border-left: dotted black 2px; padding: 15px; width: 320px; position: fixed; top: 425px; left: 720px;">
+    {% include "components/announcements.html" %}
     </div>
+</div>
+
 
 {% endblock %}
