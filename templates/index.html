@@ -23,41 +23,71 @@
         content: "\f005";
     }
 
+    .ulvp > li {
+        margin-bottom: 30px;
+        margin-left: 0px;
+    }
+
     .vptext {
         color: white;
         font-family: "Lato";
-        font-size: 18pt;
+        font-size: 20pt;
         text-align: left;
         margin-top: 5px;
-        padding-top: 15px;
-        padding-bottom: 15px;
     }
 
     .vptextplus {
-        font-size: 30pt;
+        font-size: 36pt;
     }
 
 </style>
 
 <!-- Landing Page -->
-    <!-- hello -->
-<div class = "row" style = "background-color: #428BCA; padding: 15px;margin-top: 110px">
 
-    <div class="col-xs-12">
+<div class = "row" style = "background-color: #428BCA; margin-top: 105px;">
+
+    <div class="col-xs-6" style = "padding-top: 55px;">
+        <p class = "joswelcome" style = "font-size: 68pt; text-align: center; color: #FFFFFF;">Welcome!</p>
+        <p class = "vptext vptextplus" style="margin-top: 80px;">Join Our Story is:</p>
+        <!-- <p style="font-size: .75em">(Cick on the underlined links to for more info)</p> -->
+    </div>
+
+    <div class = "col-xs-6">
         {% include "components/entercarousel.html" %}
     </div>
 
 </div>
 
+<div class = "row" style = "background-color: #428BCA;">
+    <div class = "col-xs-9">
 
+        <ul class = "ulvp vptext" style = "margin-top: 50px; margin-bottom: 50px; margin-right: 15px; margin-left: 0;">
 
+            <li>A scintillating soap opera for you to enjoy regularly.</li>
 
-<!-- announcements: col-xs-3 col-xs-offset-1 -->
-<div class = "col-xs-3 col-xs-offset-1" style = "">
-    <div style = "background-color: #ffffff; border-left: dotted black 2px; padding: 15px; width: 320px; position: fixed; top: 425px; left: 720px;">
-    {% include "components/announcements.html" %}
+            <li>An invitation to enter an exciting "storyworld" by developing your own characters and plots.</li>
+
+            <li>24 hour access to a simple website where you can make friends and have fun within a supportive community.</li>
+
+            <li>Live events that allow to mingle with cast, crew and fellow members as you learn about show business.</li>
+
+            <li>Engaging ways to challenge yourself and track your progress as you acquire new skills and reach your goals.</li>
+
+            <li>Free of charge for anyone with limited means.</li>
+
+        </ul>
+
+    </div>
+
+    <!-- announcements: col-xs-3 col-xs-offset-1 -->
+    <div class = "col-xs-3" style = "background-color: white; margin-top: 55px; border: dotted black 2px; padding: 45px 15px;">
+        {% include "components/announcements.html" %}
     </div>
 </div>
 
-
+<div class="row" style = "background-color: #428BCA; padding: 30px 15px;">
+    <div class="col-xs-12">
+        <p class = "vptext vptextplus" style = "text-align: center;">Join Our Story for a happier soul and a healthier mind, today.</p>
+    </div>
+</div>
 {% endblock %}
