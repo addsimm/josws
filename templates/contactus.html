@@ -14,11 +14,14 @@
 <!--Instructions -->
 <div class = "col-xs-10 col-xs-offset-1">
     <p class = "joswelcome" style = "margin-bottom: 30px; text-align: center;">Contact Us</p>
-    <p class="jossubheading">Instructions:</p>
-    <p class = "josbody">Please type into each box, then press "review and send."<br>
-                         As you type, the computer provides feedback:<br>
-                         &nbsp&nbsp&nbsp&nbsp&nbsp<span class = "fa fa-remove fa-fw" style = "color: #a94442;"></span>&nbsp&nbspmeans: read the <span style = "color: #a94442;">red message</span> and makes changes.<br>
-                         &nbsp&nbsp&nbsp&nbsp&nbsp<span class="fa fa-check fa-fw" style="color: #3c763d"></span>&nbsp&nbspmeans: the computer thinks the box is filled correctly.</p>
+    <p id = "contactforminstructions" class="josheading">Instructions:</p>
+    <div id = "contactformsubinstruct" class = "jossubheading">
+        <p>Please type into each box, when done press "Review and Send"</p>
+        <p>As you type, the computer provides feedback:</p>
+        <p>&nbsp&nbsp&nbsp&nbsp&nbsp<span class = "fa fa-remove fa-fw" style = "color: #a94442;"></span>&nbsp&nbspmeans: read the <span style = "color: #a94442;">red message</span> and makes changes.</p>
+        <p>&nbsp&nbsp&nbsp&nbsp&nbsp<span class="fa fa-check fa-fw" style="color: #3c763d"></span>&nbsp&nbspmeans: the computer thinks the box is filled correctly.</p>
+    </div>
+</div>
 
 <!-- Contact Form -->
 <form id="contactForm">
@@ -51,8 +54,8 @@
             </div>
         </div>
     </div>
-    <div class = "row" style = "margin-top: 30px;">
-        <div class = "col-xs-9 col-xs-offset-1">
+    <div class = "row" style = "margin-top: 30px; margin-bottom: 50px;">
+        <div class = "col-xs-10 col-xs-offset-1">
             <button type = "submit" class = "btn btn-success btn-lg pull-right" id="reviewandsendbutton">Review and Send</button>
         </div>
     </div>
@@ -61,22 +64,19 @@
 </div>
 </div>
 
-<a data-toggle = "modal" href = "#myModal1" class = "btn btn-primary btn-lg">Launch demo modal</a>
-
 <!-- Modal -->
-<div class = "modal fade" id = "myModal1" role = "dialog" aria-labelledby = "myModalLabel" aria-hidden = "true" style="background-color: transparent;">
+<div class = "modal fade" id = "reviewmodal" role = "dialog" aria-labelledby = "review message" aria-hidden = "true" style="background-color: transparent;">
     <div class = "modal-dialog" style = "height: 100%; width: 1024px; background-color: white;">
         <div class = "modal-content" style = "background-color: white;">
-
             <div class = "modal-header">
                 <div class="row">
-                    <div class = "col-xs-10 col-xs-offset-1">
-                        <p class = "joswelcome" style = "margin-bottom: 30px; text-align: center;">Contact Us</p>
-                        <p class = "jossubheading">Review Message</p>
-                        <p class = "josbody">Please check your message:.<br>
-                             &nbsp&nbsp&nbsp&nbsp&nbspIf it looks right, press "Send"<br>
-                             &nbsp&nbsp&nbsp&nbsp&nbspTo make changes, press "Go Back"
+                    <div class = "col-xs-9 col-xs-offset-1">
+                        <p class = "joswelcome" style = "margin-bottom: 30px; text-align: center;">Review Message</p>
+                        <p class = "josheading">Please Review Your Message:</p>
+                        <p class = "jossubheading">&nbsp&nbsp&nbsp&nbsp&nbspIf it looks right, press "Send"</p>
+                        <p class = "jossubheading">&nbsp&nbsp&nbsp&nbsp&nbspTo make changes, press "Go Back and Edit"
                         </p>
+
                     </div>
                 </div>
             </div>
@@ -84,49 +84,36 @@
 
             <div class = "modal-body">
                  <div class = "row">
-                    <div class = "col-xs-9 col-xs-offset-1">
-                        Boner
-                    </div>
+                     <div id="reviewmodalbody" class = "col-xs-9 col-xs-offset-1" style="padding: 50px; margin-top: 30px; border: solid black 3px;">
+                         Message Here
+                     </div>
                  </div>
             </div>
 
             <div class = "modal-footer">
-              <button type = "button" class = "btn btn-default" data-dismiss = "modal">Close</button>
-              <button type = "button" class = "btn btn-primary">Save changes</button>
-            </div>
+                <div class = "row" style = "margin-top: 30px;">
+                    <div id = "reviewmodalbody" class = "col-xs-10 col-xs-offset-1">
+                        <button id = "buttonmodalgobackandedit" class = "btn btn-info btn-lg btninreviewmodal" type = "button">Go Back and Edit</button>
+                        <button id = "buttonmodalsend" type = "button" class = "btn btn-success btn-lg btninreviewmodal pull-right" type = "button" >Send</button>
+                    </div>
+                </div>
+            </div><!-- /.modal-footer -->
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
 
-<button type="button" class="btn btn-primary btn-lg" data-toggle nclick="
-    bootbox.alert('Hello world!', function() {
-    console.log('Alert Callback');
-    });
-    ">Test</button>
-
-
-
-<style>
-
-.vam {
-    margin-top: 12px;
-}
-
-</style>
+<style>.vam {margin-top: 13px;}</style>
 
 <!-- Form Validation Scripts -->
 <script src = "static/formvalidation/formvalidation.min.js"></script>
 <script src = "static/formvalidation/bootstrap.min.js"></script>
 
-
-<!-- Scripts-->
 <!-- mailgun: email is valid without dot -->
 
 <script type = "text/javascript">
 
 $(document).ready(function () {
-
     $('#contactForm')
         .formValidation({  // validating Bootstrap form
             framework: 'bootstrap',
@@ -179,14 +166,47 @@ $(document).ready(function () {
             e.preventDefault();
 
             // Some instances you can use are
-            var $form = $(e.target),        // The form instance
+            var $form = $(e.target),                     // The form instance
                 fv = $(e.target).data('formValidation'); // FormValidation instance
 
             // Do what you want here ...
-            alert($form.find('[name="emailfield"]').val());
+            $("#reviewmodal").on("show.bs.modal", function () {
 
-            fv.defaultSubmit();
+                $("#reviewmodal").modal({   // wire up modal
+                    "backdrop": "static",
+                    "keyboard": false,
+                    "show": false
+                });
+
+                $(".btninreviewmodal").on("click", function (e) {  // wire up buttons
+                    var reviewmodalresponse = e.target.id;
+                    console.log(reviewmodalresponse);
+                    $("#reviewmodal").modal('hide');     // dismiss the dialog
+                });
+
+            });
+
+
+            $('#reviewmodalbody').html(
+                    "First: " + $form.find('[name="firstnamefield"]').val() + "<br>" +
+                    "Last: " + $form.find('[name="lastnamefield"]').val() + "<br>" +
+                    "Email: " + $form.find('[name="emailfield"]').val() + "<br><br>" +
+                    "Message: " +  $form.find('[name="messagefield"]').val());
+            $('#reviewmodal').modal('show');
+
+
+            //fv.defaultSubmit();
         });
+
+    $("#reviewmodal")
+            .on("hide.bs.modal", function () {  // remove when hidden
+                $(".btninreviewmodal").off("click");
+                $('#contactforminstructions').html('Please make changes, then press "Review and Send"');
+                $('#contactformsubinstruct').html('<p><br><br></p>');
+            })
+            .on("hidden.bs.modal", function () {
+                $("#reviewmodal").destroy();
+            });
 });
 
 
