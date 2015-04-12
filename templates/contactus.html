@@ -25,7 +25,8 @@
 </div>
 
 <!-- Contact Form -->
-<form id="contactForm">
+<form id="contactForm" action="#" method="post">
+    {% csrf_token %}
     <div class = "row" style = "margin-top: 30px;">
         <div class = "col-xs-4 col-xs-offset-1">
             <div class = "form-group">
@@ -205,7 +206,12 @@ $(document).ready(function () {
 
                             $(".btninreviewmodal").on("click", function (e) {   // wire up buttons
                                 var reviewmodalresponse = e.target.id;
+
                                 $("#reviewmodal").modal('hide');                // dismiss the dialog
+
+                                if (reviewmodalresponse == "buttonmodalsend") {
+                                    fv.defaultSubmit();
+                                }
                             });
 
 
@@ -213,30 +219,25 @@ $(document).ready(function () {
                             $('#reviewlastname').html($form.find('[name="lastnamefield"]').val());
                             $('#reviewemail').html($form.find('[name="emailfield"]').val());
                             $('#reviewmessage').html($form.find('[name="messagefield"]').val());
-
                         })
 
                         .on("shown.bs.modal", function () {
-
                             $('#contactforminstructions')
                                     .html("Please make changes, then press 'Review and Send'");
                             $('#contactformsubinstruct').html('<p></p>');
                         })
 
-                        .modal('show');
+                        .on("hidden.bs.modal", function () {
+                            $("#reviewmodal").destroy();
+                        })
 
-                //fv.defaultSubmit();
-            });
-
-    {% comment %}$("#reviewmodal")                                           // remove when hidden
-
-            });
-
-            .on("hidden.bs.modal", function () {
-                $(".btninreviewmodal").off("click");
-                $("#reviewmodal").destroy();
-            }){% endcomment %};
+                        .modal('show')
+            })
 });
+
+
+
+
 
 </script>
 
