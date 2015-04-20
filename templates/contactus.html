@@ -18,8 +18,8 @@
         <div id = "contactformsubinstruct" class = "jossubheading">
             <p>Please type into each box, when done press "Review and Send"</p>
             <p>As you type, the computer provides feedback:</p>
-            <p>&nbsp&nbsp&nbsp&nbsp&nbsp<span class = "fa fa-remove fa-fw" style = "color: #a94442;"></span>&nbsp&nbspmeans: read the <span style = "color: #a94442;">red message</span> and makes changes.</p>
-            <p>&nbsp&nbsp&nbsp&nbsp&nbsp<span class="fa fa-check fa-fw" style="color: #3c763d"></span>&nbsp&nbspmeans: the computer thinks the box is filled correctly.</p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp<span class = "fa fa-remove fa-fw" style = "color: #d9534f;"></span>&nbsp&nbspmeans: read the <span style = "color: #d9534f;">red message</span> and makes changes.</p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp<span class="fa fa-check fa-fw" style="color: #5CB85C;"></span>&nbsp&nbspmeans: the computer thinks the box is filled correctly.</p>
         </div>
     </div>
 </div>
@@ -188,10 +188,10 @@ $(document).ready(function () {
 
             .on('success.form.fv', function (e) {
 
-                e.preventDefault();                                 // Prevent form submission
-
                 var $form = $(e.target),                            // Form instance
                         fv = $(e.target).data('formValidation');    // FormValidation instance
+
+                e.preventDefault();                                 // Prevent form submission
 
                 // Do what you want here ...
 
