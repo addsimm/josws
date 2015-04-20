@@ -46,14 +46,14 @@ def contactus(request):
             validate_email(user_email_address)
             joscontactmessage.jcnm_email_address = user_email_address
 
-            sender_address = "Join Our Story <info@joinourstory.com>"
+            # sender_address = "Join Our Story <info@joinourstory.com>"
             subject = "Your Recent Message"
             body = "Hi {0}, We received your message! We will do our best to respond quickly - hopefully within 24 hours. Thank you, Adam --- Message: {1}".format(
 
                 joscontactmessage.jcm_first_name, joscontactmessage.jcm_message)
 
-            mail.send_mail(sender_address, user_email_address, subject, body)           ### Reformat Body
             mail.send_mail("adam@joinourstory.com", user_email_address, subject, body)  ### Reformat Body
+            mail.send_mail("adam@joinourstory.com", "adam@joinourstory.com", subject + " " + user_email_address, body)  ### Reformat Body
             template_values.update({'return_address': user_email_address,
                                     'return_message_flag': 1,
                                     'return_message': 'Email sent! If a confirmation email does not arrive soon, please try again or find help.'
