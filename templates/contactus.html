@@ -167,12 +167,28 @@ $(document).ready(function () {
                         }
                     },
                     emailfield: {
+                        delay: 2000,     // Send Ajax request every 2 seconds
+                        threshold: 7,
+                        verbose: false,
                         validators: {
                             notEmpty: {
                                 message: 'Email Address cannot be empty'
                             },
                             emailAddress: {
-                                message: 'Address is not valid yet. Keep typying - toward something like: yourname@gmail.com'
+                                message: 'Address is not valid yet. Please keep typing - toward something like: yourname@gmail.com'
+                            },
+                            remote: {
+                                type: 'GET',
+                                url: 'https://api.mailgun.net/v2/address/validate?callback=?',
+                                crossDomain: true,
+                                name: 'address',
+                                data: {
+                                    // Mailgun account free API key https://mailgun.com/signup
+                                    api_key: 'pubkey-36e487ec6883fa0bef9ad3c44c47ba94'
+                                },
+                                dataType: 'jsonp',
+                                validKey: 'is_valid',
+                                message: 'The computer looked up this email address and could not find it - please double check'
                             }
                         }
                     },
@@ -183,6 +199,31 @@ $(document).ready(function () {
                             }
                         }
                     }
+                }
+            })
+
+            .on('success.validator.fv', function (e, data) {
+                if (data.field === 'email' && data.validator === 'remote') {
+                    var response = data.result;  // response is the result returned by MailGun API
+                    if (response.did_you_mean) {
+                        // Update the message
+                        data.element                    // The field element
+                                .data('fv.messages')        // The message container
+                                .find('[data-fv-validator="remote"][data-fv-for="email"]')
+                                .html('Did you mean ' + response.did_you_mean + '?')
+                                .show();
+                    }
+                }
+            })
+
+            .on('err.validator.fv', function (e, data) {
+                if (data.field === 'email' && data.validator === 'remote') {
+                    // We need to reset the error message
+                    data.element                // The field element
+                            .data('fv.messages')    // The message container
+                            .find('[data-fv-validator="remote"][data-fv-for="email"]')
+                            .html('The computer looked up this email and could not find it; please double check.')
+                            .show();
                 }
             })
 

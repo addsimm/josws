@@ -36,30 +36,34 @@ def contactus(request):
 
         joscontactmessage.jcm_first_name = request.POST['firstnamefield']
         joscontactmessage.jcm_last_name = request.POST['lastnamefield']
-
         joscontactmessage.jcm_message = request.POST['messagefield']
+
+        sender_address = "Adam S. <adam@joinourstory.com>" # must be google apps admin
+        joscontactmessage.jcm_sender = sender_address
 
         user_email_address = request.POST['emailfield']
         print("joscontactemail:", user_email_address)          ### Logging
 
         try:                                                   # Confimation and email message to send
             validate_email(user_email_address)
-            joscontactmessage.jcnm_email_address = user_email_address
+            joscontactmessage.jcm_email_address = user_email_address
 
-            # sender_address = "Join Our Story <info@joinourstory.com>"
+
             subject = "Your Recent Message"
             body = "Hi {0}, We received your message! We will do our best to respond quickly - hopefully within 24 hours. Thank you, Adam --- Message: {1}".format(
 
                 joscontactmessage.jcm_first_name, joscontactmessage.jcm_message)
 
-            mail.send_mail("adam@joinourstory.com", user_email_address, subject, body)  ### Reformat Body
-            mail.send_mail("adam@joinourstory.com", "adam@joinourstory.com", subject + " " + user_email_address, body)  ### Reformat Body
+            mail.send_mail(sender_address, user_email_address, subject, body)  ### Reformat Body
+            mail.send_mail(sender_address, "info@joinourstory.com", subject + " " + user_email_address, body)  ### Reformat Body
             template_values.update({'return_address': user_email_address,
                                     'return_message_flag': 1,
                                     'return_message': 'Email sent! If a confirmation email does not arrive soon, please try again or find help.'
                                     })
             joscontactmessage.put()
-        except:                                                                         # Validation Fail
+
+        except:                                                  # Validation Fail
+
             template_values.update({'return_address': user_email_address,
                                     'return_message_flag': 1,
                                     'return_message': 'Email failed to send! Please try again or find help.'
