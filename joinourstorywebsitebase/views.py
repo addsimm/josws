@@ -6,7 +6,7 @@ from django.shortcuts import render_to_response, redirect
 from django.core.validators import validate_email
 
 from google.appengine.api import users
-from google.appengine.api import mail
+from google.appengine.api import mail   # --enable_
 
 from joinourstorywebsitebase.models import *
 
@@ -39,7 +39,6 @@ def contactus(request):
         joscontactmessage.jcm_message = request.POST['messagefield']
 
         sender_address = "Adam S. <adam@joinourstory.com>" # must be google apps admin
-        joscontactmessage.jcm_sender = sender_address
 
         user_email_address = request.POST['emailfield']
         print("joscontactemail:", user_email_address)          ### Logging
