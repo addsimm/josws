@@ -7,7 +7,7 @@
 
 <style>
 
-    /* font awesome */
+    /* font awesome
 
     .fa-ul {
         display: block;
@@ -23,7 +23,9 @@
         padding-right: .75em;
     }
 
-    .ulvp > li {
+    */
+
+    li {
         margin-bottom: 30px;
         margin-left: 0;
     }
@@ -32,61 +34,51 @@
         color: white;
         font-family: "lato";
         font-size: 20pt;
-        margin-top: 5px;
         text-align: left;
     }
 
-    .vptextplus {
-        font-size: 36pt;
-    }
 </style>
 
 <!-- Landing Page -->
 
-<div class = "row" style = "background-color: #428BCA; margin-top: 105px;">
+<div class = "row" style = "background-color: #428BCA; margin-top: 55px;">
 
-    <div class="col-xs-6" style = "padding-top: 55px;">
-        <p class = "joswelcome" style = "font-size: 68pt; text-align: center; color: #FFFFFF;">Welcome!</p>
-        <p class = "vptext vptextplus" style="margin-top: 80px;">Join Our Story is:</p>
-        <!-- <p style="font-size: .75em">(Cick on the underlined links to for more info)</p> -->
+    <div class="col-xs-6" style = "padding-top: 55px; padding-left: 15px">
+
+        <p class = "joswelcome" style = "font-size: 52pt; text-align: center; color: #FFFFFF;">Your Time for Prime Time!</p>
+
     </div>
 
-    <div class = "col-xs-6">
+    <div class = "col-xs-6" style = "padding-top: 15px; padding-left: 40px;">
         {% include "components/entercarousel.html" %}
     </div>
 
 </div>
 
 <div class = "row" style = "background-color: #428BCA;">
-    <div class = "col-xs-9">
+    <div class = "col-xs-9" style = "margin-top: -45px; padding: 0 30px;">
 
-        <ul class = "ulvp vptext" style = "margin-top: 50px; margin-bottom: 50px; margin-right: 15px; margin-left: 0;">
+        <ul class = "vptext">
 
-            <li>A scintillating soap opera for you to enjoy regularly.</li>
+            <li>Enjoy a new kind of soap opera.</li>
 
-            <li>An invitation to enter an exciting "storyworld" by developing your own characters and plots.</li>
+            <li>Create your own characters, storylines and scenes to shape the action.</li>
 
-            <li>24 hour access to a simple website where you can make friends and have fun within a supportive community.</li>
-
-            <li>Live events that allow to mingle with cast, crew and fellow members as you learn about show business.</li>
-
-            <li>Engaging ways to challenge yourself and track your progress as you acquire new skills and reach your goals.</li>
-
-            <li>Free of charge for anyone with limited means.</li>
-
+            <li>Share the whole experince with new firends and family as well as the Hollywood professionals that make it happen.</li>
         </ul>
 
     </div>
 
-    <!-- announcements: col-xs-3 col-xs-offset-1 -->
-    <div class = "col-xs-3" style = "background-color: white; margin-top: 55px; border: dotted black 2px; padding: 45px 15px;">
+    <!-- announcements: col-xs-3 -->
+    <div class = "col-xs-3" style = "margin-top: 5px; background-color: white; border: dotted black 2px; padding: 30px 15px;">
         {% include "components/announcements.html" %}
     </div>
-</div>
-
-<div class="row" style = "background-color: #428BCA; padding: 30px 15px;">
-    <div class="col-xs-12">
-        <p class = "vptext vptextplus" style = "text-align: center;">Join Our Story for a happier soul and a healthier mind, today.</p>
+    <div class="col-xs-12" style = "margin-top: 15px;">
+        <p class = "vptext" style = "text-align: center;">Join Our Story keeps you active, sharpens your mind and gets you connected.</p>
+    </div>
+    <div class = "col-xs-5 col-xs-offset-4" style="margin-top: 15px; margin-bottom: 50px;">
+        <button class="btn btn-lg btn-info" href = "#">Watch Latest Episode</button>
+        <button class = "btn btn-lg btn-success" href = "#">Join Today</button>
     </div>
 </div>
 {% endblock %}
