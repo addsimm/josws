@@ -29,44 +29,39 @@
 </head>
 <body>
 
-<<div class = "container-fluid" style = "" id = "entercontainer">
+<div class = "container-fluid" style = "" id = "entercontainer">
 <div class = "row"><!-- Navigation Bar -->
-        <div class = "col-xs-12">
-             <ul class = "nav nav-pills navbar-fixed-top"
-                 style = "font-size: 18px; margin-top: 0; margin-left:18px; background-color: white; border-bottom: dotted black 2px; height: 56px; width:1018px; z-index: 1500;" role = "navigation">
-                 <li style = "background: white; width: 218px;">
-                     <a href = "/index" style = "margin: 0; padding: 0;">
-                        <img src = "static/img/JOS-Logo-April27.png" alt = "JOS Logo"
-                             style = "height: 54px; margin-left:  0; opacity: 0.95;">
-                     </a>
-                 </li>
-                 <li style = "height: 115px; padding-top: 5px;">
-                    <table style = "margin-left: 120px;">
-                    <tr style="vertical-align: middle">
-                        <td style = "color: black; text-align: left; width: 110px;"><span
-                                class = "fa fa-search fa-fw"></span>Text Size:</td>
-                        <td style = "text-align: center;">
-                            <button type = "button" class = "btn btn-default" href = "#"><span class = "fa fa-minus-circle fa-fw"></span> Smaller</button>
-                        </td>
-                        <td style = "text-align: center;">
-                            <button type = "button" class = "btn btn-default btn-lg" href = "#"><span class = "fa fa-plus-circle fa-fw"></span> Bigger</button>
-                        </td>
-                    </tr>
-                    <tr>
-
-                    </tr>
-                    </table>
-                 </li>
-                 <li style = "margin-left: 80px; text-align: center; padding-top: 5px;">
-                     <a style = "color: white; background-color: #5bc0de; width: 115px;" href = "/contactus">Contact</a>
-                 </li>
-                 <li style = "text-align: center; padding-top: 5px;">
-                     <a style = "color: white; background-color: #5CB85C; width: 165px;" href = "#">Member Log In</a><!-- change to name and log out -->
-                 </li>
-
-             </ul>
-        </div>
+    <div class = "col-xs-12">
+        <ul class = "nav nav-pills navbar-fixed-top"
+             style = "font-size: 16px; margin-top: 0; margin-left:17px; background-color: white; height: 56px; width:1018px; z-index: 3;" role = "navigation">
+             <li>
+                 <a href = "/index" style = "margin: 0; padding: 0;">
+                    <img src = "static/img/JOS-Logo-April27.png" alt = "JOS Logo" style = "height: 110px; margin-left:  0; opacity: 0.95;">
+                 </a>
+             </li>
+             <li style = "height: 115px; padding-top: 10px;">
+                <table style = "margin-left: 25px;">
+                <tr style="vertical-align: middle">
+                    <td style = "color: black; text-align: left; width: 90px;"><span
+                            class = "fa fa-search fa-fw"></span>Text Size:</td>
+                    <td style = "text-align: center;">
+                        <button type = "button" class = "btn btn-default btn-sm" href = "#"><span class = "fa fa-minus-circle fa-fw"></span> Smaller</button>
+                    </td>
+                    <td style = "text-align: center;">
+                        <button type = "button" class = "btn btn-default" href = "#"><span class = "fa fa-plus-circle fa-fw"></span> Bigger</button>
+                    </td>
+                </tr>
+                </table>
+             </li>
+             <li style = "margin-left: 60px; text-align: center; padding-top: 5px;">
+                 <a style = "color: white; background-color: #5bc0de; width: 90px;" href = "/contactus">Contact</a>
+             </li>
+             <li style = "text-align: center; padding-top: 5px;">
+                 <a style = "color: white; background-color: #5CB85C; width: 140px;" href = "#">Member Log In</a><!-- change to name and log out -->
+             </li>
+        </ul>
     </div>
+</div>
 
     <!-- Main Screen -->
     {% block body %}{% endblock %}
