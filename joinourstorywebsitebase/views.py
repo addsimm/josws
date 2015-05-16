@@ -3,6 +3,7 @@ from __future__ import print_function
 
 from django.core.context_processors import csrf
 from django.shortcuts import render_to_response, redirect
+from django.template.context import RequestContext
 from django.core.validators import validate_email
 
 from google.appengine.api import users
@@ -13,16 +14,19 @@ from joinourstorywebsitebase.models import *
 
 def index(request):
    template_values = {}
-   template_values.update({'page_name': 'Landing Page'
-                           })
+   current_user = ''  ##### find current user
+   context = RequestContext(request, template_values)
+   context.update({'page_name': 'Landing Page',
+                   'user': current_user
+                   })
 
-   return render_to_response('index.html', template_values)
+   return render_to_response('index.html', context)
 
 
 def contactus(request):
-    template_values = {}
-    template_values.update(csrf(request))
-    template_values.update({'page_name': 'Contact Us',
+    context = {}
+    context.update(csrf(request))
+    context.update({'page_name': 'Contact Us',
                             'return_message_flag': 0,
                             'return_message': ' '
                             })
@@ -55,7 +59,7 @@ def contactus(request):
 
             mail.send_mail(sender_address, user_email_address, subject, body)  ### Reformat Body
             mail.send_mail(sender_address, "info@joinourstory.com", subject + " " + user_email_address, body)  ### Reformat Body
-            template_values.update({'return_address': user_email_address,
+            context.update({'return_address': user_email_address,
                                     'return_message_flag': 1,
                                     'return_message': 'Email sent! If a confirmation email does not arrive soon, please try again or find help.'
                                     })
@@ -63,12 +67,12 @@ def contactus(request):
 
         except:                                                  # Validation Fail
 
-            template_values.update({'return_address': user_email_address,
+            context.update({'return_address': user_email_address,
                                     'return_message_flag': 1,
                                     'return_message': 'Email failed to send! Please try again or find help.'
                                     })
 
-        return render_to_response('contactmessageresponse.html', template_values)
+        return render_to_response('contactmessageresponse.html', context)
 
 
     return render_to_response('contactus.html', template_values)
