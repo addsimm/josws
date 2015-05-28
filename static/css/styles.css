@@ -1233,10 +1233,10 @@ select[multiple].form-group-lg .form-control {
 .has-success.checkbox label,
 .has-success.radio-inline label,
 .has-success.checkbox-inline label {
-  color: #3c763d;
+  color: #5cb85c;
 }
 .has-success .form-control {
-  border-color: #3c763d;
+  border-color: #5cb85c;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) 3px 5px rgba(0, 0, 0, 0.5);
@@ -1244,20 +1244,20 @@ select[multiple].form-group-lg .form-control {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) 3px 5px rgba(0, 0, 0, 0.5);
 }
 .has-success .form-control:focus {
-  border-color: #2b542c;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168 3px 5px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168 3px 5px rgba(0, 0, 0, 0.5);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168 3px 5px rgba(0, 0, 0, 0.5);
+  border-color: #449d44;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #a3d7a3;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #a3d7a3;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #a3d7a3 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #a3d7a3 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #a3d7a3 3px 5px rgba(0, 0, 0, 0.5);
 }
 .has-success .input-group-addon {
-  color: #3c763d;
-  border-color: #3c763d;
+  color: #5cb85c;
+  border-color: #5cb85c;
   background-color: #dff0d8;
 }
 .has-success .form-control-feedback {
-  color: #3c763d;
+  color: #5cb85c;
 }
 .has-warning .help-block,
 .has-warning .control-label,
@@ -1305,10 +1305,10 @@ select[multiple].form-group-lg .form-control {
 .has-error.checkbox label,
 .has-error.radio-inline label,
 .has-error.checkbox-inline label {
-  color: #a94442;
+  color: #d9534f;
 }
 .has-error .form-control {
-  border-color: #a94442;
+  border-color: #d9534f;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) 3px 5px rgba(0, 0, 0, 0.5);
@@ -1316,20 +1316,20 @@ select[multiple].form-group-lg .form-control {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) 3px 5px rgba(0, 0, 0, 0.5);
 }
 .has-error .form-control:focus {
-  border-color: #843534;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483 3px 5px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483 3px 5px rgba(0, 0, 0, 0.5);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483 3px 5px rgba(0, 0, 0, 0.5);
+  border-color: #c9302c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #eba5a3;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #eba5a3;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #eba5a3 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #eba5a3 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #eba5a3 3px 5px rgba(0, 0, 0, 0.5);
 }
 .has-error .input-group-addon {
-  color: #a94442;
-  border-color: #a94442;
+  color: #d9534f;
+  border-color: #d9534f;
   background-color: #f2dede;
 }
 .has-error .form-control-feedback {
-  color: #a94442;
+  color: #d9534f;
 }
 .has-feedback label ~ .form-control-feedback {
   top: 25px;
@@ -2867,9 +2867,43 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   clip: rect(0, 0, 0, 0);
   pointer-events: none;
 }
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.25s linear;
+  -o-transition: opacity 0.25s linear;
+  transition: opacity 0.25s linear;
+}
+.fade.in {
+  opacity: 1;
+}
+.collapse {
+  display: none;
+  visibility: hidden;
+}
+.collapse.in {
+  display: block;
+  visibility: visible;
+}
+tr.collapse.in {
+  display: table-row;
+}
+tbody.collapse.in {
+  display: table-row-group;
+}
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition-property: height, visibility;
+  transition-property: height, visibility;
+  -webkit-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
 /* Turned Off
 @import "panels.less";
-@import "component-animations.less";
+
 @import "input-groups.less";
 @import "breadcrumbs.less";
 @import "pagination.less";
@@ -2893,19 +2927,15 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   display: none;
   overflow: hidden;
   position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  top: 90px;
+  width: 1018px;
+  bottom: 95px;
+  left: 18px;
   z-index: 1040;
   -webkit-overflow-scrolling: touch;
   outline: 0;
 }
 .modal.fade .modal-dialog {
-  -webkit-transform: translate(0, -25%);
-  -ms-transform: translate(0, -25%);
-  -o-transform: translate(0, -25%);
-  transform: translate(0, -25%);
   -webkit-transition: -webkit-transform 0.3s ease-out;
   -moz-transition: -moz-transform 0.3s ease-out;
   -o-transition: -o-transform 0.3s ease-out;
@@ -2919,24 +2949,18 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 .modal-open .modal {
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: hidden;
 }
 .modal-dialog {
   position: relative;
   width: auto;
   margin: 10px;
+  overflow-y: scroll;
 }
 .modal-content {
   position: relative;
   background-color: #ffffff;
-  border: 1px solid #999999;
-  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 6px;
-  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5) 3px 5px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5) 3px 5px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5) 3px 5px rgba(0, 0, 0, 0.5);
   background-clip: padding-box;
   outline: 0;
 }
@@ -2945,7 +2969,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   top: 0;
   right: 0;
   left: 0;
-  background-color: #000000;
+  background-color: white;
 }
 .modal-backdrop.fade {
   opacity: 0;
@@ -2956,8 +2980,6 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   filter: alpha(opacity=50);
 }
 .modal-header {
-  padding: 15px;
-  border-bottom: 1px solid #e5e5e5;
   min-height: 16.42857143px;
 }
 .modal-header .close {
@@ -2974,7 +2996,6 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .modal-footer {
   padding: 15px;
   text-align: right;
-  border-top: 1px solid #e5e5e5;
 }
 .modal-footer .btn + .btn {
   margin-left: 5px;
@@ -2997,13 +3018,6 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   .modal-dialog {
     width: 600px;
     margin: 30px auto;
-  }
-  .modal-content {
-    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5) 3px 5px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5) 3px 5px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5) 3px 5px rgba(0, 0, 0, 0.5);
   }
   .modal-sm {
     width: 300px;
@@ -3317,7 +3331,6 @@ p {
 .joswelcome {
   font-family: "Great Vibes";
   font-size: 3em;
-  line-height: 60px;
   margin: 50px 0 10px;
 }
 .josheading {
@@ -3452,8 +3465,8 @@ p {
   border: solid #5cb85c 3px;
   height: 40px;
   width: 75px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 14px;
 }
 .josbuttonsmallred {
@@ -3480,8 +3493,8 @@ p {
   box-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.5);
   height: 40px;
   width: 75px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 14px;
   border: solid #5cb85c 3px;
   background: #d9534f;

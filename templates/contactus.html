@@ -9,20 +9,25 @@
 <link rel = "stylesheet" href = "static/formvalidation/formvalidation.css">
 
 <!-- Page -->
-<div class = "row" style = "margin-top: 100px;">
+<div class = "row" style = "margin-top: 55px;">
 
-<!--Instructions -->
-<div class = "col-xs-10 col-xs-offset-1">
-    <p class = "joswelcome" style = "margin-bottom: 30px; text-align: center;">Contact Us</p>
-    <p class="jossubheading">Instructions:</p>
-    <p class = "josbody">Please type into each box, then press "review and send."<br>
-                         As you type, the computer provides feedback:<br>
-                         &nbsp&nbsp&nbsp&nbsp&nbsp<span class = "fa fa-remove fa-fw" style = "color: #a94442;"></span>&nbsp&nbspmeans: read the <span style = "color: #a94442;">red message</span> and makes changes.<br>
-                         &nbsp&nbsp&nbsp&nbsp&nbsp<span class="fa fa-check fa-fw" style="color: #3c763d"></span>&nbsp&nbspmeans: the computer thinks the box is filled correctly.</p>
+    <!--Instructions -->
+    <div class = "col-xs-10 col-xs-offset-1">
+        <p class = "joswelcome" style = "margin-bottom: 30px; text-align: center;">Contact Us</p>
+        <p id = "contactforminstructions" class="josheading">Instructions:</p>
+        <div id = "contactformsubinstruct" class = "jossubheading">
+            <p>Please type into each box, when done press "Review and Send"</p>
+            <p>As you type, the computer provides feedback:</p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp<span class = "fa fa-remove fa-fw" style = "color: #d9534f;"></span>&nbsp&nbspmeans: read the <span style = "color: #d9534f;">red message</span> and makes changes.</p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp<span class="fa fa-check fa-fw" style="color: #5CB85C;"></span>&nbsp&nbspmeans: the computer thinks the box is filled correctly.</p>
+        </div>
+    </div>
+</div>
 
 <!-- Contact Form -->
-<form id="contactForm">
-    <div class = "row" style = "margin-top: 45px;">
+<form id="contactForm" action="#" method="post">
+    {% csrf_token %}
+    <div class = "row" style = "margin-top: 30px;">
         <div class = "col-xs-4 col-xs-offset-1">
             <div class = "form-group">
                 <label for = "firstnamefield">First Name:</label>
@@ -51,97 +56,228 @@
             </div>
         </div>
     </div>
-    <div class = "row" style = "margin-top: 30px;">
-        <div class = "col-xs-9 col-xs-offset-1">
+    <div class = "row" style = "margin-top: 30px; margin-bottom: 30px;">
+        <div class = "col-xs-10 col-xs-offset-1">
             <button type = "submit" class = "btn btn-success btn-lg pull-right" id="reviewandsendbutton">Review and Send</button>
         </div>
     </div>
 
 </form>
-</div>
-</div>
+
+<!-- Modal -->
+<div class = "modal fade" id = "reviewmodal" role = "dialog" aria-labelledby = "review message" aria-hidden = "true" style="background-color: transparent;">
+    <div class = "modal-dialog" style = "height: 100%; width: 1024px; background-color: white;">
+        <div class = "modal-content" style = "background-color: white; width: 100%;">
+            <div class="row">
+                <div class = "col-xs-9 col-xs-offset-1">
+                    <p class = "joswelcome" style = "margin-bottom: 30px; text-align: center;">Review Message</p>
+                    <p class = "josheading">Please Review Your Message:</p>
+                    <p class = "jossubheading">&nbsp&nbsp&nbsp&nbsp&nbspIf it looks right, press "Send"</p>
+                    <p class = "jossubheading">&nbsp&nbsp&nbsp&nbsp&nbspTo make changes, press "Go Back and Edit"
+                    </p>
+                </div>
+            </div>
 
 
-<style>
+            <div class = "row" style="margin-top: 30px;">
+                 <div class = "col-xs-9 col-xs-offset-1" style="padding: 50px 0; border: solid black 3px;">
+                     <div class="row">
+                         <div class="col-xs-3 col-xs-offset-1">
+                             First Name:
+                         </div>
+                         <div class="col-xs-8">
+                             <div id="reviewfirstname">x</div>
+                         </div>
+                     </div>
+                     <div class = "row">
+                         <div class = "col-xs-3 col-xs-offset-1">
+                             Last Name:
+                         </div>
+                         <div class = "col-xs-8">
+                             <div id = "reviewlastname">x</div>
+                         </div>
+                     </div>
+                     <div class = "row">
+                         <div class = "col-xs-3 col-xs-offset-1">
+                             Email:
+                         </div>
+                         <div class = "col-xs-3">
+                             <div id = "reviewemail">x</div>
+                         </div>
+                     </div>
+                     <div class = "row">
+                         <div class = "col-xs-3 col-xs-offset-1">
+                             Message:
+                         </div>
+                         <div class = "col-xs-8">
+                             <div id = "reviewmessage">x</div>
+                         </div>
+                     </div>
+                 </div>
+            </div>
 
-.vam {
-    margin-top: 12px;
-}
+            <div class = "row" style = "margin-top: 50px;">
+                <div class = "col-xs-4 col-xs-offset-8">
+                    <button id = "buttonmodalgobackandedit" class = "btn btn-info btn-lg btninreviewmodal" type = "button">Go Back and Edit</button>
+                    <button id = "buttonmodalsend" type = "button" class = "btn btn-success btn-lg btninreviewmodal" type = "button" >Send</button>
+                </div>
+            </div>
 
-</style>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<style>.vam {margin-top: 13px;}</style>
 
 <!-- Form Validation Scripts -->
 <script src = "static/formvalidation/formvalidation.min.js"></script>
 <script src = "static/formvalidation/bootstrap.min.js"></script>
 
-
-<!-- Scripts-->
 <!-- mailgun: email is valid without dot -->
 
 <script type = "text/javascript">
 
 $(document).ready(function () {
-$('#contactForm')
-        .formValidation({  // validating Bootstrap form
-            framework: 'bootstrap',
+    $('#contactForm')
+            .formValidation({  // validating Bootstrap form
+                framework: 'bootstrap',
 
-            // Feedback icons
-            icon: {
-                valid: 'fa fa-check vam',
-                invalid: 'fa fa-remove vam',
-                validating: 'fa fa-gear vam'
-            },
+                // Feedback icons
+                icon: {
+                    valid: 'fa fa-check vam',
+                    invalid: 'fa fa-remove vam',
+                    validating: 'fa fa-gear vam'
+                },
 
-            // List of fields and their validation rules
-            fields: {
-                firstnamefield: {
-                    validators: {
-                        notEmpty: {
-                            message: 'First Name cannot be empty'
+                // List of fields and their validation rules
+                fields: {
+                    firstnamefield: {
+                        validators: {
+                            notEmpty: {
+                                message: 'First Name cannot be empty'
+                            }
                         }
-                    }
-                },
-                lastnamefield: {
-                    validators: {
-                        notEmpty: {
-                            message: 'Last Name cannot be empty'
+                    },
+                    lastnamefield: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Last Name cannot be empty'
+                            }
                         }
-                    }
-                },
-                emailfield: {
-                    validators: {
-                        notEmpty: {
-                            message: 'Email Address cannot be empty'
-                        },
-                        emailAddress: {
-                            message: 'Address is not valid yet. Keep typying - toward something like: yourname@gmail.com'
+                    },
+                    emailfield: {
+                        delay: 2000,     // Send Ajax request every 2 seconds
+                        threshold: 7,
+                        verbose: false,
+                        validators: {
+                            notEmpty: {
+                                message: 'Email Address cannot be empty'
+                            },
+                            emailAddress: {
+                                message: 'Address is not valid yet. Please keep typing - toward something like: yourname@gmail.com'
+                            },
+                            remote: {
+                                type: 'GET',
+                                url: 'https://api.mailgun.net/v2/address/validate?callback=?',
+                                crossDomain: true,
+                                name: 'address',
+                                data: {
+                                    // Mailgun account free API key https://mailgun.com/signup
+                                    api_key: 'pubkey-36e487ec6883fa0bef9ad3c44c47ba94'
+                                },
+                                dataType: 'jsonp',
+                                validKey: 'is_valid',
+                                message: 'The computer looked up this email address and could not find it - please double check'
+                            }
                         }
-                    }
-                },
-                messagefield: {
-                    validators: {
-                        notEmpty: {
-                            message: 'Message cannot be empty'
+                    },
+                    messagefield: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Message cannot be empty'
+                            }
                         }
                     }
                 }
-            }
-        })
+            })
 
-        .on('success.form.fv', function (e) {
-            // Prevent form submission
-            e.preventDefault();
+            .on('success.validator.fv', function (e, data) {
+                if (data.field === 'email' && data.validator === 'remote') {
+                    var response = data.result;  // response is the result returned by MailGun API
+                    if (response.did_you_mean) {
+                        // Update the message
+                        data.element                    // The field element
+                                .data('fv.messages')        // The message container
+                                .find('[data-fv-validator="remote"][data-fv-for="email"]')
+                                .html('Did you mean ' + response.did_you_mean + '?')
+                                .show();
+                    }
+                }
+            })
 
-            // Some instances you can use are
-            var $form = $(e.target),        // The form instance
-                fv = $(e.target).data('formValidation'); // FormValidation instance
+            .on('err.validator.fv', function (e, data) {
+                if (data.field === 'email' && data.validator === 'remote') {
+                    // We need to reset the error message
+                    data.element                // The field element
+                            .data('fv.messages')    // The message container
+                            .find('[data-fv-validator="remote"][data-fv-for="email"]')
+                            .html('The computer looked up this email and could not find it; please double check.')
+                            .show();
+                }
+            })
 
-            // Do what you want here ...
-            alert($form.find('[name="emailfield"]').val());
+            .on('success.form.fv', function (e) {
 
-            fv.defaultSubmit();
-        });
+                var $form = $(e.target),                            // Form instance
+                        fv = $(e.target).data('formValidation');    // FormValidation instance
+
+                e.preventDefault();                                 // Prevent form submission
+
+                // Do what you want here ...
+
+                $("#reviewmodal")
+                        .on("show.bs.modal", function () {
+
+                            $("#reviewmodal").modal({                        // wire up modal
+                                "backdrop": "static",
+                                "keyboard": false,
+                                "show": false
+                            });
+
+                            $(".btninreviewmodal").on("click", function (e) {   // wire up buttons
+                                var reviewmodalresponse = e.target.id;
+
+                                $("#reviewmodal").modal('hide');                // dismiss the dialog
+
+                                if (reviewmodalresponse == "buttonmodalsend") {
+                                    fv.defaultSubmit();
+                                }
+                            });
+
+
+                            $('#reviewfirstname').html($form.find('[name="firstnamefield"]').val());
+                            $('#reviewlastname').html($form.find('[name="lastnamefield"]').val());
+                            $('#reviewemail').html($form.find('[name="emailfield"]').val());
+                            $('#reviewmessage').html($form.find('[name="messagefield"]').val());
+                        })
+
+                        .on("shown.bs.modal", function () {
+                            $('#contactforminstructions')
+                                    .html("Please make changes, then press 'Review and Send'");
+                            $('#contactformsubinstruct').html('<p></p>');
+                        })
+
+                        .on("hidden.bs.modal", function () {
+                            $("#reviewmodal").destroy();
+                        })
+
+                        .modal('show')
+            })
 });
+
+
+
 
 
 </script>

@@ -1,0 +1,31 @@
+
+
+{% extends "base/base.html" %}
+
+{% block body %}
+
+<!-- contactmessageresponse.html -->
+
+<!-- Page -->
+<div class = "row" style = "margin-top: 55px;">
+
+    <!--Instructions -->
+    <div class = "col-xs-10 col-xs-offset-1">
+        <p class = "joswelcome" style = "margin-bottom: 30px; text-align: center;">Contact Message Response</p>
+        <p class="josheading">Please review the computer's response, then press "OK" to return to the home page.</p>
+        <div class="row" style="margin: 30px;">
+            <div class = "jossubheading">
+                <p>The computer tried to send an email to: <span style="color: orange;">{{ return_address }}</span></p>
+                <p class="josheading">Status:</p>
+                <p>{{ return_message }}</p>
+
+            </div>
+        </div>
+        <form action = index.html">
+            <input type = "submit" class = "btn btn-lg btn-success pull-right" value = "OK">
+        </form>
+    </div>
+</div>
+
+
+{% endblock %}

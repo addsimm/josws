@@ -11,12 +11,14 @@
     </facet>
     <facet type="google-appengine-python" name="Google App Engine (Python)">
       <configuration>
-        <option name="rootFolder" value="$USER_HOME$/PycharmProjects/josws" />
+        <option name="rootFolder" value="$MODULE_DIR$" />
         <option name="sdkFolder" value="/Applications/GoogleAppEngineLauncher.app/Contents/Resources/GoogleAppEngine-default.bundle/Contents/Resources/google_appengine" />
         <option name="templatesFolder" value="" />
         <option name="email" value="adam@joinourstory.com" />
         <option name="gp" value="dfeedfc5dfcddfdddfcbdfc6dfc1dfd0df9bdf98df94" />
         <option name="oauth2" value="false" />
+        <option name="deployConfigured" value="false" />
+        <option name="saveCredentials" value="true" />
       </configuration>
     </facet>
   </component>
@@ -27,7 +29,7 @@
       <sourceFolder url="file://$MODULE_DIR$/joinourstorywebsitebase" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/templates" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 2.7.6 virtualenv at ~/Pycharm Projects/josws/joswsvirtualenviroment" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 2.7.8 virtualenv at ~/.virtualenvs/Empty" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Google App Engine SDK" level="project" />
   </component>

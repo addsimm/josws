@@ -2,340 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32fb5f34-0bd9-4253-8848-e4f98de1ed6d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bootbox.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/.Python" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/bin/activate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/bin/activate.csh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/bin/activate.fish" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/bin/activate_this.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/bin/easy_install" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/bin/easy_install-2.7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/bin/pip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/bin/pip2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/bin/pip2.7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/bin/python" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/bin/python2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/bin/python2.7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/include/python2.7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/UserDict.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/_abcoll.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/_weakrefset.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/abc.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/codecs.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/copy_reg.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/distutils/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/distutils/distutils.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/encodings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/fnmatch.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/genericpath.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/lib-dynload" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/linecache.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/locale.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/no-global-site-packages.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/ntpath.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/orig-prefix.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/os.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/posixpath.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/re.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/_markerlib/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/_markerlib/markers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/easy_install.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip-1.5.6.dist-info/DESCRIPTION.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip-1.5.6.dist-info/METADATA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip-1.5.6.dist-info/RECORD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip-1.5.6.dist-info/WHEEL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip-1.5.6.dist-info/entry_points.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip-1.5.6.dist-info/metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip-1.5.6.dist-info/top_level.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/__main__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/_markerlib/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/_markerlib/markers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/colorama/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/colorama/ansi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/colorama/ansitowin32.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/colorama/initialise.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/colorama/win32.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/colorama/winterm.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/distlib/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/misc.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/shutil.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/sysconfig.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/sysconfig.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/tarfile.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/distlib/compat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/distlib/database.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/distlib/index.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/distlib/locators.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/distlib/manifest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/distlib/markers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/distlib/metadata.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/distlib/resources.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/distlib/scripts.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/distlib/t32.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/distlib/t64.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/distlib/util.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/distlib/version.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/distlib/w32.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/distlib/w64.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/distlib/wheel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/_base.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/alphabeticalattributes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/inject_meta_charset.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/lint.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/optionaltags.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/sanitizer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/whitespace.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/html5parser.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/ihatexml.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/inputstream.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/sanitizer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/serializer/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/serializer/htmlserializer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/tokenizer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/treeadapters/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/treeadapters/sax.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/_base.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/dom.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/etree.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/etree_lxml.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/_base.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/dom.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/etree.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/genshistream.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/lxmletree.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/pulldom.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/trie/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/trie/_base.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/trie/datrie.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/trie/py.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/html5lib/utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/pkg_resources.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/re-vendor.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/adapters.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/api.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/auth.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/cacert.pem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/certs.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/compat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/cookies.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/hooks.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/big5freq.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/big5prober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/chardetect.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/chardistribution.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/charsetgroupprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/charsetprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/codingstatemachine.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/compat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/constants.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/cp949prober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/escprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/escsm.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/eucjpprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/euckrfreq.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/euckrprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/euctwfreq.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/euctwprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/gb2312freq.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/gb2312prober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/hebrewprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/jisfreq.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/jpcntx.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/langbulgarianmodel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/langcyrillicmodel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/langgreekmodel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/langhebrewmodel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/langhungarianmodel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/langthaimodel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/latin1prober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/mbcharsetprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/mbcsgroupprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/mbcssm.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/sbcharsetprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/sbcsgroupprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/sjisprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/universaldetector.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/utf8prober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/_collections.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/connection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/connectionpool.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/contrib/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/contrib/ntlmpool.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/contrib/pyopenssl.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/fields.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/filepost.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/packages/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/packages/ordered_dict.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/packages/six.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/packages/ssl_match_hostname/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/packages/ssl_match_hostname/_implementation.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/poolmanager.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/request.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/response.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/connection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/request.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/response.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/timeout.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/url.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/sessions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/status_codes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/structures.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/requests/utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/_vendor/six.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/backwardcompat/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/basecommand.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/baseparser.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/cmdoptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/commands/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/commands/bundle.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/commands/completion.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/commands/freeze.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/commands/help.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/commands/install.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/commands/list.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/commands/search.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/commands/show.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/commands/uninstall.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/commands/unzip.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/commands/wheel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/commands/zip.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/download.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/index.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/locations.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/log.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/pep425tags.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/req.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/runner.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/status_codes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/util.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/vcs/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/vcs/bazaar.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/vcs/git.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/vcs/mercurial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/vcs/subversion.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pip/wheel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/pkg_resources.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools-3.6.dist-info/DESCRIPTION.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools-3.6.dist-info/METADATA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools-3.6.dist-info/RECORD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools-3.6.dist-info/WHEEL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools-3.6.dist-info/dependency_links.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools-3.6.dist-info/entry_points.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools-3.6.dist-info/pydist.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools-3.6.dist-info/requires.txt.orig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools-3.6.dist-info/top_level.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools-3.6.dist-info/zip-safe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/archive_util.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/cli-32.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/cli-64.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/cli-arm-32.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/cli.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/command/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/command/alias.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/command/bdist_egg.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/command/bdist_rpm.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/command/bdist_wininst.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/command/build_ext.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/command/build_py.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/command/develop.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/command/easy_install.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/command/egg_info.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/command/install.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/command/install_egg_info.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/command/install_lib.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/command/install_scripts.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/command/launcher manifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/command/register.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/command/rotate.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/command/saveopts.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/command/sdist.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/command/setopt.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/command/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/command/upload_docs.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/compat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/depends.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/dist.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/extension.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/gui-32.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/gui-64.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/gui-arm-32.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/gui.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/lib2to3_ex.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/package_index.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/py26compat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/py27compat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/py31compat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/sandbox.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/script template (dev).py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/script template.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/site-patch.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/ssl_support.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/svn_utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/tests/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/tests/doctest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/tests/environment.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/tests/py26compat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/tests/script-with-bom.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/tests/server.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/tests/test_bdist_egg.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/tests/test_build_ext.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/tests/test_develop.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/tests/test_dist_info.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/tests/test_easy_install.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/tests/test_egg_info.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/tests/test_find_packages.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/tests/test_markerlib.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/tests/test_packageindex.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/tests/test_resources.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/tests/test_sandbox.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/tests/test_sdist.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/tests/test_svn.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/tests/test_test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/tests/test_upload_docs.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site-packages/setuptools/version.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/site.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/sre.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/sre_compile.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/sre_constants.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/sre_parse.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/stat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/types.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/joswsvirtualenviroment/lib/python2.7/warnings.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.yaml" afterPath="$PROJECT_DIR$/app.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base/base.html" afterPath="$PROJECT_DIR$/templates/base/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/bootstrap.less" afterPath="$PROJECT_DIR$/src/less/bootstrap.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit" afterPath="$PROJECT_DIR$/config.codekit" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/contactus.html" afterPath="$PROJECT_DIR$/templates/contactus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/components/entercarousel.html" afterPath="$PROJECT_DIR$/templates/components/entercarousel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine_config.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Google_App_Engine_SDK.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Google_App_Engine_SDK.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/joinourstorywebsite.iml" afterPath="$PROJECT_DIR$/.idea/joinourstorywebsite.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/mixins.less" afterPath="$PROJECT_DIR$/src/less/mixins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base/scripts.html" afterPath="$PROJECT_DIR$/templates/base/scripts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/styles.css" afterPath="$PROJECT_DIR$/static/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/styles.less" afterPath="$PROJECT_DIR$/src/less/styles.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/css/theme.css" afterPath="$PROJECT_DIR$/src/less/css/theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/joinourstorywebsite/urls.py" afterPath="$PROJECT_DIR$/joinourstorywebsite/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/joinourstorywebsitebase/views.py" afterPath="$PROJECT_DIR$/joinourstorywebsitebase/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="joinourstorywebsite.iws" />
@@ -350,13 +21,10 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/joinourstorywebsite$Josws.coverage" NAME="Josws Coverage Results" MODIFIED="1427660190639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/joinourstorywebsite$Josws.coverage" NAME="Josws Coverage Results" MODIFIED="1432619397953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -367,101 +35,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="contactus.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/contactus.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.692308" vertical-offset="908" max-vertical-offset="3698">
-              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.yaml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.544" vertical-offset="0" max-vertical-offset="1527">
-              <caret line="32" column="29" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/formvalidation/bootstrap.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1835">
-              <caret line="9" column="1830" selection-start-line="9" selection-start-column="172" selection-end-line="9" selection-end-column="175" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mixins.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/less/mixins.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="1707">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.037037" vertical-offset="48754" max-vertical-offset="60441">
-              <caret line="2887" column="2" selection-start-line="2888" selection-start-column="1" selection-end-line="2888" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/less/styles.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="3339">
-              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scripts.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base/scripts.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.538462" vertical-offset="0" max-vertical-offset="1605">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769" vertical-offset="119" max-vertical-offset="2269">
-              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="entercarousel.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/components/entercarousel.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.0" vertical-offset="816" max-vertical-offset="2387">
-              <caret line="74" column="29" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.384615" vertical-offset="969" max-vertical-offset="2574">
-              <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appengine_config.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/appengine_config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.093818985">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -482,27 +70,43 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/static/formvalidation/formvalidation.css" />
-        <option value="$PROJECT_DIR$/src/less/bootstrap.less" />
-        <option value="$PROJECT_DIR$/joinourstorywebsite/urls.py" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/templates/components/entercarousel.html" />
-        <option value="$PROJECT_DIR$/src/less/styles.less" />
         <option value="$PROJECT_DIR$/src/less/mixins.less" />
-        <option value="$PROJECT_DIR$/templates/base/base.html" />
+        <option value="$PROJECT_DIR$/app.yaml" />
+        <option value="$PROJECT_DIR$/src/less/bootstrap/component-animations.less" />
+        <option value="$PROJECT_DIR$/src/less/bootstrap.less" />
+        <option value="$PROJECT_DIR$/src/less/bootstrap/modals.less" />
+        <option value="$PROJECT_DIR$/static/formvalidation/formvalidation.min.js" />
+        <option value="$PROJECT_DIR$/src/less/variables.less" />
+        <option value="$PROJECT_DIR$/static/css/styles.css" />
+        <option value="$PROJECT_DIR$/src/less/bootstrap/progress-bars.less" />
+        <option value="$PROJECT_DIR$/src/less/styles.less" />
+        <option value="$PROJECT_DIR$/joswebbase/main.py" />
         <option value="$PROJECT_DIR$/templates/base/scripts.html" />
         <option value="$PROJECT_DIR$/templates/contactus.html" />
-        <option value="$PROJECT_DIR$/app.yaml" />
+        <option value="$PROJECT_DIR$/templates/contactmessageresponse.html" />
+        <option value="$PROJECT_DIR$/templates/components/announcements.html" />
+        <option value="$PROJECT_DIR$/templates/base/base.html" />
+        <option value="$PROJECT_DIR$/templates/components/entercarousel.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/joinourstorywebsite/settings.py" />
+        <option value="$PROJECT_DIR$/joinourstorywebsitebase/views.py" />
+        <option value="$PROJECT_DIR$/joinourstorywebsite/urls.py" />
+        <option value="$PROJECT_DIR$/appengine_config.py" />
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="909" />
-    <option name="y" value="23" />
-    <option name="width" value="1021" />
-    <option name="height" value="1320" />
+    <option name="x" value="1172" />
+    <option name="y" value="212" />
+    <option name="width" value="1117" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -530,6 +134,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -545,56 +151,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="josws" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joinourstorywebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="josws" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joinourstorywebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="josws" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joinourstorywebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="josws" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -628,30 +184,30 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="FullScreen" value="false" />
-  </component>
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <console-settings />
-    </option>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/img" />
       <recent name="$PROJECT_DIR$/static/js" />
       <recent name="$PROJECT_DIR$/static/bootstrap" />
       <recent name="$PROJECT_DIR$/static/bootbox" />
       <recent name="$PROJECT_DIR$/src/less/bootstrap" />
-      <recent name="$PROJECT_DIR$/static" />
     </key>
   </component>
   <component name="RunManager" selected="App Engine server.Josws">
@@ -675,32 +231,10 @@
       <option name="OPTIONS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="joinourstorywebsite" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -711,15 +245,21 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="joinourstorywebsite" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="joinourstorywebsite" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="Python.AppEngineServer" factoryName="App Engine server">
@@ -757,7 +297,75 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="joinourstorywebsite" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="joinourstorywebsite" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="joinourstorywebsite" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -783,21 +391,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="joinourstorywebsite" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
+    <configuration default="true" type="tests" factoryName="py.test">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -815,56 +409,18 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <pass-parent-envs>true</pass-parent-envs>
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="joinourstorywebsite" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Attests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="joinourstorywebsite" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="Josws" type="Python.AppEngineServer" factoryName="App Engine server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
-      <option name="SDK_HOME" value="$USER_HOME$/.virtualenvs/joswebbase_ve/bin/python" />
+      <option name="SDK_HOME" value="$USER_HOME$/.virtualenvs/Empty/bin/python" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -894,31 +450,141 @@
       <option name="number" value="Default" />
       <updated>1427386700689</updated>
     </task>
+    <task id="LOCAL-00001" summary="&#10;Set up to program contact form verify with bootbox">
+      <created>1427660228327</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1427660228327</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&#10;Set up to program modal in bootstrap">
+      <created>1427733693281</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1427733693281</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&#10;Remade landing text.&#10;&#10;Set up to program modal in bootstrap">
+      <created>1427864470385</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1427864470385</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&#10;Finished landing text.&#10;&#10;Set up to program modal in bootstrap">
+      <created>1427903899606</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1427903899606</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&#10;Finished review modal in bootstrap; now need to do submit post and emails.">
+      <created>1428554779690</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1428554779690</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&#10;Now need to do submit post and emails.">
+      <created>1428597543653</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1428597543653</updated>
+    </task>
+    <task id="LOCAL-00007" summary="&#10;Did submit; now need success message and emails.">
+      <created>1428856870343</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1428856870343</updated>
+    </task>
+    <task id="LOCAL-00008" summary="&#10;Did contact us submit; contact us email roughed out.">
+      <created>1428863987813</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1428863987813</updated>
+    </task>
+    <task id="LOCAL-00009" summary="&#10;Contact us response finished; upgrade validation to mailgun.">
+      <created>1429545828531</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1429545828531</updated>
+    </task>
+    <task id="LOCAL-00010" summary="&#10;Contact us response finished; upgrade validation to mailgun.">
+      <created>1429553921046</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1429553921046</updated>
+    </task>
+    <task id="LOCAL-00011" summary="&#10;Mailgun validator added">
+      <created>1429579544998</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1429579544998</updated>
+    </task>
+    <task id="LOCAL-00012" summary="&#10;deleted odd folder with other app.yaml">
+      <created>1429754503637</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1429754503637</updated>
+    </task>
+    <task id="LOCAL-00013" summary="&#10;took out bootbox">
+      <created>1429760396251</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1429760396251</updated>
+    </task>
+    <task id="LOCAL-00014" summary="rearranged landing page and changed copy">
+      <created>1430072700973</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1430072700973</updated>
+    </task>
+    <task id="LOCAL-00015" summary="rearranged landing page and changed copy">
+      <created>1430073331800</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1430073331800</updated>
+    </task>
+    <task id="LOCAL-00016" summary="minor changes">
+      <created>1430110130422</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1430110130422</updated>
+    </task>
+    <task id="LOCAL-00017" summary="minor changes">
+      <created>1430156902498</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1430156902498</updated>
+    </task>
+    <task id="LOCAL-00018" summary="start of python social auth - set up virtual env and packages">
+      <created>1431805099645</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1431805099645</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="909" y="23" width="1021" height="1320" extended-state="0" />
+    <frame x="1172" y="212" width="1117" height="1052" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="2957" y="1120" width="459" height="233" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32724252" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20531154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22232558" sideWeight="0.49586776" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14475873" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17878787" sideWeight="0.5041322" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13285273" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32828283" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="2957" y="1120" width="459" height="233" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3254377" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10492505" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -935,390 +601,378 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
+    <MESSAGE value="&#10;Set up to program contact form verify with bootbox" />
+    <MESSAGE value="&#10;Set up to program modal in bootstrap" />
+    <MESSAGE value="&#10;Remade landing text.&#10;&#10;Set up to program modal in bootstrap" />
+    <MESSAGE value="&#10;Finished landing text.&#10;&#10;Set up to program modal in bootstrap" />
+    <MESSAGE value="&#10;Finished review modal in bootstrap; now need to do submit post and emails." />
+    <MESSAGE value="&#10;Now need to do submit post and emails." />
+    <MESSAGE value="&#10;Did submit; now need success message and emails." />
+    <MESSAGE value="&#10;Did contact us submit; contact us email roughed out." />
+    <MESSAGE value="&#10;Contact us response finished; upgrade validation to mailgun." />
+    <MESSAGE value="&#10;Mailgun validator added" />
+    <MESSAGE value="&#10;deleted odd folder with other app.yaml" />
+    <MESSAGE value="&#10;took out bootbox" />
+    <MESSAGE value="rearranged landing page and changed copy" />
+    <MESSAGE value="minor changes" />
+    <MESSAGE value="start of python social auth - set up virtual env and packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="start of python social auth - set up virtual env and packages" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/contactus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1190" max-vertical-offset="1683">
-          <caret line="70" column="24" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/contactus.html">
+    <entry file="file://$PROJECT_DIR$/appengine_config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="1666">
-          <caret line="47" column="75" selection-start-line="47" selection-start-column="64" selection-end-line="47" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/components/announcements.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/bootstrap/forms.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6154" max-vertical-offset="9316">
-          <caret line="362" column="28" selection-start-line="362" selection-start-column="28" selection-end-line="362" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/variables.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="8279" max-vertical-offset="14586">
-          <caret line="487" column="40" selection-start-line="487" selection-start-column="33" selection-end-line="487" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="1666">
-          <caret line="93" column="7" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/contactus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="2159">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/components/entercarousel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1071">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joinourstorywebsite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/formvalidation/formvalidation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1683" max-vertical-offset="2822">
-          <caret line="99" column="5" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="22559" max-vertical-offset="57409">
-          <caret line="1327" column="9" selection-start-line="1327" selection-start-column="9" selection-end-line="1327" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/bootstrap/forms.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6256" max-vertical-offset="9316">
-          <caret line="368" column="65" selection-start-line="368" selection-start-column="47" selection-end-line="368" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/formvalidation/formvalidation.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="238">
-          <caret line="12" column="6031" selection-start-line="12" selection-start-column="6031" selection-end-line="12" selection-end-column="6031" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/formvalidation/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="187">
+        <state vertical-scroll-proportion="0.0">
           <caret line="9" column="175" selection-start-line="9" selection-start-column="172" selection-end-line="9" selection-end-column="175" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="1530">
+        <state vertical-scroll-proportion="0.0">
           <caret line="64" column="52" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/contactus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/components/entercarousel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="885" max-vertical-offset="990">
+        <state vertical-scroll-proportion="0.0">
           <caret line="59" column="3" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base/scripts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1530">
+        <state vertical-scroll-proportion="0.0">
           <caret line="61" column="72" selection-start-line="61" selection-start-column="72" selection-end-line="61" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="1530">
+        <state vertical-scroll-proportion="0.0">
           <caret line="64" column="52" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/contactus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1965">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/components/entercarousel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="885" max-vertical-offset="990">
+        <state vertical-scroll-proportion="0.0">
           <caret line="59" column="3" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base/scripts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1530">
+        <state vertical-scroll-proportion="0.0">
           <caret line="61" column="72" selection-start-line="61" selection-start-column="72" selection-end-line="61" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/components/entercarousel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1003" max-vertical-offset="1054">
+        <state vertical-scroll-proportion="0.0">
           <caret line="59" column="3" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base/scripts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="1666">
+        <state vertical-scroll-proportion="0.0">
           <caret line="61" column="72" selection-start-line="61" selection-start-column="72" selection-end-line="61" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/formvalidation/formvalidation.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="22.195505" vertical-offset="0" max-vertical-offset="23908">
-          <caret line="12" column="6031" selection-start-line="12" selection-start-column="6031" selection-end-line="12" selection-end-column="6031" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/formvalidation/formvalidation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1683" max-vertical-offset="2822">
-          <caret line="99" column="5" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/components/announcements.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1213">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/less/bootstrap/forms.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6154" max-vertical-offset="9316">
+        <state vertical-scroll-proportion="0.0">
           <caret line="362" column="28" selection-start-line="362" selection-start-column="28" selection-end-line="362" selection-end-column="46" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/mixins.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/bootstrap/component-animations.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/bootstrap.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.884615">
+          <caret line="42" column="24" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/bootstrap/modals.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25511304">
+          <caret line="71" column="3" selection-start-line="71" selection-start-column="3" selection-end-line="71" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/formvalidation/formvalidation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.62963">
+          <caret line="143" column="6" selection-start-line="143" selection-start-column="4" selection-end-line="143" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/formvalidation/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="9" column="114" selection-start-line="9" selection-start-column="114" selection-end-line="9" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/formvalidation/formvalidation.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59378237">
+          <caret line="10" column="2191" selection-start-line="10" selection-start-column="2191" selection-end-line="10" selection-end-column="2191" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../learndocfilmnoho/ldfnhmain/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="62" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/less/variables.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="8279" max-vertical-offset="14586">
-          <caret line="487" column="40" selection-start-line="487" selection-start-column="33" selection-end-line="487" selection-end-column="40" />
+        <state vertical-scroll-proportion="-7.423077">
+          <caret line="487" column="33" selection-start-line="487" selection-start-column="33" selection-end-line="487" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1235" column="9" selection-start-line="1235" selection-start-column="9" selection-end-line="1235" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/styles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="119" column="18" selection-start-line="119" selection-start-column="18" selection-end-line="119" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/bootstrap/button-groups.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/bootstrap/progress-bars.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joinourstorywebsite/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/contactus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/contactmessageresponse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/components/entercarousel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/JOS-Logo-April27.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/components/announcements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16684842">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base/scripts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8706468">
+          <caret line="35" column="45" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joinourstorywebsitebase/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6971917">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joinourstorywebsite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="162" column="10" selection-start-line="162" selection-start-column="10" selection-end-line="162" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/joinourstorywebsite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.24" vertical-offset="0" max-vertical-offset="1235">
-          <caret line="18" column="69" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joinourstorywebsitebase/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.041514043">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615" vertical-offset="969" max-vertical-offset="2574">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/components/entercarousel.html">
+    <entry file="file://$PROJECT_DIR$/appengine_config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.0" vertical-offset="816" max-vertical-offset="2387">
-          <caret line="74" column="29" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/bootstrap/modals.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3535">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.037037" vertical-offset="48754" max-vertical-offset="60441">
-          <caret line="2887" column="2" selection-start-line="2888" selection-start-column="1" selection-end-line="2888" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/styles.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="3339">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/bootstrap.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-39.884617" vertical-offset="0" max-vertical-offset="1983">
-          <caret line="61" column="95" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/mixins.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="1707">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/formvalidation/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1835">
-          <caret line="9" column="1830" selection-start-line="9" selection-start-column="172" selection-end-line="9" selection-end-column="175" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769" vertical-offset="119" max-vertical-offset="2269">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base/scripts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.538462" vertical-offset="0" max-vertical-offset="1605">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/contactus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.692308" vertical-offset="908" max-vertical-offset="3698">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.544" vertical-offset="0" max-vertical-offset="1527">
-          <caret line="32" column="29" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.093818985">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
