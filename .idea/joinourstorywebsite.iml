@@ -16,8 +16,8 @@
         <option name="templatesFolder" value="" />
         <option name="email" value="adam@joinourstory.com" />
         <option name="gp" value="dfeedfc5dfcddfdddfcbdfc6dfc1dfd0df9bdf98df94" />
-        <option name="oauth2" value="false" />
-        <option name="deployConfigured" value="false" />
+        <option name="oauth2" value="true" />
+        <option name="deployConfigured" value="true" />
         <option name="saveCredentials" value="true" />
       </configuration>
     </facet>
