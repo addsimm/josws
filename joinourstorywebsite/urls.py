@@ -13,6 +13,6 @@ urlpatterns = patterns('',
                        # Uncomment the next line to enable the admin:
                        # url(r'^admin/', include(admin.site.urls)),
                        url(r'contactus$', 'joinourstorywebsitebase.views.contactus', name='contactus'),
-                       url(r'index', 'joinourstorywebsitebase.views.index', name = 'index'),
-                       url(r'^$', 'joinourstorywebsitebase.views.index', name='index'), ### change!
+                       url(r'index', 'joinourstorywebsitebase.views.tempindex', name = 'tempindex'),
+                       url(r'^$', 'joinourstorywebsitebase.views.tempindex', name='tempindex'), ### change!
                        )

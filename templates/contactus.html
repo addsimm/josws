@@ -1,15 +1,39 @@
 
 
-{% extends "base/base.html" %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "description" content = "Join Our Story Website">
+    <link rel = "icon" href = "static/img/favicon.ico">
 
-{% block body %}
+    <!-- scripts -->
+    {% include "base/scripts.html" %}
 
+    <style>
+
+        .container-fluid {
+            background-color: white;
+            border: solid #000000 2px;
+            float: left;
+            margin-left: 15px;
+            min-height: 400px;
+            padding: 0 15px;
+            width: 1024px;
+        }
+
+    </style>
+
+    <title>JoinOurStory | {{ page_name }}</title>
+</head>
 <!-- contactus.html -->
 
 <link rel = "stylesheet" href = "static/formvalidation/formvalidation.css">
 
 <!-- Page -->
-<div class = "row" style = "margin-top: 55px;">
+<div class = "container-fluid"  id = "contactuscontainer">
+<div class = "row">
 
     <!--Instructions -->
     <div class = "col-xs-10 col-xs-offset-1">
@@ -65,9 +89,9 @@
 </form>
 
 <!-- Modal -->
-<div class = "modal fade" id = "reviewmodal" role = "dialog" aria-labelledby = "review message" aria-hidden = "true" style="background-color: transparent;">
-    <div class = "modal-dialog" style = "height: 100%; width: 1024px; background-color: white;">
-        <div class = "modal-content" style = "background-color: white; width: 100%;">
+<div class = "modal fade" id = "reviewmodal" role = "dialog" aria-labelledby = "review message" aria-hidden = "true" style="margin-top: 0; background-color: transparent;">
+    <div class = "modal-dialog" style = "margin-top: 0; height: 100%; width: 1024px; background-color: white;">
+        <div class = "modal-content" style = "margin-top: 0; background-color: white; width: 100%;">
             <div class="row">
                 <div class = "col-xs-9 col-xs-offset-1">
                     <p class = "joswelcome" style = "margin-bottom: 30px; text-align: center;">Review Message</p>
@@ -127,6 +151,16 @@
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
+<div class = row"><!-- footer -->
+    <div class = "col-xs-8 col-xs-offset-2" style = "font-size: .6em; text-align: center; padding-top: 1%;">
+        <p>
+            Join Our Story is a California Benefit Corporation</br>
+            &copy 2014
+        </p>
+    </div>
+</div>
+</div>
+</body>
 
 <style>.vam {margin-top: 13px;}</style>
 
@@ -276,10 +310,5 @@ $(document).ready(function () {
             })
 });
 
-
-
-
-
 </script>
-
-{% endblock %}
+</html>

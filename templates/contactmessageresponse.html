@@ -1,14 +1,40 @@
 
 
-{% extends "base/base.html" %}
 
-{% block body %}
 
-<!-- contactmessageresponse.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "description" content = "Join Our Story Website">
+    <link rel = "icon" href = "static/img/favicon.ico">
+
+    <!-- scripts -->
+    {% include "base/scripts.html" %}
+
+    <style>
+
+        .container-fluid {
+            background-color: white;
+            border: solid #000000 2px;
+            float: left;
+            margin-left: 15px;
+            min-height: 400px;
+            padding: 0 15px;
+            width: 1024px;
+        }
+
+    </style>
+
+    <title>JoinOurStory | {{ page_name }}</title>
+</head>
+
+<!-- contactusresponse.html -->
 
 <!-- Page -->
-<div class = "row" style = "margin-top: 55px;">
-
+<div class = "container-fluid"  id = "contactusresponsecontainer">
+<div class = "row">
     <!--Instructions -->
     <div class = "col-xs-10 col-xs-offset-1">
         <p class = "joswelcome" style = "margin-bottom: 30px; text-align: center;">Contact Message Response</p>
@@ -28,4 +54,14 @@
 </div>
 
 
-{% endblock %}
+<div class = row"><!-- footer -->
+    <div class = "col-xs-8 col-xs-offset-2" style = "font-size: .6em; text-align: center; padding-top: 1%;">
+        <p>
+            Join Our Story is a California Benefit Corporation</br>
+            &copy 2014
+        </p>
+    </div>
+</div>
+</div>
+</body>
+</html>

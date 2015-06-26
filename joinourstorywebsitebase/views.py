@@ -12,6 +12,16 @@ from google.appengine.api import mail   # --enable_
 from joinourstorywebsitebase.models import *
 
 
+def tempindex(request):
+   template_values = {}
+   current_user = ''  ##### find current user
+   context = RequestContext(request, template_values)
+   context.update({'page_name': 'Landing Page',
+                   'user': current_user
+                   })
+
+   return render_to_response('tempindex.html', context)
+
 def index(request):
    template_values = {}
    current_user = ''  ##### find current user
