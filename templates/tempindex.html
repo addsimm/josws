@@ -9,6 +9,7 @@
 
     <!-- scripts -->
     {% include "base/scripts.html" %}
+    <link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
 
     <style>
 
@@ -17,10 +18,15 @@
             border: solid #000000 2px;
             float: left;
             margin-left: 15px;
-            min-height: 400px;
-            padding: 0 15px;
+            min-height: 680px;
+            padding: 15px 30px;
             width: 1024px;
         }
+
+        #entercontainer {
+            background: url(static/img/LPBack4.png);
+            background-repeat: no-repeat;
+            }
 
     </style>
 
@@ -28,31 +34,27 @@
 </head>
 <body>
 <div class = "container-fluid" id = "entercontainer">
-<div class = "row"><!-- Navigation Bar -->
-    <div class = "col-xs-11">
-        <ul class = "nav nav-pills navbar-fixed-top" style = "margin-top: 30px; margin-left: 17px; padding-left:844px; background-color: white; width:1018px;" role = "navigation">
-            <li>
-                <a style = "font-size: 18pt; color: white; background-color: #5bc0de;" href = "/contactus">Contact Us</a>
-            </li>
-        </ul>
-    </div>
-</div>
 <div class = "row">
-    <div class = "col-xs-11">
-        <img src = "static/img/JOS_logo-Orange-June23.png" alt = "JOS Logo" style = "margin-top: 230px; margin-left:  370px; opacity: 0.95;">
+    <div class = "col-xs-2 col-xs-offset-10">
+        <img src = "static/img/JOS_logo-Orange-June23.png" alt = "JOS Logo" style = "width: 150px;">
     </div>
-</div>
-<div class = row" style="margin-top: 30px;">
-    <div class = "col-xs-8 col-xs-offset-2 jossubheading">
-        <p style = "text-align: center;">Premiering October, 2015</p>
+    <div class="col-xs-3 col-xs-offset-5" style="margin-top: 20px;">
+        <a style="font-size: 3.5em; font-family: 'Abril Fatface'; color: white;" href = "/contactus">
+            <p style="font-size: .25em;">
+                Click to learn about:
+            </p>
+            <p>
+                Hollywood Heights
+            </p>
+        </a>
     </div>
 </div>
 
 
-<div class = row" style="margin-top: 200px;"><!-- footer -->
-    <div class = "col-xs-8 col-xs-offset-2" style = "font-size: .6em; text-align: center;">
+<div class = row style="margin-top: 150px;"><!-- footer -->
+    <div class = "col-xs-2" style = "color: white; font-size: .5em; text-align: center;">
     <p>
-        Join Our Story is a California Benefit Corporation</br>
+        JOS is a Cal Benefit Corp.</br>
         &copy 2014
     </p>
 </div>
