@@ -1,9 +1,12 @@
 # Create your views here.
 from __future__ import print_function
 
-from django.core.context_processors import csrf
 from django.shortcuts import render_to_response, redirect
 from django.template.context import RequestContext
+
+from django.core.context_processors import csrf
+
+
 from django.core.validators import validate_email
 
 from google.appengine.api import users
