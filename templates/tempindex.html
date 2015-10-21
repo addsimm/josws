@@ -13,9 +13,11 @@
 
     <style>
 
-        .container-fluid {
-            background-color: white;
-            border: solid #000000 2px;
+        .entercontainer {
+            background: url(static/img/JOSLandingPageBackground102015.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: solid #000000 1px;
             float: left;
             margin-left: 15px;
             min-height: 720px;
@@ -23,26 +25,37 @@
             width: 960px;
         }
 
-        #entercontainer {
-            background: url(static/img/BGStill480x360.png);
-            background-repeat: no-repeat;
-            background-size: contain;
-            }
-
     </style>
 
     <title>JoinOurStory | {{ page_name }}</title>
 </head>
 <body>
-<div class = "container-fluid" id = "entercontainer">
-<div class = "row" style=" ">
-    <div class = "col-xs-3" style="margin-top: 0;">
-        <img src = "static/img/JOSLogo80px091415.png" alt = "JOS Logo" style = "height: 50px;">
+<div class = "entercontainer">
+    <div class = "row"><!-- Row1: Logo and Button -->
+        <div class="col-xs-3">
+            <img src = "static/img/JOSLogo102015.png" alt = "JOS Logo" style = "height: 80px;">
+        </div>>
+        <div class="col-xs-offset-7 col-xs-2">
+            <button id = "buttonmodalsend"
+                    type = "button"
+                    class = "btn btn-success btn-lg btninreviewmodal"
+                    onclick = "location.href='/contactus'">
+                Join Us!
+            </button>
+        </div>
     </div>
-</div>
-    <div class = "row" style=" ">
-    <div class = "col-xs-3 col-xs-offset-9" style="margin-top: 0;">
-        <button id = "buttonmodalsend" type = "button" class = "btn btn-success btn-lg btninreviewmodal" onclick = "location.href='/contactus'">Contact Us!</button>
+    <div class = "row" style="margin-top: 55px;"><!-- Row2: Hollywood Heights -->
+        <div class="col-xs-12">
+            <p style = "color: white;
+                        font-family: 'Dancing Script', cursive;
+                        font-size: 160px;
+                        font-weight:bold;
+                        line-height: 95%;
+                        text-align: center;
+                        text-shadow: 0 0 2px black, 0 0 12px #fff, 0 0 11px orange, 0 0 17px orange, 0 0 22px orange;">
+                Hollywood<br>Heights
+            </p>
+        </div>
     </div>
 </div>
 
@@ -68,7 +81,5 @@ Featuring:<br>
         &copy 2014
     </p>
 </div> -->
-
-</div>
 </body>
 </html>
