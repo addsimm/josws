@@ -1,0 +1,64 @@
+<!-- landingpage.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "description" content = "Join Our Story Website">
+    <link rel = "icon" href = "static/img/favicon.ico">
+
+    <!-- scripts -->
+    {% include "base/scripts.html" %}
+    <title>JoinOurStory | {{ page_name }}</title>
+    
+    <style>
+
+        .container {
+        	background: url(static/img/JOSLandingPageBackground102015.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: solid #000000 1px;
+            float: left;
+            margin-left: 15px;
+            min-height: 720px;
+            padding: 15px 30px;
+            width: 960px;
+        }
+
+    </style>
+</head>
+
+<div class = "container">
+    <div class = "row"><!-- Row 1 -->
+            <!-- LOGO: <img src = "static/img/JOSLogo102015.png" alt = "JOS Logo" style = "opacity height: 80px;"> -->
+        <div class="col-xs-offset-10 col-xs-2"><!-- Button -->
+            <button id = "buttonmodalsend"
+                    type = "button"
+                    class = "btn btn-success btn-lg"
+                    onclick = "location.href='/index'">
+                Join Us!
+            </button>
+        </div>
+    </div>
+
+
+    <div class = "row" style="margin-top: 135px;"><!-- Row2: Hollywood Heights -->
+        <div class="col-xs-12">
+            <p style = "color: white;
+                        font-family: 'Dancing Script', cursive;
+                        font-size: 144px;
+                        font-weight:bold;
+                        line-height: 95%;
+                        text-align: center;
+                        text-shadow: 0 0 2px black, 0 0 12px #fff, 0 0 11px orange, 0 0 17px orange, 0 0 22px orange;">
+                Hollywood<br>Heights
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class = row"><!-- footer -->
+        {% include "base/footer.html" %}
+</div>
+</body>
+</html>

@@ -1,49 +1,26 @@
 
 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset = "utf-8">
-    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
-    <meta name = "description" content = "Join Our Story Website">
-    <link rel = "icon" href = "static/img/favicon.ico">
-
-    <!-- scripts -->
-    {% include "base/scripts.html" %}
-
-    <style>
-
-        .container {
-            background-color: white;
-            border: solid #000000 2px;
-            float: left;
-            margin-left: 15px;
-            min-height: 720px;
-            padding: 0 15px;
-            width: 960px;
-        }
-
-    </style>
-
-    <title>JoinOurStory | {{ page_name }}</title>
-</head>
 <!-- contactus.html -->
+
+{%  extends "base/base.html"  %}
+
+{% block body %}
 
 <link rel = "stylesheet" href = "static/formvalidation/formvalidation.css">
 
-<!-- Page -->
-<div class = "container"  id = "contactuscontainer">
 <div class = "row">
 
     <!--Instructions -->
     <div class = "col-xs-10 col-xs-offset-1">
-        <p class = "joswelcome" style = "margin-bottom: 30px; text-align: center;">Contact Us</p>
-        <p class = "jossubheading">Fill in the form below to send us a message and sign up for updates about Hollywood Heights and other news from JoinOurStory.</p>
-        <p id = "contactforminstructions" class="josheading">Instructions:</p>
-        <div id = "contactformsubinstruct" class = "jossubheading">
+        <p style = "margin-bottom: 30px; text-align: center;">Contact Us</p>
+        <p>Fill in the form below to send us a message and sign up for updates about Hollywood Heights and other news from JoinOurStory.</p>
+        <p id = "contactforminstructions">Instructions:</p>
+        <div id = "contactformsubinstruct">
             <p>Please type into each box, and then press the green "Review and Send" button below the form.</p>
             <p>As you type, the computer provides feedback:</p>
-            <p>&nbsp&nbsp&nbsp&nbsp&nbsp<span class = "fa fa-remove fa-fw" style = "color: #d9534f;"></span>&nbsp&nbspmeans that there is a mistake or missing information; please read the <span style = "color: #d9534f;">red message</span> and make any corrections.</p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp<span class = "fa fa-remove fa-fw" style = "color: #d9534f;"></span>
+                &nbsp&nbspmeans that there is a mistake or missing information; please read the
+                <span style = "color: #d9534f;">red message</span> and make corrections.</p>
             <p>&nbsp&nbsp&nbsp&nbsp&nbsp<span class="fa fa-check fa-fw" style="color: #5CB85C;"></span>&nbsp&nbspmeans the box is filled in correctly.</p>
         </div>
     </div>
@@ -152,16 +129,7 @@
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
-<div class = row"><!-- footer -->
-    <div class = "col-xs-8 col-xs-offset-2" style = "font-size: .6em; text-align: center; padding-top: 1%;">
-        <p>
-            Join Our Story is a California Benefit Corporation</br>
-            &copy 2014
-        </p>
-    </div>
-</div>
-</div>
-</body>
+
 
 <style>.vam {margin-top: 13px;}</style>
 
@@ -312,4 +280,5 @@ $(document).ready(function () {
 });
 
 </script>
-</html>
+
+{% endblock body %}
