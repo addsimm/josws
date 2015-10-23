@@ -2,7 +2,7 @@
 
 <!-- contactus.html -->
 
-{%  extends "base/base.html"  %}
+{% extends "base/base.html" %}
 
 {% block body %}
 
@@ -54,13 +54,13 @@
             </div>
             <div class = "form-group">
                 <label for = "messagefield">Message:</label>
-                <textarea class = "form-control input-lg" style = "resize:none;" rows = "10" name = "messagefield" placeholder = "Your message"></textarea>
+                <textarea class = "form-control input-lg" style = "resize:none;" rows = "7" name = "messagefield" placeholder = "Your message"></textarea>
             </div>
         </div>
     </div>
     <div class = "row" style = "margin-top: 30px; margin-bottom: 30px;">
         <div class = "col-xs-9 col-xs-offset-1">
-            <button type = "submit" class = "btn btn-success btn-lg center-block" style = "font-size: 1.5em; height: 100px; width: 300px" id="reviewandsendbutton">Review and Send</button>
+            <button type = "submit" class = "btn btn-success btn-lg center-block" style = "font-size: 1.5em; height: 80px; width: 200px" id="reviewandsendbutton">Review and Send</button>
         </div>
     </div>
 
@@ -72,10 +72,12 @@
         <div class = "modal-content" style = "margin-top: 0; background-color: white; width: 100%;">
             <div class="row">
                 <div class = "col-xs-9 col-xs-offset-1">
-                    <p class = "joswelcome" style = "margin-bottom: 30px; text-align: center;">Review Message</p>
-                    <p class = "josheading">Please Review Your Message:</p>
-                    <p class = "jossubheading">&nbsp&nbsp&nbsp&nbsp&nbspIf it looks right, press "Send"</p>
-                    <p class = "jossubheading">&nbsp&nbsp&nbsp&nbsp&nbspTo make changes, press "Go Back and Edit"
+                    <p style = "margin-bottom: 30px; text-align: center;">Review Message</p>
+
+                    <!-- Instructions -->
+                    <p>Please Review Your Message:</p>
+                    <p>&nbsp&nbsp&nbsp&nbsp&nbspIf it looks right, press "Send"</p>
+                    <p>&nbsp&nbsp&nbsp&nbsp&nbspTo make changes, press "Go Back and Edit"
                     </p>
                 </div>
             </div>
@@ -170,7 +172,7 @@ $(document).ready(function () {
                         }
                     },
                     emailfield: {
-                        delay: 2000,     // Send Ajax request every 2 seconds
+                        delay: 1500,     // Send Ajax request every 2 seconds
                         threshold: 7,
                         verbose: false,
                         validators: {
@@ -191,7 +193,7 @@ $(document).ready(function () {
                                 },
                                 dataType: 'jsonp',
                                 validKey: 'is_valid',
-                                message: 'The computer looked up this email address and could not find it - please double check'
+                                message: 'We looked up this email address and could not verify - please double check'
                             }
                         }
                     },

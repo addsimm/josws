@@ -1,67 +1,31 @@
-
-
-
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset = "utf-8">
-    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
-    <meta name = "description" content = "Join Our Story Website">
-    <link rel = "icon" href = "static/img/favicon.ico">
-
-    <!-- scripts -->
-    {% include "base/scripts.html" %}
-
-    <style>
-
-        .container-fluid {
-            background-color: white;
-            border: solid #000000 2px;
-            float: left;
-            margin-left: 15px;
-            min-height: 400px;
-            padding: 0 15px;
-            width: 1024px;
-        }
-
-    </style>
-
-    <title>JoinOurStory | {{ page_name }}</title>
-</head>
-
 <!-- contactusresponse.html -->
 
+{% extends "base/base.html" %}
+
+{% block body %}
+
 <!-- Page -->
-<div class = "container-fluid"  id = "contactusresponsecontainer">
+
 <div class = "row">
+
     <!--Instructions -->
     <div class = "col-xs-10 col-xs-offset-1">
-        <p class = "joswelcome" style = "margin-bottom: 30px; text-align: center;">Contact Message Response</p>
-        <p class="josheading">Please review the computer's response, then press "OK" to return to the home page.</p>
+
+        <p style = "margin-bottom: 30px; text-align: center;">Contact Message Response</p>
+        <p>Please review the computer's response, then press "OK" to return to the home page.</p>
         <div class="row" style="margin: 30px;">
-            <div class = "jossubheading">
-                <p>The computer tried to send an email to: <span style="color: orange;">{{ return_address }}</span></p>
-                <p class="josheading">Status:</p>
+            <div>
+                <p>We tried to send an email to: <span style="color: orange;">{{ return_address }}</span></p>
+                <p>Status:</p>
                 <p>{{ return_message }}</p>
 
             </div>
         </div>
+
         <form action = index.html">
             <input type = "submit" class = "btn btn-lg btn-success pull-right" value = "OK">
         </form>
     </div>
 </div>
 
-
-<div class = row"><!-- footer -->
-    <div class = "col-xs-8 col-xs-offset-2" style = "font-size: .6em; text-align: center; padding-top: 1%;">
-        <p>
-            Join Our Story is a California Benefit Corporation</br>
-            &copy 2014
-        </p>
-    </div>
-</div>
-</div>
-</body>
-</html>
+{% endblock body %}
