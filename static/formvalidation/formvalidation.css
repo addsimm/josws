@@ -74,7 +74,7 @@
 	top: 0;
 }
 .fv-form-foundation .error .fv-control-feedback {
-    color: #f04124;
+    color: red;
 }
 /**
  * Foundation reset the bottom marin to 0 when the row has '.error' class
@@ -108,7 +108,7 @@
 .fv-form-pure .fv-has-error label,
 .fv-form-pure .fv-has-error .fv-help-block,
 .fv-form-pure .fv-has-error .fv-control-feedback {
-    color: #CA3C3C;     /* Same as .button-error */
+    color: red;     /* Same as .button-error */
 }
 .fv-form-pure .fv-has-success label,
 .fv-form-pure .fv-has-success .fv-control-feedback {
@@ -123,7 +123,7 @@
     right: 7px;
 }
 .fv-form-semantic .error .icon {
-    color: #d95c5c;
+    color: red;
 }
 /* Semantic horizontal form */
 .fv-form-horizontal.fv-form-semantic .row {
@@ -151,7 +151,7 @@
 .fv-form-uikit .fv-has-error label,
 .fv-form-uikit .fv-has-error .uk-form-label,
 .fv-form-uikit .fv-has-error .fv-control-feedback {
-    color: #D85030;     /* Same as .uk-form-danger */
+    color: red;     /* Same as .uk-form-danger */
 }
 .fv-form-uikit .fv-has-success label,
 .fv-form-uikit .fv-has-success .uk-form-label,
