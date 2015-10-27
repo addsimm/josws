@@ -4,35 +4,114 @@
 
 {% block body %}
 
-<div class = "row">
+<style>
 
-    <div class="col-xs-offset-10 col-xs-2"><!-- Button -->
-        <button id = "buttonmodalsend"
-                type = "button"
-                class = "btn btn-success btn-lg"
-                onclick = "location.href='/contactus'">
-            Contact Us
-        </button>
-    </div>
+    .container {
+        background: url(static/img/Join-Our-Story-Homepage-background.jpg);
+        background-size: contain;
+    }
 
-</div>
+    .hollywoodheights {
+        color: rgb(76, 47, 144);
+        font-family: 'Stalemate', cursive;
+        font-size: 125px;
+        font-weight: normal;
+        text-align: center;
+    }
 
+    .boxheader {
+        color: black;
+        font-family: 'source sans pro', sans-serif;
+        font-size: 29px;
+        font-weight: bold;
+        line-height: 110%;
+        opacity: .75;
+        text-align: center;
+    }
 
+    .btn-indexpage {
+        color: white;
+        background: url(static/img/gold-button-background.jpg);"
+        background-repeat: no-repeat;
+        font-family: 'abril-fatface', serif;
+        font-size: 22px;
+        font-weight: bold;
+        height: 50px;
+        margin-left: 5px;
+        text-align: center;
+        width: 110px;
+    }
 
-<div class = "row" style = "background-color: #428BCA; margin-top: 50px;">
+    .btn-indexpage:hover,
+    .btn-indexpage:focus,
+    .btn-indexpage:active {
+        box-shadow: inset 0 0 0 1px darkblue;
+        color: darkblue;
+    }
 
-    <div class = "col-xs-9" style = "padding: 50px 30px;">
+</style>
 
-        <ul style = "color: white;">
+<div class = "container">
 
-            <li><span style="font-size: 28pt">Enjoy</span>&nbsp&nbspan exciting original soap opera.</li>
+    {% include 'base/navbar.html' %}
 
-            <li><span style = "font-size: 28pt">Create</span>&nbsp&nbspyour own characters, storylines and scenes.</li>
+    <div class="row" style="background-color: transparent;
+                            margin-top: 125px;">
 
-            <li><span style = "font-size: 28pt">Share</span>&nbsp&nbspthe whole experience with new friends, family and meet the Hollywood professionals that make it happen.</li>
-        </ul>
+        <div class="col-xs-7" style="background-color: transparent; margin-left: 200px;">
+            <p class="hollywoodheights">Hollywood Heights</p>
+            <p class="boxheader">Our Kickstarter Campaign has launched!</p>
+            <p class="boxheader" style="
+                                        font-size: 26px;
+                                        font-weight: normal;
+                                        margin-top: 15px;
+                                        text-align: center;">
+                Find out more about Hollywood Heights<br>
+                - our smart soap for older people -<br>
+                and join our community now.
+            </p>
+        </div>
+        <div class="col-xs-6" style=   "border: solid 3pt rgba(46, 42, 150, 1);
+                                        box-shadow: 2pt 2pt 5pt rgba(76, 45, 144, .5);
+                                        margin-left: 239px;
+                                        margin-top: 15px;
+                                        margin-bottom: 30px;
+                                        padding: 12px;">
+            <p style = "color: black;
+                        font-family: 'source sans pro', sans-serif;
+                        font-size: 18px;
+                        font-weight: normal;
+                        line-height: 120%;
+                        text-align: left;">
+                <span style="font-weight: bold;">Sign me up for news and updates.</span> I want to become a<br>part of Hollywood Heights and help it succeed.
+            </p>
+            <!-- Newsletter Form -->
+            <form class="form-inline"
+                  style="margin-top: 20px; margin-bottom: 30px;"
+                  id="newsletterForm"
+                  action="#"
+                  method="post">
 
+                {% csrf_token %}
+                <input type = "email"
+                       class = "form-control"
+                       style = "background-color: lightgrey;
+                                height: 50px;
+                                font-family: 'source sans pro', sans-serif;
+                                font-size: 20px;
+                                padding: 2px 10px;
+                                width: 325px;"
+                       name = "emailfield"
+                       placeholder = "Enter email address">
+                <button class = "btn btn-lg btn-indexpage" onclick = "location.href='#'">
+                    Sign Up!
+                </button>
+            </form>
+
+        </div>
     </div>
 </div>
 
 {% endblock body %}
+
+
