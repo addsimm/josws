@@ -7,24 +7,20 @@
 <!-- Page -->
 
 <div class = "row">
-
-    <!--Instructions -->
-    <div class = "col-xs-10 col-xs-offset-1">
+    <div class = "col-xs-10 col-xs-offset-1"><!--Instructions -->
 
         <p style = "margin-bottom: 30px; text-align: center;">Contact Message Response</p>
-        <p>Please review the computer's response, then press "OK" to return to the home page.</p>
+        <p>Please read the response, then press "OK" to return to the home page.</p>
         <div class="row" style="margin: 30px;">
             <div>
-                <p>We tried to send an email to: <span style="color: orange;">{{ return_address }}</span></p>
-                <p>Status:</p>
                 <p>{{ return_message }}</p>
-
             </div>
         </div>
 
         <form action = index.html">
             <input type = "submit" class = "btn btn-lg btn-success pull-right" value = "OK">
         </form>
+
     </div>
 </div>
 
