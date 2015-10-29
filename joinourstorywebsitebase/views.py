@@ -38,7 +38,7 @@ def index(request):
 
         sender_address = "Adam <adam@joinourstory.com>" # must be google apps admin
         subject = "Succesfully Subcribed to Hollywood Heights Updates"
-        body = "Thank you for supporting Hollywood Heights; please stay tuned for news and updates. If you do not receive our emails, check your spam folder and/or add adam@joinourstory.com to your contact list."
+        body = "Thank you for your interest in Hollywood Heights! Please stay tuned for news and updates. If you do not receive our emails, check your spam folder and/or add adam@joinourstory.com to your contact list"
 
         # print("Contact Message Body:", body)
         mail.send_mail(sender_address, user_email_address, subject, body)
