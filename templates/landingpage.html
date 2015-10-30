@@ -6,21 +6,19 @@
 
 <style>
 
-    .container {
-        background: url(static/img/JOSLandingPageBackground102015.png);
-        background-size: contain;
+    body {
+        background: url(static/img/Landing-Page-102915.png) no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        font-size: 10px;
     }
 
-    .hollywoodheights {
-        color: #fff;
-        font-family: 'Stalemate', cursive;
-        font-size: 205px;
-        font-weight: normal;
-        line-height: 140px;
-        text-align: center;
-        text-shadow: 0px 0px 15px rgba(252, 238, 33, 1);
+    .container-fixed {
+        min-width: 640px;
+        min-height: 480px;
     }
-
 
     .btn-landingpage {
         color: #ffffff;
@@ -45,26 +43,27 @@
 
 </style>
 
-<div class = "container">
+<body>
 
-<div class = "row"><!-- Row 1 -->
-        <!-- LOGO: <img src = "static/img/JOSLogo102015.png" alt = "JOS Logo" style = "opacity height: 80px;"> -->
-    <div class="col-xs-offset-9 col-xs-3"><!-- Button -->
-        <button class = "btn btn-lg btn-block btn-landingpage"
-                onclick = "location.href='/index'">
-            Join Us!
-        </button>
+    <div class="container-fixed">
+
+        <div style="position:fixed; right:50px;">
+            <button class = "btn btn-lg btn-block btn-landingpage"
+                    onclick = "location.href='/index'">
+                Join Us
+            </button>
+        </div>
+
+        <div class="row navbar-fixed-top">
+          <div class="col-xs-12" style="padding-left: 20px;">
+             <p style = "color:gray; font-family: 'Source Sans Pro', sans-serif; fon-size: 9px;">
+                    JOS is a CA Benefit Corp. &copy 2014
+             </p>
+          </div>
+        </div>
+
     </div>
-</div>
 
-<div class = "row" style="margin-top: 325px;"><!-- Row2: Hollywood Heights -->
-    <div class="col-xs-12">
-        <p style="font-family: 'stalemate';" class = "hollywoodheights">
-            Hollywood Heights
-        </p>
-    </div>
-</div>
-
-</div>
+</body>
 
 {% endblock body %}

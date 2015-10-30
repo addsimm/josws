@@ -11,48 +11,7 @@
 
 	<title>JoinOurStory | {{ page_name }}</title>
 
-    <style>
-
-        * {
-            font-family: "Source Sans Pro",sans-serif;
-        }
-
-        .container {
-            border: inset #000000 1px;
-            font-size: 14px;
-            margin-left: 15px;
-            margin-top: 15px;
-            min-height: 720px;
-            width: 960px;
-        }
-
-        #containerfooter {
-            background: none;
-            background-color: transparent;
-            border: none;
-            font-size: 10px;
-            margin-left: 15px;
-            margin-top: 3px;
-            min-height: 10px;
-            width: 960px;"
-        }
-
-    </style>
-
-
 </head>
 
-<body>
+{% block body %}{% endblock body %}
 
-    {% block body %}{% endblock body %}
-
-<div class="container" id="containerfooter">
-  <div class="col-xs-12">
-     <p style = "font-family: 'Source Sans Pro', sans-serif;">
-            Join Our Story is a California Benefit Corporation &copy 2014
-     </p>
-  </div>
-</div>
-
-</body>
-</html>
