@@ -4,24 +4,85 @@
 
 {% block body %}
 
+<style>
+
+    body {
+        background-color: lightgrey;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .container-fixed {
+        min-height: 720px;
+        min-width: 960px;
+    }
+
+    .hollywoodheights {
+        color: rgb(76, 47, 144);
+        font-family: 'Stalemate', cursive;
+        font-size: 125px;
+        text-align: center;
+    }
+
+    .boxheader {
+        color: black;
+        font-family: 'source sans pro', sans-serif;
+        font-size: 26px;
+        font-weight: normal;
+        line-height: 110%;
+        margin-top: 15px;"
+    }
+
+    .btn-indexpage {
+        color: white;
+        background: url(static/img/gold-button-background.jpg);"
+        background-repeat: no-repeat;
+        font-family: 'abril-fatface', serif;
+        font-size: 22px;
+        font-weight: bold;
+        height: 50px;
+        margin-left: 5px;
+        text-align: center;
+        width: 110px;
+    }
+
+    .btn-indexpage:hover,
+    .btn-indexpage:focus,
+    .btn-indexpage:active {
+        box-shadow: inset 0 0 0 1px darkblue;
+        color: darkblue;
+    }
+
+</style>
+
+<link rel = "stylesheet" href = "static/formvalidation/formvalidation.css">
+
+<body>
+
+<div class="container-fixed">
+
 <!-- Page -->
 
 <div class = "row">
-    <div class = "col-xs-10 col-xs-offset-1" style="font-size: 14pt;"><!--Instructions -->
+    <div class = "col-xs-10 col-xs-offset-1 boxheader"><!--Instructions -->
 
-        <p style = "font-family: 'Stalemate', cursive; font-size: 125px; margin-bottom: 0; text-align: center;">Contact Message Response</p>
+        <p class = "hollywoodheights">Message Status</p>
         <p>Please read the response, then press "OK" to return to the home page.</p>
-        <div class="row" style="margin: 30px;">
+        <div class="row" style="margin: 50px;">
             <div>
                 <p>{{ return_message }}</p>
             </div>
         </div>
 
         <form action = index.html">
-            <input type = "submit" class = "btn btn-lg btn-success pull-right" value = "OK">
+            <input type = "submit" class = "btn btn-lg pull-right btn-indexpage" value = "OK">
         </form>
 
     </div>
 </div>
+</div>
+</body>
 
 {% endblock body %}

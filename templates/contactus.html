@@ -6,16 +6,98 @@
 
 {% block body %}
 
+<style>
+
+    body {
+        background-color: lightgrey;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .container-fixed {
+        min-height: 720px;
+        min-width: 960px;
+    }
+
+    .hollywoodheights {
+        color: rgb(76, 47, 144);
+        font-family: 'Stalemate', cursive;
+        font-size: 125px;
+        text-align: center;
+    }
+
+    .boxheader {
+        color: black;
+        font-family: 'source sans pro', sans-serif;
+        font-size: 26px;
+        font-weight: normal;
+        line-height: 110%;
+        margin-top: 15px;"
+    }
+
+    .btn-indexpage {
+        color: white;
+        background: url(static/img/gold-button-background.jpg);"
+        background-repeat: no-repeat;
+        font-family: 'abril-fatface', serif;
+        font-size: 22px;
+        font-weight: bold;
+        height: 50px;
+        margin-left: 5px;
+        text-align: center;
+        width: 110px;
+    }
+
+    .btn-indexpage:hover,
+    .btn-indexpage:focus,
+    .btn-indexpage:active {
+        box-shadow: inset 0 0 0 1px darkblue;
+        color: darkblue;
+    }
+
+</style>
+
 <link rel = "stylesheet" href = "static/formvalidation/formvalidation.css">
 
-<div class = "row" style="font-size: 14pt;">
+<body>
+
+<div class="container-fixed">
+
+    <div class = "row">
+        <div style="margin-left: 15px;
+                    position: absolute;">
+
+            <img src="/static/img/JOSLogo102015.png" style="margin-left: 15px; height: 80px;">
+
+        </div>
+
+        <div class="pull-right" style= "background: url('static/img/navbar-background-purple.png') no-repeat;
+                                        height: 40px;
+                                        line-height: 37px;
+                                        margin-right: 10px;
+                                        text-align: center;
+                                        width: 150px;">
+            <a href="/index" style =   "color: white;
+                                            font-family: 'Source Sans Pro', sans-serif;
+                                            font-size: 18px;
+                                            font-weight: bold";>
+                Home
+            </a>
+
+        </div>
+
+    </div>
+
+<div class="row" style="background-color: transparent; margin-top: 140px; font-size: 14pt;">
 
     <!--Instructions -->
-    <div class = "col-xs-10 col-xs-offset-1">
-        <p style = "font-family: 'Stalemate', cursive; font-size: 125px; margin-bottom: 0; text-align: center;">Contact Us</p>
-        <p>Fill in the form below to send us a message and sign up for news about Hollywood Heights and Join Our Story.</p>
-        <p id = "contactforminstructions">Instructions:</p>
-        <div id = "contactformsubinstruct">
+    <div class = "col-xs-10 col-xs-offset-1 boxheader">
+        <p class = "hollywoodheights">Contact Us</p>
+        <p style="margin-top: 80px;">Fill in the form below to send us a message and sign up for news about Hollywood Heights and Join Our Story.<br></p>
+        <p style="margin-top: 30px;">Instructions:</p>
+        <div>
             <p>
                 Please type into each box, then press the "Send" button below the form. As you type, you will receive feedback:
             </p>
@@ -60,11 +142,13 @@
     </div>
     <div class = "row" style = "margin-top: 30px; margin-bottom: 30px;">
         <div class = "col-xs-9 col-xs-offset-1">
-            <button type = "submit" class = "btn btn-success btn-lg center-block" style = "font-size: 1.25em; height: 60px; width: 180px" id="reviewandsendbutton">Send</button>
+            <button type = "submit" class = "btn btn-lg pull-right btn-indexpage">Send</button>
         </div>
     </div>
 
 </form>
+</div>
+</body>
 
 <style>.vam {margin-top: 13px;}</style>
 

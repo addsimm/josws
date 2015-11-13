@@ -36,7 +36,11 @@ def index(request):
 
         josuser = JOSUser.get_or_insert(user_email_address)
 
-        sender_address = "Adam <adam@joinourstory.com>" # must be google apps admin
+        messages = josuser.ju_messages
+        messages.insert(0, "newsletter subscription")
+        josuser.ju_messages = messages
+
+        sender_address = "Joinus <joinus@joinourstory.com>" # must be google apps admin
         subject = "Succesfully Subcribed to Hollywood Heights Updates"
         body = "Thank you for your interest in Hollywood Heights! Please stay tuned for news and updates. If you do not receive our emails, check your spam folder and/or add adam@joinourstory.com to your contact list"
 
@@ -50,7 +54,6 @@ def index(request):
         josuser.put()
 
         return render_to_response('contactmessageresponse.html', context)
-
 
    return render_to_response('index.html', context)
 
@@ -78,20 +81,17 @@ def contactus(request):
         else:
             josuser.ju_last_name = 'x'
 
-        if isinstance(request.POST['messagefield'], six.string_types):
-            this_message = request.POST['messagefield']
-            user_messages = josuser.ju_messages
-            user_messages.append(this_message)
-        else:
-            this_message = 'Message not retrieved.'
+        this_message = request.POST['messagefield']
+        user_messages = josuser.ju_messages
+        user_messages.insert(0, this_message)
 
-        sender_address = "Adam <adam@joinourstory.com>" # must be google apps admin
-        subject = "Your Recent Message to JOS"
+        sender_address = "Joinus <joinus@joinourstory.com>" # must be google apps admin
+        subject1 = "Your Recent Message to JOS"
         body = "Hi {0}, We received your message! We will do our best to respond quickly - hopefully,  within 24 hours. Thank you! --- Message: {1}".format(josuser.ju_first_name, this_message)
 
         # print("Contact Message Body:", body)
-        mail.send_mail(sender_address, user_email_address, subject, body)
-        mail.send_mail(sender_address, "info@joinourstory.com", subject + "; " + user_email_address, body)
+        mail.send_mail(sender_address, user_email_address, subject1, body)
+        mail.send_mail(sender_address, "info@joinourstory.com", subject1 + "; " + user_email_address, body)
         context.update({'return_address': user_email_address,
                         'return_message_flag': 1,
                         'return_message': 'Message sent. If a confirmation does not arrive soon, please check the address you gave and try again.'})
